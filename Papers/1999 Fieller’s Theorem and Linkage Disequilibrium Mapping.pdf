@@ -1,0 +1,6715 @@
+%PDF-1.2
+%âãÏÓ
+3 0 obj
+<</Length 5570>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 63 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.003 Tc
+0 Tw
+[(238)-2527(Cordell and Elston)]TJ
+/F7 1 Tf
+10 0 0 10 63 635.981 Tm
+0.004 Tc
+(INTRODUCTION)Tj
+/F8 1 Tf
+10.5 0 0 10.5 84.033 618.009 Tm
+0.015 Tw
+(Fine-scale mapping of disease genes is impractical using traditional recombina-)Tj
+-2.0032 -1.1447 TD
+0.003 Tc
+0.046 Tw
+[(tion-based linkage methods. )-29(This is because the sample sizes required to map a dis-)]TJ
+T*
+0.004 Tc
+0.053 Tw
+(ease gene to within a few kilobases \(kb\) using traditional methods are prohibitively)Tj
+0 -1.1393 TD
+0.085 Tw
+[(lar)20(ge [Lange et al., 1985]. For this reason, interest has recently focused on linkage)]TJ
+0 -1.1447 TD
+0.023 Tw
+(disequilibrium methods as a promising alternative approach. Linkage disequilibrium)Tj
+T*
+0 Tw
+[(is the phenomenon of non-random association between alleles at dif)20(ferent loci on the)]TJ
+0 -1.1393 TD
+0.107 Tw
+(same chromosome, caused by the fact that each disease-predisposing mutation oc-)Tj
+0 -1.1447 TD
+0.032 Tw
+(curred in the chromosome of a specific ancestor of the current population. Individu-)Tj
+T*
+0.111 Tw
+(als inheriting the disease mutation are also likely to inherit the ancestral alleles in)Tj
+0 -1.1393 TD
+0.003 Tc
+0 Tw
+(neighboring regions of that chromosome.)Tj
+2.0032 -1.1447 TD
+-0.019 Tc
+(The extent of linkage disequilibrium depends on how many generations have passed)Tj
+-2.0032 -1.1447 TD
+-0.016 Tc
+0.002 Tw
+(since the introduction of the disease mutation. Since the probability of recombination is a)Tj
+0 -1.1393 TD
+0.1 Tw
+(monotonic function of genetic distance, one might expect the degree of disequilibrium)Tj
+0 -1.1447 TD
+0.048 Tw
+(observed across a chromosome to follow a unimodal curve with a peak at the true loca-)Tj
+T*
+0.174 Tw
+(tion of the disease mutation. In practice, this does not generally happen, owing to a)Tj
+0 -1.1393 TD
+0.103 Tw
+(number of complicating factors. Mutations at marker loci and subsequent mutations at)Tj
+0 -1.1447 TD
+0.037 Tw
+(the disease locus can obscure the associations between the marker and disease alleles. If)Tj
+T*
+0.065 Tw
+(the original mutation occurs on an ancestral haplotype of common alleles, there will be)Tj
+0 -1.1393 TD
+0.019 Tw
+(little or no association to begin with. Disease mutations may be introduced by more than)Tj
+0 -1.1447 TD
+0.171 Tw
+[(one ancestor \(on chromosomes with dif)16(ferent haplotypes\) and, for complex diseases,)]TJ
+T*
+0.076 Tw
+(may exist at more than one disease locus. Other factors such as genetic drift, selection,)Tj
+0 -1.1393 TD
+0.039 Tw
+(and population admixture can lead to a pattern of linkage disequilibrium that is far from)Tj
+0 -1.1447 TD
+-0.018 Tc
+0 Tw
+[(clear)41(, with markers showing the strongest disease associations not necessarily being those)]TJ
+0 -1.1393 TD
+-0.017 Tc
+(closest to the disease locus.)Tj
+2.0032 -1.1447 TD
+-0.016 Tc
+0.014 Tw
+[(T)71(wo main approaches have been used in the development of linkage disequilibrium)]TJ
+-2.0032 -1.1447 TD
+0.039 Tw
+[(methods for fine mapping disease loci. )-22(The first, which we shall term \223model-based,\224 is)]TJ
+0 -1.1393 TD
+-0.017 Tc
+0.067 Tw
+[(represented by the work of H\344stbacka et al. [1992], Hill and )-49(W)79(eir [1994], Kaplan et al.)]TJ
+0 -1.1447 TD
+0.034 Tw
+[([1995], Kaplan and )-16(W)79(eir [1995], Risch et al. [1995], )-16(T)76(erwilliger [1995], Xiong and Guo)]TJ
+T*
+-0.016 Tc
+0 Tw
+[([1997], Rannala and Slatkin [1998] and Graham and )22(Thompson [1998]. In this approach,)]TJ
+0 -1.1393 TD
+0.049 Tw
+(a specific population genetics model for the introduction and propogation of the disease)Tj
+0 -1.1447 TD
+0.059 Tw
+(mutation is assumed, although the results obtained may be robust to some of the model)Tj
+T*
+-0.028 Tc
+0.293 Tw
+[(assumptions. W)68(e)-12( )]TJ
+7.0329 0 TD
+-0.016 Tc
+0.151 Tw
+(use here an alternative approach that is similar to that described by)Tj
+-7.0329 -1.1879 TD
+0.022 Tw
+(Lazzeroni [1998], and may be described as a \223model-free\224 or \223semi-parametric\224 method)Tj
+0 -1.1932 TD
+0.03 Tw
+[(for linkage disequilibrium mapping. )-23(This approach considers the mapping of the disease)]TJ
+0 -1.1879 TD
+0.131 Tw
+(mutation to be a statistical problem suited to a regression approach in which we fit a)Tj
+0 -1.1933 TD
+0.073 Tw
+(curve to the pattern of disequilibrium across a chromosome. Both the model-based and)Tj
+0 -1.1879 TD
+0.071 Tw
+[(model-free approaches may be subdivided according to whether they incorporate infor)16(-)]TJ
+0 -1.1933 TD
+-0.023 Tc
+0 Tw
+[(mation from each locus individually)63(, or whether they use multilocus haplotype data, which)]TJ
+0 -1.1879 TD
+-0.016 Tc
+0.053 Tw
+[(may be more informative but is often more dif)16(ficult to obtain. In the case of the model-)]TJ
+0 -1.1933 TD
+0.128 Tw
+(free methods, although the pattern of disequilibrium across a chromosome will be af-)Tj
+0 -1.1878 TD
+-0.013 Tc
+0.189 Tw
+(fected by the underlying population genetics model, we may replace many detailed)Tj
+0 -1.1933 TD
+-0.016 Tc
+0.074 Tw
+(population assumptions by an estimate of the variances and covariances of the disequi-)Tj
+0 -1.1878 TD
+0.017 Tw
+[(librium measures obtained from the data. )32(A)58( novel feature of the method we propose here)]TJ
+0 -1.1932 TD
+0.064 Tw
+[(i)31(s)31( )-63(the additional use of transformations of both location and disequilibrium measure, so)]TJ
+0 -1.1393 TD
+0.119 Tw
+(that departures from a unimodal curve are incorporated by fitting the curve not to the)Tj
+ET
+
+endstream
+endobj
+11 0 obj
+<</Length 8943>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 247.294 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.004 Tc
+0 Tw
+[(Fieller\222s Theorem and LD Mapping)-2526(239)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 72 635.981 Tm
+-0.017 Tc
+0.087 Tw
+(original location and disequilibrium values but to some transformed values, )Tj
+/F10 1 Tf
+30.1174 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/F8 1 Tf
+0.4319 0 TD
+-0.017 Tc
+(\(location\))Tj
+-30.5494 -1.1393 TD
+-0.016 Tc
+(and )Tj
+/F10 1 Tf
+1.6306 0 TD
+0 Tc
+(y)Tj
+/F8 1 Tf
+0.4319 0 TD
+-0.017 Tc
+(\(disequilibrium\).)Tj
+-0.0648 -1.1447 TD
+0.004 Tc
+0.055 Tw
+(Several measures have been proposed for quantifying the degree of disequilib-)Tj
+-1.9978 -1.1447 TD
+0.003 Tw
+(rium between alleles at a single marker locus and a disease. Devlin and Risch [1995])Tj
+0 -1.1393 TD
+0.144 Tw
+(discuss some of the most popular disequilibrium measures currently in use. Most)Tj
+0 -1.1447 TD
+0.002 Tc
+0 Tw
+(rely on counting frequencies of disease associated and non-associated alleles in cases)Tj
+T*
+0.06 Tw
+[(and controls \(see )-45(T)74(able I\). Rather than using genuine individuals as matched or un-)]TJ
+0 -1.1393 TD
+0.004 Tc
+0.053 Tw
+(matched controls, a popular approach in recent years has been to use the non-trans-)Tj
+0 -1.1447 TD
+0.087 Tw
+(mitted parental alleles as a \223family-based\224 matched control [Spielman et al., 1993;)Tj
+T*
+-0.002 Tc
+0.001 Tw
+[(Thomson, 1995]. )21(This has the advantage of removing associations solely due to popu-)]TJ
+0 -1.1393 TD
+0.003 Tc
+0 Tw
+[(lation stratification in a case/control study)62(.)]TJ
+1.9978 -1.1447 TD
+-0.018 Tc
+0.103 Tw
+[(In our study)58(, we have considered the six measures given in )-83(T)]TJ
+24.4751 0 TD
+-0.028 Tc
+[(able II. )-66(A)-12(s)-12( )-13(w)-12(e)-12( )]TJ
+5.9876 0 TD
+-0.016 Tc
+(shall)Tj
+-32.4605 -1.1447 TD
+0.066 Tw
+[(see, the measure used can have quite a substantial ef)22(fect on the final estimated location)]TJ
+0 -1.1393 TD
+0.082 Tw
+(of the disease mutation. For this reason, it is important to choose the measure that will)Tj
+0 -1.1447 TD
+0.12 Tw
+(give the most accurate results. One of the most popular measures in the literature has)Tj
+T*
+-0.027 Tc
+0 Tw
+(been the etiologic fraction, often denoted, as here, by )Tj
+/F11 1 Tf
+19.9721 0 TD
+0 Tc
+(d)Tj
+/F8 1 Tf
+0.4643 0 TD
+-0.027 Tc
+( [Devlin and Risch, 1995; Lazzeroni,)Tj
+-20.4364 -1.1393 TD
+-0.023 Tc
+0.081 Tw
+(1998] or by )Tj
+/F10 1 Tf
+4.9782 0 TD
+0 Tc
+0 Tw
+(p)Tj
+/F8 1 Tf
+6.3 0 0 6.3 129.373 442.375 Tm
+-0.016 Tc
+(excess)Tj
+10.5 0 0 10.5 145.191 444.019 Tm
+0.082 Tw
+[( [Lehesjoki et al., 1993]. Devlin and Risch [1995] used simulation to)]TJ
+-6.9705 -1.1447 TD
+-0.018 Tc
+0.039 Tw
+(show that the measure )Tj
+/F11 1 Tf
+8.9737 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4805 0 TD
+-0.016 Tc
+0.039 Tw
+[( is generally the most directly related to the recombination frac-)]TJ
+-9.4542 -1.1447 TD
+-0.019 Tc
+0.177 Tw
+(tion between marker and disease loci. In their simulations, the measure )Tj
+/F10 1 Tf
+29.4209 0 TD
+0 Tc
+0 Tw
+(D)Tj
+/F11 1 Tf
+0.7127 0 TD
+(\242)Tj
+/F8 1 Tf
+0.2322 0 TD
+-0.016 Tc
+0.179 Tw
+[( also per)16(-)]TJ
+-30.3658 -1.1393 TD
+-0.017 Tc
+0.026 Tw
+(formed well, whereas )Tj
+/F10 1 Tf
+8.6335 0 TD
+0 Tc
+0 Tw
+(Q)Tj
+/F8 1 Tf
+0.7073 0 TD
+-0.038 Tc
+(, )Tj
+/F11 1 Tf
+0.4967 0 TD
+0 Tc
+(D)Tj
+/F8 1 Tf
+0.5939 0 TD
+-0.02 Tc
+0.028 Tw
+(, and )Tj
+/F10 1 Tf
+2.1651 0 TD
+-0.018 Tc
+(dif)Tj
+/F8 1 Tf
+1.0043 0 TD
+-0.017 Tc
+0.027 Tw
+[( were less reliable. )-6(They did not consider log )]TJ
+/F10 1 Tf
+17.6936 0 TD
+-0.021 Tc
+(OR)Tj
+/F8 1 Tf
+1.3012 0 TD
+-0.015 Tc
+0.028 Tw
+(, the)Tj
+-32.5957 -1.1447 TD
+-0.016 Tc
+0.08 Tw
+(logarithm of the odds ratio, which is the only measure of association that is free of the)Tj
+T*
+-0.017 Tc
+0.059 Tw
+[(ef)21(fects of the mar)21(ginal distributions in )-39(T)70(able I [Edwards, 1963]. )-39(W)79(e)-1( have investigated a)]TJ
+0 -1.1393 TD
+-0.016 Tc
+0.079 Tw
+[(slightly dif)16(ferent strategy for choosing an appropriate measure, namely to use the mea-)]TJ
+0 -1.1447 TD
+0.146 Tw
+(sure that shows the greatest rank correlation between magnitude and genetic distance)Tj
+T*
+-0.017 Tc
+0.051 Tw
+(when the measure is calculated for pairs of marker loci. For two marker loci )Tj
+/F10 1 Tf
+30.1606 0 TD
+0 Tc
+0 Tw
+(A)Tj
+/F8 1 Tf
+0.5939 0 TD
+-0.029 Tc
+0.05 Tw
+[( and )]TJ
+/F10 1 Tf
+1.9708 0 TD
+0 Tc
+0 Tw
+(B)Tj
+/F8 1 Tf
+0.5939 0 TD
+-0.015 Tc
+0.052 Tw
+(, a)Tj
+-33.3192 -1.1393 TD
+-0.016 Tc
+0 Tw
+[(disequilibrium measure is calculated by arranging the data as in )16(T)71(able I, but with the case)]TJ
+0 -1.1447 TD
+0.007 Tw
+(and control categories replaced by disease associated \()Tj
+/F10 1 Tf
+20.9602 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F8 1 Tf
+0.4859 0 TD
+-0.016 Tc
+0.008 Tw
+(\) and non-associated \()Tj
+/F10 1 Tf
+8.4769 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F8 1 Tf
+6.3 0 0 6.3 386.986 330.746 Tm
+(\226)Tj
+10.5 0 0 10.5 390.557 324 Tm
+-0.017 Tc
+0.01 Tw
+(\) alleles at)Tj
+-30.3388 -1.1447 TD
+0.064 Tw
+[(marker )6(B. )-43(This gives us a measure of association between the alleles at the two marker)]TJ
+0 -1.1393 TD
+0.043 Tw
+(loci, rather than between a single marker and the disease. For all measures except )Tj
+/F11 1 Tf
+32.0936 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4805 0 TD
+-0.015 Tc
+0.048 Tw
+(, the)Tj
+-32.5741 -1.1447 TD
+-0.017 Tc
+0.023 Tw
+[(measure will be symmetrical in )31(A)57( and B. The measure may be calculated for all possible)]TJ
+T*
+-0.016 Tc
+0.006 Tw
+(pairs of marker loci, and the correlation or rank correlation between the magnitude of the)Tj
+0 -1.1393 TD
+0.1 Tw
+[(measure and the inter)22(-marker distance provides an indication of which measure shows)]TJ
+0 -1.1447 TD
+-0.017 Tc
+0 Tw
+(the strongest relationship to genetic distance in the region under consideration.)Tj
+/F7 1 Tf
+10 0 0 10 72 225.014 Tm
+0.005 Tc
+(METHODS)Tj
+/F8 1 Tf
+10.5 0 0 10.5 92.976 209.027 Tm
+-0.016 Tc
+0.018 Tw
+(Suppose we have haplotype data for cases and controls at a set of )Tj
+/F10 1 Tf
+25.5442 0 TD
+0 Tc
+0 Tw
+(m)Tj
+/F8 1 Tf
+0.7073 0 TD
+-0.016 Tc
+0.019 Tw
+[( linked markers)]TJ
+-28.2493 -1.1447 TD
+0.075 Tw
+(surrounding a putative disease gene region. For the purposes of this analysis, the \223con-)Tj
+T*
+0.009 Tw
+(trol\224 data may either derive from a genuine sample of control individuals, or may consist)Tj
+0 -1.1393 TD
+0.005 Tw
+[(of the untransmitted haplotypes obtained from the parents of the af)16(fected individuals. Let)]TJ
+/F5 1 Tf
+8.5 0 0 8.5 72 148.989 Tm
+0.008 Tc
+0.003 Tw
+[(T)75(ABLE I.)-492(Fr)21(equencies of Disease )47(Associated \()]TJ
+/F13 1 Tf
+20.0493 0 TD
+0 Tc
+0 Tw
+(a)Tj
+/F5 1 Tf
+0.5136 0 TD
+0.009 Tc
+0.004 Tw
+(\) and Non-Associated \()Tj
+/F13 1 Tf
+9.9113 0 TD
+0 Tc
+0 Tw
+(a)Tj
+/F5 1 Tf
+5.5 0 0 5.5 331.88 152.844 Tm
+(\226)Tj
+8.5 0 0 8.5 335.112 148.989 Tm
+0.008 Tc
+0.006 Tw
+[(\) )48(Alleles at a)]TJ
+ET
+0 0 0 1 K
+0 J 0 j 0.51 w 10 M []0 d
+/GS1 gs
+1 i 
+72 136.261 m
+432 136.261 l
+S
+BT
+8.5 0 0 8.5 72 139.011 Tm
+/GS2 gs
+0 Tw
+(Marker Locus)Tj
+ET
+/GS1 gs
+72 120.274 m
+432 120.274 l
+S
+BT
+/F8 1 Tf
+8.5 0 0 8.5 72 123.024 Tm
+/GS2 gs
+0.047 Tw
+[(Marker allele)-8329(Case)-10157(Control)]TJ
+/F10 1 Tf
+0 -1.8875 TD
+0 Tc
+0 Tw
+(a)Tj
+/F8 1 Tf
+0.5136 0 TD
+0.006 Tc
+0.035 Tw
+[( allele)]TJ
+/F10 1 Tf
+13.8864 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 198.822 105.732 Tm
+(1)Tj
+/F10 1 Tf
+8.5 0 0 8.5 302.4 106.98 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 306.822 105.732 Tm
+(3)Tj
+/F10 1 Tf
+8.5 0 0 8.5 405.581 106.98 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 409.946 105.732 Tm
+(1)Tj
+0.5051 0.9277 TD
+( )Tj
+8.5 0 0 8.5 414.198 106.98 Tm
+0.001 Tc
+(+ )Tj
+/F10 1 Tf
+0.8337 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 425.65 105.732 Tm
+(3)Tj
+/F10 1 Tf
+8.5 0 0 8.5 72 97.002 Tm
+(a)Tj
+/F8 1 Tf
+5.5 0 0 5.5 73.191 100.857 Tm
+(\226)Tj
+8.5 0 0 8.5 76.025 97.002 Tm
+0.006 Tc
+0.041 Tw
+[( allele)]TJ
+/F10 1 Tf
+13.9264 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 198.822 95.698 Tm
+(2)Tj
+/F10 1 Tf
+8.5 0 0 8.5 302.4 97.002 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 306.822 95.698 Tm
+(4)Tj
+/F10 1 Tf
+8.5 0 0 8.5 405.581 97.002 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 409.946 95.698 Tm
+(2)Tj
+0.5051 0.938 TD
+( )Tj
+8.5 0 0 8.5 414.198 97.002 Tm
+0.001 Tc
+(+ )Tj
+/F10 1 Tf
+0.8337 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 425.65 95.698 Tm
+(4)Tj
+/F10 1 Tf
+8.5 0 0 8.5 186.576 87.024 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 190.942 85.72 Tm
+(1)Tj
+0.5051 0.938 TD
+( )Tj
+8.5 0 0 8.5 195.194 87.024 Tm
+0.001 Tc
+(+ )Tj
+/F10 1 Tf
+0.8337 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 206.646 85.72 Tm
+(2)Tj
+/F10 1 Tf
+8.5 0 0 8.5 294.576 87.024 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 298.942 85.72 Tm
+(3)Tj
+0.5051 0.938 TD
+( )Tj
+8.5 0 0 8.5 303.194 87.024 Tm
+0.001 Tc
+(+ )Tj
+/F10 1 Tf
+0.8337 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 314.646 85.72 Tm
+(4)Tj
+8.5 0 0 8.5 413.915 87.024 Tm
+(N)Tj
+ET
+/GS1 gs
+72 83.764 m
+432 83.764 l
+S
+
+endstream
+endobj
+26 0 obj
+<</Subtype/Type1C/Filter/FlateDecode/Length 174>>stream
+H‰bd`ad`dd”ğqòsõuÖöÑs­()J40´0Ò31¶ Éiıaú!ËüCŒå·$ó|–r<bİ¿³~Mø¹õ»²Àw5şïš‚İßı…€†1²(hX¸›¹¤g¦çÅ'g¦æ%§Zù†ÄƒÍµ2´´4‚q0,c``Ta`lg`bddVìæûşhÇÑL¶ï‚ß-YO ©ß–¬l¿y>şæSeå0 pØ8Ô
+
+endstream
+endobj
+18 0 obj
+<</Length 16054>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 63 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.003 Tc
+0 Tw
+[(240)-2527(Cordell and Elston)]TJ
+/F10 1 Tf
+10.5 0 0 10.5 63 402.009 Tm
+0 Tc
+(l)Tj
+6.3 0 0 6.3 65.778 400.422 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 67.422 402.009 Tm
+-0.016 Tc
+0.007 Tw
+[( be the location of the )]TJ
+/F10 1 Tf
+8.6011 0 TD
+0 Tc
+0 Tw
+(i)Tj
+/F8 1 Tf
+0.2592 0 TD
+-0.016 Tc
+0.007 Tw
+(th marker locus, measured with respect to some fixed origin, and)Tj
+/F10 1 Tf
+-9.2814 -1.1447 TD
+0 Tc
+0 Tw
+(d)Tj
+6.3 0 0 6.3 68.102 388.403 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 69.747 389.991 Tm
+-0.016 Tc
+0.137 Tw
+[( be some measure of association \(disequilibrium\) between the disease and alleles at)]TJ
+-0.6425 -1.1447 TD
+-0.027 Tc
+(marker )Tj
+/F10 1 Tf
+3.029 0 TD
+0 Tc
+0 Tw
+(i)Tj
+/F8 1 Tf
+0.2646 0 TD
+-0.017 Tc
+0.062 Tw
+[(.)54( )-39(The basis of our method is to find transformations )]TJ
+/F10 1 Tf
+20.566 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/F8 1 Tf
+0.4265 0 TD
+(\()Tj
+/F10 1 Tf
+0.3186 0 TD
+(l)Tj
+6.3 0 0 6.3 324.128 376.384 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 325.772 377.972 Tm
+-0.028 Tc
+0.062 Tw
+(\) and )Tj
+/F10 1 Tf
+2.3055 0 TD
+0 Tc
+0 Tw
+(y)Tj
+/F8 1 Tf
+0.4319 0 TD
+(\()Tj
+/F10 1 Tf
+0.3186 0 TD
+(d)Tj
+6.3 0 0 6.3 362.962 376.384 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 364.606 377.972 Tm
+-0.016 Tc
+0.062 Tw
+(\) such that we)Tj
+-28.7244 -1.1393 TD
+-0.017 Tc
+0 Tw
+(can fit a quadratic curve to )Tj
+/F10 1 Tf
+10.4423 0 TD
+0 Tc
+(y)Tj
+/F8 1 Tf
+0.4319 0 TD
+(\()Tj
+/F10 1 Tf
+0.3186 0 TD
+(d)Tj
+6.3 0 0 6.3 185.627 364.422 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 187.214 366.009 Tm
+-0.017 Tc
+(\) against )Tj
+/F10 1 Tf
+3.4934 0 TD
+0 Tc
+(x)Tj
+/F8 1 Tf
+0.4319 0 TD
+(\()Tj
+/F10 1 Tf
+0.3132 0 TD
+(l)Tj
+6.3 0 0 6.3 234.439 364.422 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 236.084 366.009 Tm
+-0.017 Tc
+(\), i.e., we fit)Tj
+/F9 1 Tf
+10.715 0 0 10.715 200.48 348.321 Tm
+0 g
+/GS1 gs
+4.064 Tc
+[(yx)1852(x)]TJ
+6.123 0 0 6.123 205.129 345.657 Tm
+7.666 Tc
+[(ii)3296(i)]TJ
+/F11 1 Tf
+10.715 0 0 10.715 210.685 348.321 Tm
+1.398 Tc
+[(=+)-614(+)]TJ
+0.746 0 TD
+1.361 Tc
+[(bb)-651(b)]TJ
+/F2 1 Tf
+6.123 0 0 6.123 225.085 345.657 Tm
+2.759 Tc
+[(01)-1297(2)]TJ
+9.4444 1.2222 TD
+0 Tc
+(2)Tj
+/F8 1 Tf
+10.5 0 0 10.5 63 325.814 Tm
+0 0 0 1 k
+/GS2 gs
+0.002 Tc
+0.034 Tw
+[(or)34(, in matrix notation, )]TJ
+/F10 1 Tf
+9.1897 0 TD
+0 Tc
+0 Tw
+(y)Tj
+/F8 1 Tf
+0.4481 0 TD
+-0.012 Tc
+0.033 Tw
+[( = )]TJ
+/F10 1 Tf
+1.1501 0 TD
+0 Tc
+0 Tw
+(X)Tj
+/F11 1 Tf
+0.6101 0 TD
+(b)Tj
+/F8 1 Tf
+0.5561 0 TD
+0.003 Tc
+0.035 Tw
+[(, where the coef)25(ficients )]TJ
+/F11 1 Tf
+9.7944 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F8 1 Tf
+0.5507 0 TD
+0.003 Tc
+0.032 Tw
+[( are to be estimated. )-20(This can)]TJ
+-22.2992 -1.1447 TD
+0 Tw
+(be fitted using weighted least squares so that)Tj
+/F14 1 Tf
+10.343 0 0 10.343 193.28 295.2 Tm
+0 g
+/GS1 gs
+0 Tc
+($)Tj
+/F2 1 Tf
+1.4635 -0.3782 TD
+3.394 Tc
+[(\(\))-472(,)]TJ
+/F11 1 Tf
+-1.5841 0 TD
+0.251 Tc
+(b=)Tj
+5.91 0 0 5.91 232.625 295.937 Tm
+2.559 Tc
+[(--)-1592(-)]TJ
+/F9 1 Tf
+10.343 0 0 10.343 212.896 291.288 Tm
+0.529 Tc
+[(XV)-324(X)-718(X)0(V)-307(y)]TJ
+5.91 0 0 5.91 220.436 295.937 Tm
+7.252 Tc
+(TT)Tj
+/F2 1 Tf
+2.6188 0 TD
+2.608 Tc
+[(11)-1592(1)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 63 272.806 Tm
+0 0 0 1 k
+/GS2 gs
+-0.011 Tc
+(where )Tj
+/F10 1 Tf
+2.7969 0 TD
+0 Tc
+(V)Tj
+/F8 1 Tf
+0.6155 0 TD
+-0.006 Tc
+0.076 Tw
+[( is the )]TJ
+/F10 1 Tf
+2.9048 0 TD
+0 Tc
+0 Tw
+(m)Tj
+/F8 1 Tf
+0.7289 0 TD
+( )Tj
+/F11 1 Tf
+0.3294 0 TD
+(\264)Tj
+/F8 1 Tf
+0.5561 0 TD
+( )Tj
+/F10 1 Tf
+0.3294 0 TD
+(m)Tj
+/F8 1 Tf
+0.7289 0 TD
+0.001 Tc
+0.076 Tw
+[( variance/covariance matrix of the )]TJ
+/F10 1 Tf
+14.4216 0 TD
+0 Tc
+0 Tw
+(y)Tj
+6.3 0 0 6.3 313.526 271.219 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 315.284 272.806 Tm
+0.004 Tc
+0.077 Tw
+(, which can be estimated)Tj
+-24.027 -1.1447 TD
+0.039 Tw
+(using a bootstrap approach [Lazzeroni, 1998] or a multinomial distribution approxi-)Tj
+0 -1.1393 TD
+0.003 Tc
+0 Tw
+(mation, as described in the following subsection.)Tj
+2.0032 -1.1447 TD
+-0.004 Tc
+(Note that )Tj
+/F11 1 Tf
+3.9037 0 TD
+0 Tc
+(b)Tj
+/F15 1 Tf
+6.3 0 0 6.3 127.12 242.079 Tm
+($)Tj
+/F8 1 Tf
+10.5 0 0 10.5 129.161 236.806 Tm
+-0.004 Tc
+[( )-110(is equivalent to the maximum likelihood estimate if )]TJ
+/F10 1 Tf
+21.0196 0 TD
+0 Tc
+(y)Tj
+/F8 1 Tf
+0.4373 0 TD
+-0.001 Tc
+( ~ MVN \()Tj
+/F10 1 Tf
+3.9415 0 TD
+0 Tc
+(X)Tj
+/F11 1 Tf
+0.6047 0 TD
+(b)Tj
+/F10 1 Tf
+0.5507 0 TD
+-0.003 Tc
+(,V)Tj
+/F8 1 Tf
+0.8477 0 TD
+0 Tc
+(\).)Tj
+-33.7026 -1.1447 TD
+0.003 Tc
+[(W)78(e)0( can, therefore, obtain )]TJ
+/F11 1 Tf
+10.3937 0 TD
+0 Tc
+(b)Tj
+/F15 1 Tf
+6.3 0 0 6.3 174.288 230.06 Tm
+($)Tj
+/F8 1 Tf
+10.5 0 0 10.5 176.386 224.787 Tm
+0.003 Tc
+[( )-114(by maximizing the log likelihood)]TJ
+ET
+0 G
+1 J 1 j 0.494 w 10 M []0 d
+/GS1 gs
+1 i 
+171.51 198.085 m
+178.2 198.085 l
+222.364 198.085 m
+228.997 198.085 l
+S
+BT
+/F11 1 Tf
+10.405 0 0 10.405 164.084 195.421 Tm
+0 g
+4.333 Tc
+[(--)2316(-)-512(-)]TJ
+5.946 0 0 5.946 279.454 200.069 Tm
+0 Tc
+(-)Tj
+/F2 1 Tf
+10.405 0 0 10.405 172.247 202.11 Tm
+(1)Tj
+0 -1.422 TD
+(2)Tj
+4.8818 1.422 TD
+(1)Tj
+0 -1.422 TD
+(2)Tj
+5.946 0 0 5.946 205.469 200.069 Tm
+0.339 Tc
+[(05)-11318(1)]TJ
+10.405 0 0 10.405 179.844 195.421 Tm
+0.004 Tc
+[(log|)-739(|)-2417(\()-2752(\))-1973(\()-2752(\))]TJ
+5.946 0 0 5.946 208.701 200.069 Tm
+0 Tc
+(.)Tj
+/F9 1 Tf
+10.405 0 0 10.405 196.058 195.421 Tm
+3.099 Tc
+[(Vy)2045(X)1667(V)1858(y)2045(X)]TJ
+5.946 0 0 5.946 266.414 200.069 Tm
+0 Tc
+(T)Tj
+/F11 1 Tf
+10.405 0 0 10.405 256.606 195.421 Tm
+4.845 Tc
+(bb)Tj
+/F8 1 Tf
+10.5 0 0 10.5 63 167.981 Tm
+0 0 0 1 k
+/GS2 gs
+0.002 Tc
+(over )Tj
+/F11 1 Tf
+2.0517 0 TD
+0 Tc
+(b)Tj
+/F8 1 Tf
+0.5561 0 TD
+0.004 Tc
+0.005 Tw
+( and unknown parameters in )Tj
+/F10 1 Tf
+11.7165 0 TD
+0 Tc
+0 Tw
+(y)Tj
+/F8 1 Tf
+0.4481 0 TD
+(\()Tj
+/F10 1 Tf
+0.3402 0 TD
+(d)Tj
+6.3 0 0 6.3 226.956 166.394 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 228.77 167.981 Tm
+0.006 Tc
+(\),)Tj
+/F10 1 Tf
+0.5939 0 TD
+0.013 Tc
+( x)Tj
+/F8 1 Tf
+0.7073 0 TD
+0 Tc
+(\()Tj
+/F10 1 Tf
+0.3402 0 TD
+(l)Tj
+6.3 0 0 6.3 248.953 166.394 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 250.767 167.981 Tm
+0.006 Tc
+(\),)Tj
+/F10 1 Tf
+0.5939 0 TD
+0.014 Tc
+( z)Tj
+/F8 1 Tf
+0.6587 0 TD
+0 Tc
+(\()Tj
+/F10 1 Tf
+0.3348 0 TD
+(h)Tj
+/F8 1 Tf
+6.3 0 0 6.3 272.764 166.394 Tm
+(i)Tj
+10.5 0 0 10.5 274.578 167.981 Tm
+0.004 Tc
+0.005 Tw
+[(\). )19(The disease location is estimated)]TJ
+-20.1503 -1.1393 TD
+0.002 Tc
+0.115 Tw
+(where the quadratic curve is maximum, i.e., at the point where )Tj
+/F10 1 Tf
+26.7591 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/F8 1 Tf
+0.4481 0 TD
+(\()Tj
+/F10 1 Tf
+0.3348 0 TD
+(l)Tj
+/F8 1 Tf
+0.2808 0 TD
+0.004 Tc
+0.115 Tw
+(\) = \226)Tj
+/F11 1 Tf
+2.1489 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F15 1 Tf
+6.3 0 0 6.3 379.687 161.235 Tm
+($)Tj
+/F8 1 Tf
+0.4859 -1.0799 TD
+(1)Tj
+10.5 0 0 10.5 385.98 156.019 Tm
+0.003 Tc
+(/\(2)Tj
+/F11 1 Tf
+1.1231 0 TD
+0 Tc
+(b)Tj
+/F15 1 Tf
+6.3 0 0 6.3 399.472 161.235 Tm
+($)Tj
+/F8 1 Tf
+0.5039 -1.0799 TD
+(2)Tj
+10.5 0 0 10.5 405.879 156.019 Tm
+-0.05 Tc
+0.224 Tw
+(\). A)Tj
+-32.6551 -1.1447 TD
+0.003 Tc
+0.029 Tw
+(confidence interval for this value of )Tj
+/F10 1 Tf
+14.8697 0 TD
+0 Tc
+0 Tw
+(x)Tj
+/F8 1 Tf
+0.4481 0 TD
+0.004 Tc
+0.029 Tw
+[( may then be obtained using Fieller)-39(\222)62(s)0( theorem,)]TJ
+-15.3179 -1.1447 TD
+0.003 Tc
+0 Tw
+[(as described below)62(.)]TJ
+/F7 1 Tf
+10 0 0 10 63 112.025 Tm
+0.005 Tc
+[(Fieller)-35(\222)34(s)0( Theorem)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 84.033 95.981 Tm
+0.004 Tc
+0.14 Tw
+(Given an estimate of location \226)Tj
+/F11 1 Tf
+13.3417 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F15 1 Tf
+6.3 0 0 6.3 226.106 101.254 Tm
+($)Tj
+/F8 1 Tf
+0.4859 -1.0889 TD
+(1)Tj
+10.5 0 0 10.5 232.342 95.981 Tm
+0.003 Tc
+(/\(2)Tj
+/F11 1 Tf
+1.1231 0 TD
+0 Tc
+(b)Tj
+/F15 1 Tf
+6.3 0 0 6.3 246.175 101.254 Tm
+($)Tj
+/F8 1 Tf
+0.4769 -1.0889 TD
+(2)Tj
+10.5 0 0 10.5 252.411 95.981 Tm
+0.004 Tc
+0.141 Tw
+(\) from the maximum likelihood proce-)Tj
+-18.0391 -1.1393 TD
+0.052 Tw
+[(dure, we can use Fieller)-39(\222)56(s)0( theorem [Fieller)36(, 1932] to construct a confidence interval)]TJ
+ET
+0 0 0 1 K
+0 J 0 j 0.51 w 
+/GS1 gs
+63 635.272 m
+423 635.272 l
+S
+BT
+/F5 1 Tf
+8.5 0 0 8.5 63 638.022 Tm
+/GS2 gs
+0.008 Tc
+0.007 Tw
+[(T)75(ABLE II.)-499(Disequilibrium Measur)8(es Often Used for)15( Fine-Scale Mapping*)]TJ
+ET
+/GS1 gs
+63 619.228 m
+423 619.228 l
+S
+BT
+/F8 1 Tf
+8.5 0 0 8.5 63 621.978 Tm
+/GS2 gs
+-0.001 Tw
+[(                       Symbol)-15332(Formula)]TJ
+ET
+/GS1 gs
+263.976 603.241 m
+304.002 603.241 l
+S
+BT
+/F11 1 Tf
+8.5 0 0 8.5 63 605.99 Tm
+/GS2 gs
+0.006 Tc
+0 Tw
+(                            d)Tj
+/F10 1 Tf
+23.7443 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 269.192 604.687 Tm
+(1)Tj
+0.5154 0.938 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 273.444 605.99 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 277.81 604.687 Tm
+(4)Tj
+8.5 0 0 8.5 280.587 605.99 Tm
+0.005 Tc
+0.002 Tw
+( \226 )Tj
+/F10 1 Tf
+1.0338 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 293.684 604.687 Tm
+(2)Tj
+0.5154 0.938 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 297.992 605.99 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 302.358 604.687 Tm
+(3)Tj
+/F10 1 Tf
+8.5 0 0 8.5 265.961 593.008 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 270.326 591.704 Tm
+(4)Tj
+8.5 0 0 8.5 273.104 593.008 Tm
+(\()Tj
+5.5 0 0 5.5 276.052 596.863 Tm
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 277.526 593.008 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 281.835 591.704 Tm
+(1)Tj
+8.5 0 0 8.5 284.669 593.008 Tm
+0.002 Tc
+0.006 Tw
+[( + )]TJ
+/F10 1 Tf
+1.1005 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 298.332 591.704 Tm
+(2)Tj
+8.5 0 0 8.5 301.167 593.008 Tm
+(\))Tj
+ET
+/GS1 gs
+263.976 574.271 m
+304.002 574.271 l
+S
+BT
+8.5 0 0 8.5 63 577.02 Tm
+/GS2 gs
+0.006 Tc
+(                            Q)Tj
+/F10 1 Tf
+23.7443 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 269.192 575.716 Tm
+(1)Tj
+0.5154 0.9277 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 273.444 577.02 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 277.81 575.716 Tm
+(4)Tj
+8.5 0 0 8.5 280.587 577.02 Tm
+0.005 Tc
+0.002 Tw
+( \226 )Tj
+/F10 1 Tf
+1.0338 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 293.684 575.716 Tm
+(2)Tj
+0.5154 0.9277 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 297.992 577.02 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 302.358 575.716 Tm
+(3)Tj
+/F10 1 Tf
+8.5 0 0 8.5 265.28 563.981 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 269.646 562.677 Tm
+(1)Tj
+0.5154 0.938 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 273.898 563.981 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 278.263 562.677 Tm
+(4)Tj
+8.5 0 0 8.5 281.041 563.981 Tm
+-0.001 Tc
+0.009 Tw
+[( + )]TJ
+/F10 1 Tf
+1.1072 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 294.817 562.677 Tm
+(2)Tj
+/F10 1 Tf
+8.5 0 0 8.5 297.595 563.981 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 301.961 562.677 Tm
+(3)Tj
+ET
+/GS1 gs
+219.983 545.244 m
+349.98 545.244 l
+S
+BT
+/F11 1 Tf
+8.5 0 0 8.5 63 547.994 Tm
+/GS2 gs
+0.006 Tc
+(                             D)Tj
+/F10 1 Tf
+23.7443 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 269.192 546.69 Tm
+(1)Tj
+0.5154 0.938 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 273.444 547.994 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 277.81 546.69 Tm
+(4)Tj
+8.5 0 0 8.5 280.587 547.994 Tm
+0.005 Tc
+0.002 Tw
+( \226 )Tj
+/F10 1 Tf
+1.0338 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 293.684 546.69 Tm
+(2)Tj
+0.5154 0.938 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 297.992 547.994 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 302.358 546.69 Tm
+(3)Tj
+8.5 0 0 8.5 219.529 535.011 Tm
+0.008 Tc
+([\()Tj
+/F10 1 Tf
+0.6937 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 229.734 533.707 Tm
+(1)Tj
+8.5 0 0 8.5 232.569 535.011 Tm
+0.002 Tc
+0.006 Tw
+[( + )]TJ
+/F10 1 Tf
+1.1005 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 246.232 533.707 Tm
+(2)Tj
+8.5 0 0 8.5 249.066 535.011 Tm
+0.008 Tc
+(\)\()Tj
+/F10 1 Tf
+0.687 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 259.271 533.707 Tm
+(3)Tj
+8.5 0 0 8.5 262.049 535.011 Tm
+0.002 Tc
+0.006 Tw
+[( + )]TJ
+/F10 1 Tf
+1.1005 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 275.769 533.707 Tm
+(4)Tj
+8.5 0 0 8.5 278.547 535.011 Tm
+0.008 Tc
+(\)\()Tj
+/F10 1 Tf
+0.687 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 288.751 533.707 Tm
+(1)Tj
+8.5 0 0 8.5 291.529 535.011 Tm
+0.002 Tc
+0.006 Tw
+[( + )]TJ
+/F10 1 Tf
+1.1005 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 305.249 533.707 Tm
+(3)Tj
+8.5 0 0 8.5 308.027 535.011 Tm
+0.008 Tc
+(\)\()Tj
+/F10 1 Tf
+0.6937 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 318.232 533.707 Tm
+(2)Tj
+8.5 0 0 8.5 321.066 535.011 Tm
+-0.001 Tc
+0.009 Tw
+[( + )]TJ
+/F10 1 Tf
+1.1072 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 334.786 533.707 Tm
+(4)Tj
+8.5 0 0 8.5 337.621 535.011 Tm
+0.008 Tc
+(\)])Tj
+5.5 0 0 5.5 343.46 538.866 Tm
+0.009 Tc
+(0.5)Tj
+ET
+/GS1 gs
+255.983 516.274 m
+313.98 516.274 l
+S
+BT
+8.5 0 0 8.5 63 519.024 Tm
+/GS2 gs
+0.006 Tc
+(                           )Tj
+/F10 1 Tf
+6.9099 0 TD
+0.002 Tc
+( D)Tj
+/F11 1 Tf
+0.9871 0 TD
+0 Tc
+(\242)Tj
+/F10 1 Tf
+15.8473 0 TD
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 269.192 517.72 Tm
+(1)Tj
+0.5154 0.9277 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 273.444 519.024 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 277.81 517.72 Tm
+(4)Tj
+8.5 0 0 8.5 280.587 519.024 Tm
+0.005 Tc
+0.002 Tw
+( \226 )Tj
+/F10 1 Tf
+1.0338 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 293.684 517.72 Tm
+(2)Tj
+0.5154 0.9277 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 297.992 519.024 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 302.358 517.72 Tm
+(3)Tj
+8.5 0 0 8.5 255.529 505.984 Tm
+(\()Tj
+/F10 1 Tf
+0.3468 0 TD
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 262.786 504.68 Tm
+(1)Tj
+8.5 0 0 8.5 265.621 505.984 Tm
+0.002 Tc
+0.006 Tw
+[( + )]TJ
+/F10 1 Tf
+1.1005 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 279.284 504.68 Tm
+(2)Tj
+8.5 0 0 8.5 282.118 505.984 Tm
+0.008 Tc
+(\)\()Tj
+/F10 1 Tf
+0.687 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 292.323 504.68 Tm
+(2)Tj
+8.5 0 0 8.5 295.101 505.984 Tm
+0.002 Tc
+0.006 Tw
+[( + )]TJ
+/F10 1 Tf
+1.1005 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 308.821 504.68 Tm
+(4)Tj
+8.5 0 0 8.5 311.598 505.984 Tm
+(\))Tj
+ET
+/GS1 gs
+255.983 487.247 m
+313.98 487.247 l
+S
+BT
+8.5 0 0 8.5 63 489.997 Tm
+/GS2 gs
+0.006 Tc
+(                           )Tj
+/F10 1 Tf
+6.9165 0 TD
+0.007 Tc
+0.006 Tw
+[( dif)-15487(n)]TJ
+/F8 1 Tf
+5.5 0 0 5.5 269.192 488.693 Tm
+0 Tc
+0 Tw
+(1)Tj
+0.5154 0.938 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 273.444 489.997 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 277.81 488.693 Tm
+(4)Tj
+8.5 0 0 8.5 280.587 489.997 Tm
+0.005 Tc
+0.002 Tw
+( \226 )Tj
+/F10 1 Tf
+1.0338 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 293.684 488.693 Tm
+(2)Tj
+0.5154 0.938 TD
+( )Tj
+/F10 1 Tf
+8.5 0 0 8.5 297.992 489.997 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 302.358 488.693 Tm
+(3)Tj
+8.5 0 0 8.5 255.529 477.014 Tm
+(\()Tj
+/F10 1 Tf
+0.3468 0 TD
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 262.786 475.71 Tm
+(1)Tj
+8.5 0 0 8.5 265.621 477.014 Tm
+0.002 Tc
+0.006 Tw
+[( + )]TJ
+/F10 1 Tf
+1.1005 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 279.284 475.71 Tm
+(2)Tj
+8.5 0 0 8.5 282.118 477.014 Tm
+0.008 Tc
+(\)\()Tj
+/F10 1 Tf
+0.687 0 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 292.323 475.71 Tm
+(3)Tj
+8.5 0 0 8.5 295.101 477.014 Tm
+0.002 Tc
+0.006 Tw
+[( + )]TJ
+/F10 1 Tf
+1.1005 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 308.821 475.71 Tm
+(4)Tj
+8.5 0 0 8.5 311.598 477.014 Tm
+(\))Tj
+-29.2469 -1.8875 TD
+0.006 Tc
+(                         log )Tj
+/F10 1 Tf
+7.957 0 TD
+0.014 Tc
+(OR)Tj
+/F8 1 Tf
+16.5343 0 TD
+0.001 Tc
+(log )Tj
+/F10 1 Tf
+1.5741 0.4736 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 288.921 463.691 Tm
+(1)Tj
+/F10 1 Tf
+8.5 0 0 8.5 291.699 464.995 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 296.065 463.691 Tm
+(4)Tj
+/F10 1 Tf
+8.5 0 0 8.5 271.29 450.992 Tm
+0.006 Tc
+(      )Tj
+1.5474 0.5869 TD
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 288.808 454.677 Tm
+(2)Tj
+/F10 1 Tf
+8.5 0 0 8.5 291.586 455.981 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 295.951 454.677 Tm
+(3)Tj
+ET
+/GS1 gs
+63 447.732 m
+423 447.732 l
+S
+BT
+8.5 0 0 8.5 63 435.005 Tm
+/GS2 gs
+0.008 Tc
+0.01 Tw
+[(*Formulae are given in terms of the counts in T)72(able I)]TJ
+ET
+/GS1 gs
+284.499 461.849 m
+299.976 461.849 l
+S
+
+endstream
+endobj
+34 0 obj
+<</Subtype/Type1C/Filter/FlateDecode/Length 628>>stream
+H‰lËOQ‡g ä^kAKbM&>¢MRLŒ‰ÆPÄÇ…¢&¥ÅÒ¦óìLgÚJ§3w¦ó*mE		,]ó‡¸s¢‰oq6°uw’“óû}ß!‰PA’äåéÇ/=y{jai~!3òjqîıÒh|bldâîñúV÷jO÷Zow8ä_èí„º×†+ş›¿cG?úğ“~zOjG÷†ˆ3$gÏE.L>|ˆO$â“‰øıÄøhbüNb|ìÑâj&ŸIN-/­.¿MÏ¥Ş-¤“ñ‘x2yZœ<)>ÿ‡°Üè#I¥ 6ÑK< ¾?É›d‹ü~%ük>ŠÁnmSu)ÕENÇnï¸{
+  32'r’ Y‘•™
+ËLu-óS ¬áL´¥ººmØ¨aê²4§îÁºW³ílû¬”×d†*Ñ"DğEIRD….¥¥-±YBŠ¡˜’)˜¼Áé4Ôh5·óûSxØUGq¨²-Û’%Y‚É¬Aë…:lƒ0êÎEı°ºSiªÆhbÎâÉİ’§@Ì ßæÚÒ†Ò„ŠWÙÜ‰áımş}bú¥Ú.»TÅ“]1¸à\Îh6À¸ËØkNåÔ<Tóµ\öÔ§ğl”Èƒ/ˆBQâ%Aæ–Ù
+ËÅüÁî_ÕîQº‡œ†eZ&B*ª7õ-ã£NëE­¨	o–èHr³ÒúÃpÛ ®ÆªUg4ñˆoÑ½R³sAmôXu¤«¹rªÄ<›e³‹ÌŒ-ĞÑ<d›–a6Ğñç]µ	ÕõV'†UüéâŸè? š’%
+
+endstream
+endobj
+36 0 obj
+<</Subtype/Type1C/Filter/FlateDecode/Length 664>>stream
+H‰TíOq ÇAü™Ë¢tgŞĞz—/[fkËMs‹jµaÃräAN8¸¥E8¼;îxÃaX›M&šµ^8·¶ÖZ½óp«­7Ó{QT¯zùİwŸï÷#ƒML&Óöß¼~I‹™[L—£&ã“?E¯Ø‰°Lìn/ÊÅŠU“Ô¥’gU
+±[u^ê“¬İŠÄ	Ù\W®·µ×;ÎÏv@ò©>÷ßØ¿ A|Ô„BP?4İÿ{) ÙÙO1¬>nßˆZÍ¡R’Kö áCqsWäaÔ%F³ş4Ì%c‡p#$ò £$tî	0—Ëï„]x\ğ!>!T¡öÀ|Ë´Cİ¸Ã9…ÛI@Úm³“ğ]ag
+™Ú™}ÏğŸ×÷w« ºû6÷~UAóHÁ‘M5PË=Mø£w}VQ{r0c†IÄbph=×ÈGáñ¨mÑ–p
+ øtp.Ùü*²Q~ı¡ö¨ÅjıGıH#‘ÒQóeı«¨lEjÁuoª+åõĞOwĞëAÜ1Mš¦d÷V6ËeËå™"œKùİ,’¶Ñ#‘[1é[gäÁ’‘ÅÎ
+œIÅ8á9&K—@VùÌO…¨9¿3ZmÀétvØ-g„È«Ô§†É±WÖDSÍ›„¥ŒÔôü°ûª§o|ø®è´ƒ›°Ş@§¬ˆUÀŠõPa¾Âle;ã¥ğšo-KR4ˆQñH¼g‘‹3l$Xn)	çÒ$Ê!,ºğÔ¯»C¨ß°†ì³hĞ@™b¶¸u¦½À›^	æáü*Í—_,æ+…—Âærİ§¶=ÏknŒj j“õ^)™Zz
+c¿T­'ø©¼í·  YF(
+
+endstream
+endobj
+28 0 obj
+<</Length 16761>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 247.294 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.004 Tc
+0 Tw
+[(Fieller\222s Theorem and LD Mapping)-2526(241)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 72 635.981 Tm
+0.164 Tw
+[(for the true location. Fieller)-39(\222)56(s)0( theorem gives a method of obtaining a confidence)]TJ
+0 -1.1393 TD
+0.002 Tc
+0.085 Tw
+(interval for the ratio of two means, )Tj
+/F11 1 Tf
+14.9129 0 TD
+0 Tc
+0 Tw
+(l)Tj
+/F8 1 Tf
+0.5507 0 TD
+-0.037 Tc
+0.085 Tw
+[( = )]TJ
+/F11 1 Tf
+1.2526 0 TD
+0 Tc
+0 Tw
+(m)Tj
+/F8 1 Tf
+6.3 0 0 6.3 253.644 622.375 Tm
+(a)Tj
+10.5 0 0 10.5 256.479 624.019 Tm
+(/)Tj
+/F11 1 Tf
+0.2808 0 TD
+(m)Tj
+/F8 1 Tf
+6.3 0 0 6.3 265.55 622.375 Tm
+(b)Tj
+10.5 0 0 10.5 268.724 624.019 Tm
+0.004 Tc
+0.086 Tw
+(, given that the sample means \()Tj
+/F10 1 Tf
+13.0556 0 TD
+0.007 Tc
+(a,b)Tj
+/F8 1 Tf
+1.2634 0 TD
+0.008 Tc
+0.091 Tw
+(\) ~)Tj
+-33.0547 -1.1447 TD
+0.003 Tc
+0.055 Tw
+(bivariate normal \()Tj
+/F11 1 Tf
+7.3377 0 TD
+0 Tc
+0 Tw
+(m)Tj
+/F10 1 Tf
+6.3 0 0 6.3 155.168 610.412 Tm
+(a)Tj
+/F8 1 Tf
+0.5039 0 TD
+-0.052 Tc
+(, )Tj
+/F11 1 Tf
+10.5 0 0 10.5 161.972 612 Tm
+0 Tc
+(m)Tj
+/F10 1 Tf
+6.3 0 0 6.3 168.038 610.412 Tm
+(b)Tj
+/F8 1 Tf
+10.5 0 0 10.5 171.269 612 Tm
+-0.045 Tc
+(, )Tj
+/F11 1 Tf
+0.5669 0 TD
+0 Tc
+(s)Tj
+6.3 0 0 6.3 183.572 616.762 Tm
+(2)Tj
+/F10 1 Tf
+-0.063 -1.0079 TD
+(a)Tj
+/F8 1 Tf
+10.5 0 0 10.5 186.406 612 Tm
+-0.05 Tc
+(, )Tj
+/F11 1 Tf
+0.5723 0 TD
+0 Tc
+(s)Tj
+6.3 0 0 6.3 198.822 616.762 Tm
+(2)Tj
+/F10 1 Tf
+-0.072 -1.0079 TD
+(b)Tj
+/F8 1 Tf
+10.5 0 0 10.5 201.6 612 Tm
+-0.05 Tc
+(, )Tj
+/F11 1 Tf
+0.5723 0 TD
+0 Tc
+(s)Tj
+/F10 1 Tf
+6.3 0 0 6.3 214.016 610.412 Tm
+-0.001 Tc
+(ab)Tj
+/F8 1 Tf
+10.5 0 0 10.5 220.365 612 Tm
+0.002 Tc
+0.055 Tw
+(\). Consider the distribution of )Tj
+/F10 1 Tf
+12.5156 0 TD
+0 Tc
+0 Tw
+(a)Tj
+/F8 1 Tf
+0.5075 0 TD
+-0.02 Tc
+0.055 Tw
+[( \226 )]TJ
+/F11 1 Tf
+1.1285 0 TD
+0 Tc
+0 Tw
+(l)Tj
+/F10 1 Tf
+0.5507 0 TD
+(b)Tj
+/F8 1 Tf
+0.5075 0 TD
+0.004 Tc
+0.096 Tw
+[(.)54( This )39(quan-)]TJ
+-29.3399 -1.1447 TD
+0.002 Tc
+0.094 Tw
+(tity is normally distributed with expectation 0 and variance )Tj
+/F11 1 Tf
+24.9287 0 TD
+0 Tc
+0 Tw
+(s)Tj
+6.3 0 0 6.3 340.157 604.743 Tm
+(2)Tj
+/F10 1 Tf
+-0.063 -1.0079 TD
+(a)Tj
+/F8 1 Tf
+10.5 0 0 10.5 342.935 599.981 Tm
+-0.042 Tc
+0.093 Tw
+[( + )]TJ
+/F11 1 Tf
+1.2688 0 TD
+0 Tc
+0 Tw
+(l)Tj
+/F8 1 Tf
+6.3 0 0 6.3 362.041 604.743 Tm
+(2)Tj
+/F11 1 Tf
+10.5 0 0 10.5 365.216 599.981 Tm
+(s)Tj
+6.3 0 0 6.3 371.622 604.743 Tm
+(2)Tj
+/F10 1 Tf
+-0.063 -1.0079 TD
+(b)Tj
+/F8 1 Tf
+10.5 0 0 10.5 374.457 599.981 Tm
+0.005 Tc
+0.095 Tw
+[( \226 2)]TJ
+/F11 1 Tf
+1.7062 0 TD
+0.003 Tc
+(ls)Tj
+/F10 1 Tf
+6.3 0 0 6.3 404.617 598.394 Tm
+-0.001 Tc
+(ab)Tj
+/F8 1 Tf
+10.5 0 0 10.5 410.967 599.981 Tm
+0.007 Tc
+0.126 Tw
+[(.)95( As-)]TJ
+-32.2826 -1.1393 TD
+0.001 Tc
+0.067 Tw
+[(sume we can estimate )-54(V)113(ar\()]TJ
+/F10 1 Tf
+11.0686 0 TD
+0 Tc
+0 Tw
+(a)Tj
+/F8 1 Tf
+0.5075 0 TD
+-0.027 Tc
+0.067 Tw
+[( \226 )]TJ
+/F11 1 Tf
+1.1501 0 TD
+0 Tc
+0 Tw
+(l)Tj
+/F10 1 Tf
+0.5561 0 TD
+(b)Tj
+/F8 1 Tf
+0.5021 0 TD
+0.005 Tc
+0.069 Tw
+(\) by \()Tj
+/F10 1 Tf
+2.3325 0 TD
+0 Tc
+0 Tw
+(v)Tj
+6.3 0 0 6.3 245.934 586.375 Tm
+(a)Tj
+/F8 1 Tf
+10.5 0 0 10.5 249.165 588.019 Tm
+-0.026 Tc
+0.066 Tw
+[( + )]TJ
+/F11 1 Tf
+1.2148 0 TD
+0 Tc
+0 Tw
+(l)Tj
+/F8 1 Tf
+6.3 0 0 6.3 267.704 592.724 Tm
+(2)Tj
+/F10 1 Tf
+10.5 0 0 10.5 270.879 588.019 Tm
+(v)Tj
+6.3 0 0 6.3 275.584 586.375 Tm
+(b)Tj
+/F8 1 Tf
+10.5 0 0 10.5 278.816 588.019 Tm
+0.005 Tc
+0.069 Tw
+[( \226 2)]TJ
+/F11 1 Tf
+1.6576 0 TD
+0 Tc
+0 Tw
+(l)Tj
+/F10 1 Tf
+0.5507 0 TD
+(v)Tj
+6.3 0 0 6.3 306.709 586.375 Tm
+-0.001 Tc
+(ab)Tj
+/F8 1 Tf
+10.5 0 0 10.5 313.058 588.019 Tm
+0 Tc
+(\))Tj
+/F10 1 Tf
+0.3348 0 TD
+(s)Tj
+/F8 1 Tf
+6.3 0 0 6.3 320.768 592.724 Tm
+(2)Tj
+10.5 0 0 10.5 323.943 588.019 Tm
+-0.006 Tc
+0.067 Tw
+[( where )]TJ
+/F10 1 Tf
+3.11 0 TD
+0 Tc
+0 Tw
+(v)Tj
+6.3 0 0 6.3 361.304 586.375 Tm
+(a)Tj
+10.5 0 0 10.5 365.159 588.019 Tm
+0.005 Tc
+0.072 Tw
+(, v)Tj
+6.3 0 0 6.3 375.987 586.375 Tm
+0 Tc
+0 Tw
+(b)Tj
+10.5 0 0 10.5 379.842 588.019 Tm
+-0.059 Tc
+(, )Tj
+/F8 1 Tf
+0.5831 0 TD
+-0.018 Tc
+(and )Tj
+/F10 1 Tf
+1.7764 0 TD
+0 Tc
+(v)Tj
+6.3 0 0 6.3 409.266 586.375 Tm
+-0.001 Tc
+(ab)Tj
+/F8 1 Tf
+10.5 0 0 10.5 415.616 588.019 Tm
+0.004 Tc
+0.072 Tw
+[( are)]TJ
+-32.7253 -1.1447 TD
+-0.002 Tc
+0.108 Tw
+(known constants and )Tj
+/F10 1 Tf
+9.0493 0 TD
+0 Tc
+0 Tw
+(s)Tj
+/F8 1 Tf
+6.3 0 0 6.3 171.156 580.762 Tm
+(2)Tj
+10.5 0 0 10.5 174.331 576 Tm
+0.002 Tc
+0.107 Tw
+[( is estimated, independent of a and b, with )]TJ
+/F11 1 Tf
+18.2929 0 TD
+0 Tc
+0 Tw
+(u)Tj
+/F8 1 Tf
+0.5777 0 TD
+-0.016 Tc
+0.108 Tw
+[( d.f. )]TJ
+2.0625 0 TD
+0.005 Tc
+(Then we)Tj
+-30.679 -1.1447 TD
+0.003 Tc
+0 Tw
+(obtain a 1 \226 )Tj
+/F11 1 Tf
+4.989 0 TD
+0 Tc
+(a)Tj
+/F8 1 Tf
+0.6371 0 TD
+0.003 Tc
+( confidence interval for )Tj
+/F11 1 Tf
+9.6756 0 TD
+0 Tc
+(l)Tj
+/F8 1 Tf
+0.5561 0 TD
+0.002 Tc
+( from)Tj
+ET
+0 G
+1 J 1 j 0.5 w 10 M []0 d
+/GS1 gs
+1 i 
+179.49 532.29 m
+268.781 532.29 l
+S
+BT
+/F9 1 Tf
+10.566 0 0 10.566 167.301 529.568 Tm
+0 g
+0 Tc
+(P)Tj
+3.9007 0.6439 TD
+1.501 Tc
+(ab)Tj
+-2.3447 -1.4219 TD
+2.282 Tc
+[(vv)-155(v)1213(s)]TJ
+9.0677 0.778 TD
+0 Tc
+(t)Tj
+6.038 0 0 6.038 188.617 518.683 Tm
+4.27 Tc
+[(ab)-272(a)4272(b)]TJ
+/F2 1 Tf
+10.566 0 0 10.566 204.718 536.372 Tm
+2.548 Tc
+(\(\))Tj
+-2.3394 -1.4219 TD
+6.798 Tc
+(\(\))Tj
+6.038 0 0 6.038 286.469 526.904 Tm
+0.811 Tc
+(,/)Tj
+/F11 1 Tf
+10.566 0 0 10.566 216 536.372 Tm
+0 Tc
+(-)Tj
+-1.9745 -1.4219 TD
+2.171 Tc
+(+-)Tj
+7.222 0.778 TD
+0 Tc
+(\243)Tj
+/F16 1 Tf
+21.132 0 0 21.132 174.104 537.165 Tm
+(%)Tj
+0 -0.4427 TD
+(&)Tj
+0 -0.448 TD
+(')Tj
+5.9504 0.8907 TD
+(\()Tj
+0 -0.4427 TD
+(\))Tj
+0 -0.448 TD
+(*)Tj
+/F11 1 Tf
+10.566 0 0 10.566 307.389 529.568 Tm
+0.787 Tc
+(=-)Tj
+/F17 1 Tf
+-7.8927 0.6439 TD
+0 Tc
+(l)Tj
+-1.9745 -1.4219 TD
+2.688 Tc
+(ll)Tj
+11.8954 0.778 TD
+0 Tc
+(a)Tj
+6.038 0 0 6.038 282.501 526.904 Tm
+0.325 Tc
+(ua)Tj
+/F2 1 Tf
+-7.1928 2.3475 TD
+0 Tc
+(2)Tj
+-5.0049 -2.479 TD
+8.599 Tc
+(22)Tj
+14.3104 0.1315 TD
+0 Tc
+(2)Tj
+-1.9437 1.2207 TD
+(2)Tj
+10.566 0 0 10.566 231.761 521.348 Tm
+(2)Tj
+7.8605 0.778 TD
+(1)Tj
+10.503 0 0 10.503 93.77 498.671 Tm
+0.001 Tc
+-0.003 Tw
+[(i.)-121(e.)-84(,)-165( sett)4(ing)4( )-3725( )]TJ
+0.6261 -2.9687 TD
+0.004 Tc
+[(i.)-118(e.)-75(,)-162( )]TJ
+/F9 1 Tf
+4.3883 2.9687 TD
+1.066 Tc
+[(tt)-1279(P)279(a)-517(b)-841(t)130(v)-1453(v)-1534(v)-88(s)]TJ
+-2.294 -2.9687 TD
+0.776 Tc
+[(Pb)-797(t)250(v)324(s)-3056(a)774(b)-262(t)250(v)33(s)-1793(a)-797(t)250(v)319(s)]TJ
+6.002 0 0 6.002 267.987 496.063 Tm
+4.677 Tc
+[(ab)-160(a)4676(b)]TJ
+-15.9357 -5.1954 TD
+13.443 Tc
+[(ba)13442(b)2154(a)]TJ
+/F11 1 Tf
+10.503 0 0 10.503 152.334 498.671 Tm
+5.005 Tc
+[(=-)2596(-)2364(+)2596(-)934(\243)3708(=)4172(-)]TJ
+-0.1781 -2.9687 TD
+4.498 Tc
+[(--)2138(+)119(+)2947(-)1393(\243)3201(=)3665(-)]TJ
+/F17 1 Tf
+6.002 0 0 6.002 163.842 496.063 Tm
+0.34 Tc
+(ua)Tj
+ET
+q
+219.005 508.705 5.726 -12.359 re
+W* n
+BT
+10.503 0 0 10.503 219.005 498.671 Tm
+0 Tc
+0 Tw
+(l)Tj
+ET
+Q
+q
+283.635 508.705 5.726 -12.359 re
+W* n
+BT
+10.503 0 0 10.503 283.635 498.671 Tm
+0 Tc
+0 Tw
+(l)Tj
+ET
+Q
+q
+320.145 508.705 5.726 -12.359 re
+W* n
+BT
+10.503 0 0 10.503 320.145 498.671 Tm
+0 Tc
+0 Tw
+(l)Tj
+ET
+Q
+BT
+10.503 0 0 10.503 396.51 498.671 Tm
+0 Tc
+0 Tw
+(a)Tj
+-19.6474 -2.9687 TD
+7.706 Tc
+[(ll)-2316(a)]TJ
+/F2 1 Tf
+6.002 0 0 6.002 167.868 496.063 Tm
+0.817 Tc
+(,/)Tj
+10.503 0 0 10.503 181.134 498.671 Tm
+0.964 Tc
+[(,{)964(\()-1677(\))-1445(\()-6319(\))-1413(})]TJ
+-5.0468 -2.9687 TD
+0 Tc
+[({\()-4757(\))-2566(\()-5016(\))-7812(})-2985(.)]TJ
+6.002 0 0 6.002 176.655 496.063 Tm
+(2)Tj
+9.6351 1.2186 TD
+2.806 Tc
+[(22)-2598(2)-6367(2)]TJ
+-15.2083 -5.1954 TD
+[(22)189(2)897(2)-5101(2)-312(2)-2059(22)189(2)]TJ
+10.503 0 0 10.503 314.589 498.671 Tm
+4.12 Tc
+[(20)2850(1)]TJ
+-9.7913 -2.9687 TD
+13.091 Tc
+[(20)11821(1)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 72 435.175 Tm
+0 0 0 1 k
+/GS2 gs
+0.003 Tc
+(Therefore a confidence interval for )Tj
+/F11 1 Tf
+14.3514 0 TD
+0 Tc
+(l)Tj
+/F8 1 Tf
+0.5507 0 TD
+0.003 Tc
+( is given by the set)Tj
+/F2 1 Tf
+10.715 0 0 10.715 133.058 410.513 Tm
+0 g
+/GS1 gs
+0.467 Tc
+[({:)110(\()-3840(\))-1898(\()-4158(\))-6756(})481(.)]TJ
+ET
+q
+137.197 420.718 5.839 -12.586 re
+W* n
+BT
+/F17 1 Tf
+10.715 0 0 10.715 137.197 410.513 Tm
+0 Tc
+(l)Tj
+ET
+Q
+q
+203.244 420.718 5.839 -12.586 re
+W* n
+BT
+/F17 1 Tf
+10.715 0 0 10.715 203.244 410.513 Tm
+0 Tc
+(l)Tj
+ET
+Q
+q
+285.279 420.718 5.839 -12.586 re
+W* n
+BT
+/F17 1 Tf
+10.715 0 0 10.715 285.279 410.513 Tm
+0 Tc
+(l)Tj
+ET
+Q
+BT
+10.715 0 0 10.715 147.118 410.513 Tm
+0 Tc
+( )Tj
+/F9 1 Tf
+0.6191 0 TD
+0.442 Tc
+[(b)-958(t)6(v)76(s)-3090(a)450(b)-492(tv)-204(s)-1926(a)-947(tv)76(s)]TJ
+6.123 0 0 6.123 186.633 407.849 Tm
+12.407 Tc
+[(ba)12416(b)2101(a)]TJ
+/F2 1 Tf
+-4.3981 1.2222 TD
+2.5 Tc
+[(22)194(2)759(2)-4852(2)-306(2)-2009(2)19(2)185(2)]TJ
+10.715 0 0 10.715 223.37 410.513 Tm
+12.098 Tc
+(20)Tj
+/F11 1 Tf
+-5.3334 0 TD
+4.044 Tc
+[(+-)1815(+)48(+)2678(-)1260(\243)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 92.976 388.006 Tm
+0 0 0 1 k
+/GS2 gs
+0.002 Tc
+0.044 Tw
+(For our data, we let )Tj
+/F10 1 Tf
+8.369 0 TD
+0 Tc
+0 Tw
+(a)Tj
+/F8 1 Tf
+0.5021 0 TD
+0.005 Tc
+0.045 Tw
+[( = \226)]TJ
+/F11 1 Tf
+1.6738 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F15 1 Tf
+6.3 0 0 6.3 205.682 393.222 Tm
+($)Tj
+/F8 1 Tf
+0.4859 -1.0799 TD
+(1)Tj
+10.5 0 0 10.5 211.918 388.006 Tm
+-0.008 Tc
+0.045 Tw
+[( and )]TJ
+/F10 1 Tf
+2.0571 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F8 1 Tf
+0.5075 0 TD
+0.004 Tc
+0.043 Tw
+[( = 2)]TJ
+/F11 1 Tf
+1.6684 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F15 1 Tf
+6.3 0 0 6.3 258.35 393.222 Tm
+($)Tj
+/F8 1 Tf
+0.4859 -1.0799 TD
+(2)Tj
+10.5 0 0 10.5 264.586 388.006 Tm
+0.001 Tc
+0.046 Tw
+[(.)39( )-31(The variance estimates )]TJ
+/F10 1 Tf
+10.1723 0 TD
+0 Tc
+0 Tw
+(v)Tj
+6.3 0 0 6.3 376.101 386.419 Tm
+(a)Tj
+10.5 0 0 10.5 379.275 388.006 Tm
+(s)Tj
+/F8 1 Tf
+6.3 0 0 6.3 383.471 392.768 Tm
+(2)Tj
+10.5 0 0 10.5 386.646 388.006 Tm
+-0.035 Tc
+(, )Tj
+/F10 1 Tf
+0.5561 0 TD
+0 Tc
+(v)Tj
+6.3 0 0 6.3 397.19 386.419 Tm
+(b)Tj
+10.5 0 0 10.5 400.365 388.006 Tm
+(s)Tj
+/F8 1 Tf
+6.3 0 0 6.3 404.561 392.768 Tm
+(2)Tj
+10.5 0 0 10.5 407.735 388.006 Tm
+-0.04 Tc
+(, )Tj
+/F10 1 Tf
+0.5615 0 TD
+0 Tc
+(v)Tj
+6.3 0 0 6.3 418.337 386.419 Tm
+-0.001 Tc
+(ab)Tj
+10.5 0 0 10.5 424.686 388.006 Tm
+0 Tc
+(s)Tj
+/F8 1 Tf
+6.3 0 0 6.3 428.825 392.768 Tm
+(2)Tj
+10.5 0 0 10.5 72 375.987 Tm
+0.001 Tc
+0.106 Tw
+[(are obtained from the Hessian matrix. )-97(The roots of the parabola in )]TJ
+/F11 1 Tf
+28.2223 0 TD
+0 Tc
+0 Tw
+(l)Tj
+/F8 1 Tf
+0.5507 0 TD
+0.004 Tc
+0.108 Tw
+[( give the end)]TJ
+-28.773 -1.1393 TD
+0.114 Tw
+(points of the interval, provided \()Tj
+/F10 1 Tf
+13.6495 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F8 1 Tf
+6.3 0 0 6.3 220.649 368.731 Tm
+(2)Tj
+10.5 0 0 10.5 223.824 364.025 Tm
+-0.05 Tc
+0.114 Tw
+[( \226 )]TJ
+/F10 1 Tf
+1.2472 0 TD
+0 Tc
+0 Tw
+(t)Tj
+/F8 1 Tf
+6.3 0 0 6.3 239.868 368.731 Tm
+(2)Tj
+/F10 1 Tf
+10.5 0 0 10.5 243.099 364.025 Tm
+(v)Tj
+6.3 0 0 6.3 247.805 362.381 Tm
+(b)Tj
+10.5 0 0 10.5 250.979 364.025 Tm
+(s)Tj
+/F8 1 Tf
+6.3 0 0 6.3 255.118 368.731 Tm
+(2)Tj
+10.5 0 0 10.5 258.35 364.025 Tm
+0.004 Tc
+0.115 Tw
+[(\))18( )18(>)18( )18(0)18(.)18( )-55(An interesting feature of this set,)]TJ
+-17.7476 -1.1447 TD
+0.101 Tw
+[(therefore, is that depending on the coef)20(ficient \()]TJ
+/F10 1 Tf
+19.6589 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F8 1 Tf
+6.3 0 0 6.3 283.691 356.768 Tm
+(2)Tj
+10.5 0 0 10.5 286.866 352.006 Tm
+-0.046 Tc
+0.102 Tw
+[( \226 )]TJ
+/F10 1 Tf
+1.2256 0 TD
+0 Tc
+0 Tw
+(t)Tj
+/F8 1 Tf
+6.3 0 0 6.3 302.683 356.768 Tm
+(2)Tj
+/F10 1 Tf
+10.5 0 0 10.5 305.915 352.006 Tm
+(v)Tj
+6.3 0 0 6.3 310.62 350.419 Tm
+(b)Tj
+10.5 0 0 10.5 313.795 352.006 Tm
+(s)Tj
+/F8 1 Tf
+6.3 0 0 6.3 317.934 356.768 Tm
+(2)Tj
+10.5 0 0 10.5 321.165 352.006 Tm
+0.004 Tc
+0.103 Tw
+(\) and the roots of the pa-)Tj
+-23.73 -1.1447 TD
+0.04 Tw
+[(rabola, the confidence region may be either an interval, the complement of an inter)20(-)]TJ
+0 -1.1393 TD
+0.006 Tw
+(val, or the whole real line. Note that if \()Tj
+/F10 1 Tf
+16.0846 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F8 1 Tf
+6.3 0 0 6.3 246.217 332.731 Tm
+(2)Tj
+10.5 0 0 10.5 249.392 328.025 Tm
+0.007 Tc
+0.003 Tw
+( \226 )Tj
+/F10 1 Tf
+1.0313 0 TD
+0 Tc
+0 Tw
+(t)Tj
+/F8 1 Tf
+6.3 0 0 6.3 263.168 332.731 Tm
+(2)Tj
+/F10 1 Tf
+10.5 0 0 10.5 266.343 328.025 Tm
+(v)Tj
+6.3 0 0 6.3 271.049 326.381 Tm
+(b)Tj
+10.5 0 0 10.5 274.224 328.025 Tm
+(s)Tj
+/F8 1 Tf
+6.3 0 0 6.3 278.419 332.731 Tm
+(2)Tj
+10.5 0 0 10.5 281.594 328.025 Tm
+0.004 Tc
+0.006 Tw
+(\) < 0, this implies that )Tj
+/F10 1 Tf
+9.1735 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F8 1 Tf
+6.3 0 0 6.3 383.244 332.731 Tm
+(2)Tj
+10.5 0 0 10.5 386.419 328.025 Tm
+0.005 Tc
+(/\()Tj
+/F10 1 Tf
+0.6209 0 TD
+0 Tc
+(v)Tj
+6.3 0 0 6.3 397.644 326.381 Tm
+(b)Tj
+10.5 0 0 10.5 400.819 328.025 Tm
+(s)Tj
+/F8 1 Tf
+6.3 0 0 6.3 405.014 332.731 Tm
+(2)Tj
+10.5 0 0 10.5 408.189 328.025 Tm
+0.001 Tc
+0.007 Tw
+(\) < )Tj
+/F10 1 Tf
+1.4308 0 TD
+0 Tc
+0 Tw
+(t)Tj
+/F8 1 Tf
+6.3 0 0 6.3 426.161 332.731 Tm
+(2)Tj
+10.5 0 0 10.5 429.335 328.025 Tm
+(,)Tj
+-34.0319 -1.1447 TD
+0.003 Tc
+[(i.e., the coef)19(ficient )]TJ
+/F10 1 Tf
+7.7642 0 TD
+0 Tc
+(b)Tj
+/F8 1 Tf
+0.5075 0 TD
+0.003 Tc
+[( is itself not significantly dif)19(ferent from 0.)]TJ
+/F7 1 Tf
+10 0 0 10 72 294.009 Tm
+0.005 Tc
+0.005 Tw
+(Estimation of V)Tj
+/F8 1 Tf
+10.5 0 0 10.5 92.976 275.981 Tm
+0.001 Tc
+0.058 Tw
+(The variance/covariance matrix )Tj
+/F10 1 Tf
+13.1906 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.6155 0 TD
+0.004 Tc
+0.057 Tw
+[( can be estimated using a bootstrap approach)]TJ
+-15.8038 -1.1393 TD
+0.003 Tc
+0.069 Tw
+[(as described in Lazzeroni [1998]. )-51(This implementation implicitly assumes indepen-)]TJ
+0 -1.1447 TD
+0.004 Tc
+0.042 Tw
+(dence of the case and control haplotypes, since we sample from each independently)Tj
+T*
+0.15 Tw
+(at each replicate. If the case and control haplotypes are not independent, such as)Tj
+0 -1.1393 TD
+0.041 Tw
+[(when haplotypes from the parents of the af)26(fected individuals are used as controls, it)]TJ
+0 -1.1447 TD
+0.012 Tw
+(would make more sense to sample the nuclear families, so that the matched case and)Tj
+T*
+0.003 Tc
+0.098 Tw
+[(\223control\224 are both included, or not included, in any given bootstrap sample. )-79(T)74(o)-2( be)]TJ
+0 -1.1393 TD
+0.016 Tw
+(used in the maximization of the likelihood, the covariance matrix )Tj
+/F10 1 Tf
+26.7591 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.6101 0 TD
+0.004 Tc
+0.016 Tw
+[( must be positive)]TJ
+-27.3692 -1.1447 TD
+-0.012 Tc
+(definite. )Tj
+3.7201 0 TD
+0.004 Tc
+0.147 Tw
+[(This may be achieved [Lazzeroni, 1998] by multiplying the of)20(f-diagonal)]TJ
+-3.7201 -1.1447 TD
+0.002 Tc
+0 Tw
+(elements of )Tj
+/F10 1 Tf
+4.9188 0 TD
+0 Tc
+(V)Tj
+/F8 1 Tf
+0.6155 0 TD
+0.003 Tc
+( by a smoothing factor 1 \226 )Tj
+/F11 1 Tf
+10.8256 0 TD
+0 Tc
+(e)Tj
+/F8 1 Tf
+0.4427 0 TD
+0.003 Tc
+(, where )Tj
+/F11 1 Tf
+3.218 0 TD
+0 Tc
+(e)Tj
+/F8 1 Tf
+0.4427 0 TD
+0.002 Tc
+[( is a small positive number)51(.)]TJ
+-18.4657 -1.1393 TD
+-0.017 Tc
+0.088 Tw
+(As an alternative to using the bootstrap, the variance/covariance matrix )Tj
+/F10 1 Tf
+28.4436 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.5939 0 TD
+-0.016 Tc
+0.088 Tw
+[( may be)]TJ
+-31.0353 -1.1447 TD
+-0.017 Tc
+0.039 Tw
+[(estimated using a multinomial distribution approximation. )-22(This has the advantage of be-)]TJ
+T*
+-0.016 Tc
+0 Tw
+(ing less computationally intensive than the bootstrap. Suppose the data at a single marker)Tj
+0 -1.1393 TD
+0.002 Tw
+[(locus can be arranged as in )16(T)71(able I, where )]TJ
+/F10 1 Tf
+16.3546 0 TD
+0 Tc
+0 Tw
+(a)Tj
+/F8 1 Tf
+0.4859 0 TD
+-0.016 Tc
+0.002 Tw
+( is the allele associated with disease and )Tj
+/F10 1 Tf
+15.604 0 TD
+0 Tc
+0 Tw
+(a)Tj
+/F8 1 Tf
+6.3 0 0 6.3 413.915 124.781 Tm
+(\226)Tj
+10.5 0 0 10.5 416.976 120.019 Tm
+-0.014 Tc
+0.003 Tw
+( the)Tj
+-32.8549 -1.1447 TD
+-0.016 Tc
+0.106 Tw
+[(allele not associated with disease at this marker)60(. Now consider arranging the data in a)]TJ
+T*
+-0.018 Tc
+0.087 Tw
+[(joint table according to what happens at two marker loci, as in )-73(T)69(able III. Here, )]TJ
+/F10 1 Tf
+31.5429 0 TD
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+6.3 0 0 6.3 408.302 94.394 Tm
+-0.059 Tc
+(11)Tj
+10.5 0 0 10.5 414.142 95.981 Tm
+-0.014 Tc
+0.091 Tw
+(, for)Tj
+-32.5849 -1.1393 TD
+-0.016 Tc
+0.007 Tw
+(example, is the number of disease haplotypes with allele )Tj
+/F10 1 Tf
+21.9699 0 TD
+0 Tc
+0 Tw
+(a)Tj
+/F8 1 Tf
+0.4859 0 TD
+-0.016 Tc
+0.007 Tw
+[( at locus 1 and allele )]TJ
+/F10 1 Tf
+8.1206 0 TD
+0 Tc
+0 Tw
+(b)Tj
+/F8 1 Tf
+0.4859 0 TD
+-0.016 Tc
+0.009 Tw
+[( at locus)]TJ
+ET
+
+endstream
+endobj
+38 0 obj
+<</Length 9036>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 63 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.003 Tc
+0 Tw
+[(242)-2527(Cordell and Elston)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 63 635.981 Tm
+-0.016 Tc
+(2, where )Tj
+/F10 1 Tf
+3.5528 0 TD
+0 Tc
+(b)Tj
+/F8 1 Tf
+0.4859 0 TD
+-0.017 Tc
+( is the allele associated with disease and )Tj
+/F10 1 Tf
+15.5555 0 TD
+0 Tc
+(b)Tj
+/F8 1 Tf
+6.3 0 0 6.3 269.872 642.727 Tm
+(\226)Tj
+10.5 0 0 10.5 272.877 635.981 Tm
+-0.017 Tc
+( the allele not associated with disease)Tj
+-19.9883 -1.1393 TD
+0.048 Tw
+(at locus 2. Assuming cases and controls are independent, the counts in the eight cells of)Tj
+0 -1.1447 TD
+-0.016 Tc
+0.034 Tw
+[(T)71(able III are distributed as two independent multinomials, one for the case cells and one)]TJ
+T*
+0.044 Tw
+(for the control cells. If the disease is monogenic and the only cause of familial aggrega-)Tj
+0 -1.1393 TD
+0.019 Tw
+(tion is due to this one gene \(no environmental causes\), then we also get two independent)Tj
+0 -1.1447 TD
+0.161 Tw
+(multinomials in the situation where untransmitted haplotypes from the parents of the)Tj
+T*
+0.032 Tw
+[(af)22(fected individuals are used as controls. Otherwise, there will be dependencies between)]TJ
+0 -1.1393 TD
+0.042 Tw
+(the multinomials for the case group and the control group, although it may be that these)Tj
+0 -1.1447 TD
+-0.017 Tc
+0 Tw
+(dependencies are negligible.)Tj
+2.0032 -1.1447 TD
+0.003 Tc
+(The calculation of )Tj
+/F10 1 Tf
+7.5807 0 TD
+0 Tc
+(V)Tj
+/F8 1 Tf
+0.6155 0 TD
+0.003 Tc
+( using the multinomial approximation requires a calculation)Tj
+-10.1993 -1.1393 TD
+0.004 Tc
+0.178 Tw
+(of the variances and covariances of the disequilibrium measures \()Tj
+/F10 1 Tf
+28.0441 0 TD
+0 Tc
+0 Tw
+(d)Tj
+6.3 0 0 6.3 362.735 514.375 Tm
+(i)Tj
+10.5 0 0 10.5 364.55 516.019 Tm
+0.006 Tc
+(,d)Tj
+6.3 0 0 6.3 372.543 514.375 Tm
+0 Tc
+(j)Tj
+/F8 1 Tf
+10.5 0 0 10.5 374.358 516.019 Tm
+-0.032 Tc
+0.179 Tw
+(\) for )Tj
+/F10 1 Tf
+2.3865 0 TD
+0.003 Tc
+0.176 Tw
+(i, j)Tj
+/F8 1 Tf
+1.2472 0 TD
+0.185 Tc
+0 Tw
+( =)Tj
+-33.2868 -1.1447 TD
+0.006 Tc
+(1,2...)Tj
+/F10 1 Tf
+2.0355 0 TD
+0 Tc
+(m)Tj
+/F8 1 Tf
+0.7289 0 TD
+0.004 Tc
+0.068 Tw
+[(.)42( The )23(\()]TJ
+/F10 1 Tf
+2.7429 0 TD
+0.005 Tc
+(i,j)Tj
+/F8 1 Tf
+0.8153 0 TD
+0.002 Tc
+0.046 Tw
+(\)th element of the matrix )Tj
+/F10 1 Tf
+10.5233 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.6155 0 TD
+0.004 Tc
+0.046 Tw
+(, which is the variance/covariance matrix)Tj
+-17.4614 -1.1447 TD
+0 Tw
+(for the )Tj
+/F10 1 Tf
+2.921 0 TD
+0 Tc
+(y)Tj
+6.3 0 0 6.3 98.32 490.394 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 100.134 491.981 Tm
+0.003 Tc
+(, may then be written)Tj
+ET
+0 G
+1 J 1 j 0.502 w 10 M []0 d
+/GS1 gs
+1 i 
+211.649 463.635 m
+226.673 463.635 l
+228.543 463.635 m
+244.644 463.635 l
+S
+BT
+/F9 1 Tf
+10.592 0 0 10.592 189.992 460.857 Tm
+0 g
+0 Tc
+(V)Tj
+ET
+q
+219.416 477.014 4.706 -12.019 re
+W* n
+BT
+10.592 0 0 10.592 219.416 467.66 Tm
+(y)Tj
+ET
+Q
+BT
+10.592 0 0 10.592 217.602 452.636 Tm
+(d)Tj
+ET
+q
+236.877 477.014 4.706 -12.019 re
+W* n
+BT
+10.592 0 0 10.592 236.877 467.66 Tm
+(y)Tj
+ET
+Q
+BT
+10.592 0 0 10.592 234.496 452.636 Tm
+(d)Tj
+3.3989 0.7761 TD
+0.64 Tc
+(dd)Tj
+6.052 0 0 6.052 195.548 458.249 Tm
+0.003 Tc
+(ij)Tj
+4.5336 -1.3676 TD
+2.663 Tc
+(ij)Tj
+8.7394 1.3676 TD
+1.867 Tc
+(ij)Tj
+/F11 1 Tf
+10.592 0 0 10.592 202.975 460.857 Tm
+0 Tc
+(=)Tj
+1.0598 0.6423 TD
+(\266)Tj
+-0.1713 -1.4184 TD
+(\266)Tj
+1.8252 1.4184 TD
+(\266)Tj
+-0.2248 -1.4184 TD
+(\266)Tj
+/F2 1 Tf
+1.6218 0.7761 TD
+-0.009 Tc
+0.011 Tw
+[( Co)-7(v\()-821(,)-1033(\))]TJ
+/F8 1 Tf
+10.5 0 0 10.5 63 425.82 Tm
+0 0 0 1 k
+/GS2 gs
+0.004 Tc
+0.04 Tw
+(where the variance/covariance matrix with elements Cov\()Tj
+/F10 1 Tf
+23.5465 0 TD
+0 Tc
+0 Tw
+(d)Tj
+6.3 0 0 6.3 315.567 424.176 Tm
+(i)Tj
+10.5 0 0 10.5 317.381 425.82 Tm
+0.006 Tc
+(,d)Tj
+6.3 0 0 6.3 325.375 424.176 Tm
+0 Tc
+(j)Tj
+/F8 1 Tf
+10.5 0 0 10.5 327.132 425.82 Tm
+0.004 Tc
+0.04 Tw
+(\) may be calculated as)Tj
+/F10 1 Tf
+-25.1555 -1.1447 TD
+0 Tc
+0 Tw
+(D)Tj
+6.3 0 0 6.3 70.654 418.564 Tm
+(T)Tj
+10.5 0 0 10.5 74.225 413.802 Tm
+0.009 Tc
+(SD)Tj
+/F8 1 Tf
+1.231 0 TD
+0.004 Tc
+0.003 Tw
+(, where )Tj
+/F10 1 Tf
+3.2396 0 TD
+0 Tc
+0 Tw
+(S)Tj
+/F8 1 Tf
+0.5021 0 TD
+0.004 Tc
+0.004 Tw
+( is the 8 )Tj
+/F11 1 Tf
+3.4502 0 TD
+0 Tc
+0 Tw
+(\264)Tj
+/F8 1 Tf
+0.5507 0 TD
+0.004 Tc
+0.004 Tw
+[( 8 variance/covariance matrix of the 8 cells of )14(T)70(able III, and)]TJ
+/F10 1 Tf
+-10.0427 -1.1447 TD
+0 Tc
+0 Tw
+(D)Tj
+/F8 1 Tf
+0.7289 0 TD
+-0.007 Tc
+0.104 Tw
+[( is the 8 )]TJ
+/F11 1 Tf
+3.8551 0 TD
+0 Tc
+0 Tw
+(\264)Tj
+/F8 1 Tf
+0.5507 0 TD
+0.004 Tc
+0.106 Tw
+[( 2 matrix of derivatives corresponding to the transformation from cell)]TJ
+-5.1348 -1.1393 TD
+0.003 Tc
+0 Tw
+(counts to a disequilibrium measure.)Tj
+2.0032 -1.1447 TD
+0.001 Tc
+0.052 Tw
+(The estimation of )Tj
+/F10 1 Tf
+7.5267 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.6155 0 TD
+0.004 Tc
+0.053 Tw
+(, either by the bootstrap or the multinomial approximation,)Tj
+-10.1453 -1.1447 TD
+(assumes that haplotype data are available rather than just allele counts at individual)Tj
+0 -1.1393 TD
+0.002 Tc
+0.076 Tw
+(loci. If haplotype data are not available, we may set )Tj
+/F10 1 Tf
+21.8511 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.6155 0 TD
+0.004 Tc
+0.076 Tw
+[( equal to the identity matrix,)]TJ
+-22.4666 -1.1447 TD
+0.138 Tw
+(which makes our method equivalent to fitting a quadratic curve by ordinary least)Tj
+T*
+0.022 Tw
+[(squares, except for the transformations. )30(Alternatively)63(, we may use the genotype data)]TJ
+0 -1.1393 TD
+0.161 Tw
+(from the individual loci to estimate haplotype frequencies using the Expectation-)Tj
+0 -1.1447 TD
+0 Tc
+0 Tw
+[(Maximization \(EM\) algorithm or the method of gene counting [Slatkin and Excof)16(fier)43(,)]TJ
+T*
+0.003 Tc
+(1995; MacLean and Morton, 1985].)Tj
+/F7 1 Tf
+10 0 0 10 63 273.827 Tm
+0.005 Tc
+[(T)55(ransformations)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 84.033 255.798 Tm
+0.004 Tc
+0.09 Tw
+(A feature of our method is the use of transformations of the location and dis-)Tj
+-2.0032 -1.1447 TD
+0.036 Tw
+(equilibrium parameters. Broadly speaking, they fall into two categories: fixed trans-)Tj
+0 -1.1393 TD
+0.002 Tc
+0 Tw
+(formations, which are carried out before maximization of the likelihood, and variable)Tj
+0 -1.1447 TD
+0.004 Tc
+0.046 Tw
+(transformations, which depend on parameters that are estimated during the maximi-)Tj
+T*
+0.003 Tc
+0 Tw
+(zation procedure.)Tj
+/F5 1 Tf
+8.5 0 0 8.5 63 184.989 Tm
+0.008 Tc
+0.003 Tw
+[(T)75(ABLE III.)-499(Fr)28(equencies of Disease )47(Associated \()]TJ
+/F13 1 Tf
+20.8497 0 TD
+0.005 Tc
+0.006 Tw
+(a, b)Tj
+/F5 1 Tf
+1.534 0 TD
+0.009 Tc
+0.004 Tw
+(\) and Non-Associated \()Tj
+/F13 1 Tf
+9.9113 0 TD
+0 Tc
+0 Tw
+(a)Tj
+/F5 1 Tf
+5.5 0 0 5.5 338.358 188.844 Tm
+(\226)Tj
+8.5 0 0 8.5 341.532 184.989 Tm
+-0.006 Tc
+(, )Tj
+/F13 1 Tf
+0.5202 0 TD
+0 Tc
+(b)Tj
+/F5 1 Tf
+5.5 0 0 5.5 346.578 190.828 Tm
+(\226)Tj
+8.5 0 0 8.5 349.356 184.989 Tm
+0.008 Tc
+-0.042 Tw
+[(\) Alleles )-48(at)]TJ
+ET
+0 0 0 1 K
+0 J 0 j 0.51 w 
+/GS1 gs
+63 172.261 m
+423 172.261 l
+S
+BT
+8.5 0 0 8.5 63 175.011 Tm
+/GS2 gs
+0.007 Tc
+0.011 Tw
+[(T)80(wo Marker)14( Loci)]TJ
+ET
+/GS1 gs
+63 156.274 m
+166.521 156.274 l
+S
+BT
+/F8 1 Tf
+8.5 0 0 8.5 99 159.024 Tm
+/GS2 gs
+0.008 Tc
+0.035 Tw
+(Alleles at)Tj
+ET
+/GS1 gs
+63 140.23 m
+423 140.23 l
+S
+BT
+8.5 0 0 8.5 63 142.98 Tm
+/GS2 gs
+0.009 Tc
+0.011 Tw
+[(Marker 1)-4580(Marker 2)-7715(Case)-8035(Control)]TJ
+/F10 1 Tf
+0 -1.8809 TD
+9.485 Tc
+[(ab)-280(n)]TJ
+/F8 1 Tf
+5.5 0 0 5.5 239.485 125.688 Tm
+-0.016 Tc
+(11)Tj
+/F10 1 Tf
+8.5 0 0 8.5 324.978 126.992 Tm
+0 Tc
+0 Tw
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 329.4 125.688 Tm
+0.021 Tc
+(33)Tj
+/F10 1 Tf
+8.5 0 0 8.5 63 117.014 Tm
+9.485 Tc
+(ab)Tj
+5.5 0 0 5.5 149.4 122.343 Tm
+0 Tc
+(\226)Tj
+8.5 0 0 8.5 235.006 117.014 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 239.428 115.71 Tm
+0.021 Tc
+(12)Tj
+/F10 1 Tf
+8.5 0 0 8.5 324.978 117.014 Tm
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 329.4 115.71 Tm
+0.021 Tc
+(34)Tj
+/F10 1 Tf
+8.5 0 0 8.5 63 106.98 Tm
+0 Tc
+(a)Tj
+5.5 0 0 5.5 65.381 110.835 Tm
+(\226)Tj
+/F8 1 Tf
+8.5 0 0 8.5 147.869 106.98 Tm
+(b)Tj
+/F10 1 Tf
+10.2514 0 TD
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 239.428 105.732 Tm
+0.021 Tc
+(21)Tj
+/F10 1 Tf
+8.5 0 0 8.5 324.978 106.98 Tm
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 329.4 105.732 Tm
+0.021 Tc
+(43)Tj
+/F10 1 Tf
+8.5 0 0 8.5 63 97.002 Tm
+0 Tc
+(a)Tj
+5.5 0 0 5.5 65.381 100.857 Tm
+(\226)Tj
+8.5 0 0 8.5 147.869 97.002 Tm
+(b)Tj
+5.5 0 0 5.5 149.4 102.331 Tm
+(\226)Tj
+8.5 0 0 8.5 235.006 97.002 Tm
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 239.428 95.698 Tm
+0.021 Tc
+(22)Tj
+/F10 1 Tf
+8.5 0 0 8.5 324.978 97.002 Tm
+0 Tc
+(n)Tj
+/F8 1 Tf
+5.5 0 0 5.5 329.4 95.698 Tm
+0.021 Tc
+(44)Tj
+/F10 1 Tf
+8.5 0 0 8.5 235.687 87.024 Tm
+0 Tc
+(N)Tj
+5.5 0 0 5.5 241.526 85.72 Tm
+(d)Tj
+8.5 0 0 8.5 325.715 87.024 Tm
+(N)Tj
+5.5 0 0 5.5 331.498 85.72 Tm
+(n)Tj
+/F8 1 Tf
+8.5 0 0 8.5 407.976 87.024 Tm
+(N)Tj
+ET
+/GS1 gs
+63 83.764 m
+423 83.764 l
+S
+
+endstream
+endobj
+46 0 obj
+<</Subtype/Type1C/Filter/FlateDecode/Length 410>>stream
+H‰lÍKÂ` ‡}uµUbdÄêÒ¥À‚õM$APç:	© L¦PÑ67ßéf¤ÎMİ;û ¢®]û_ºvˆ:ö®vÉêÚí?x¯ 0°¶´¾¸º<º‹oÇ’áıè^|œ™fÂÌÌqh¯3èsú·ßïkø	gÈß—w7¿Æ?Ÿ[ğ\^èÄKİº3Õãi€ ÛÇ&W#Ìt„™‰0³‹û©äI’]9Œ§w¸hb7Æ±L˜aÙ?ûkûÛÿú›Ã^ T¯‡ À7ÿø6xßâWò¡pS¬ÓEd\ZÔx@O&%‘§ªM+”åŒÅœ 	T?;N†Ü×Ğ1¼*ÙeË°ÌJÅ¨5•lªT/ Zwß¹m$§ey:ÇÃ´,eäTT¨ò9N¹…uÅÔLÕ„U¹"›¢.Pe¾xÄ…Üî"QŞÒ­¡œ¥Ô”ª\MÑàË§:uEpº/dêü¸ÀÓEAÑLW%¤ØĞÎÚj3{Ë8@éké^j”ZÏßÜ‡ğË]ózÖûü` z¬
+
+endstream
+endobj
+48 0 obj
+<</Subtype/Type1C/Filter/FlateDecode/Length 174>>stream
+H‰bd`ad`dd”ğqòwôtÕöÑs­()J40´0Ó³04Éiıaú!ËüCŒå·$ó|–r<bİ¿³~Mş¹‰õ»²Àw5şïš‚İßı…€†1²(hX¸›¹¤g¦çÅ'g¦æ%§Zù†ÄƒÍµ2´´4‚q0,c``Ta`lg`bddVìæûş`Ç	¢™lß¿[±R¿­X3Ø~ó~úÍ§ÂÊ` q»8İ
+
+endstream
+endobj
+41 0 obj
+<</Length 8690>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 247.294 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.004 Tc
+0 Tw
+[(Fieller\222s Theorem and LD Mapping)-2526(243)]TJ
+/F7 1 Tf
+10 0 0 10 72 635.981 Tm
+0.005 Tc
+[(Disequilibrium T)56(ransformations)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 92.976 615.968 Tm
+0.003 Tc
+0.049 Tw
+[(W)78(e)0( considered four possible fixed transformations for )]TJ
+/F10 1 Tf
+22.391 0 TD
+0 Tc
+0 Tw
+(y)Tj
+/F8 1 Tf
+0.4481 0 TD
+-0.002 Tc
+0.05 Tw
+(, namely )Tj
+/F10 1 Tf
+3.8335 0 TD
+0 Tc
+0 Tw
+(y)Tj
+/F8 1 Tf
+0.4481 0 TD
+(\()Tj
+/F10 1 Tf
+0.3402 0 TD
+(d)Tj
+/F8 1 Tf
+0.5021 0 TD
+-0.047 Tc
+(\) )Tj
+/F10 1 Tf
+0.6479 0 TD
+0.005 Tc
+0.05 Tw
+(= d, y)Tj
+/F8 1 Tf
+2.4999 0 TD
+0 Tc
+0 Tw
+(\()Tj
+/F10 1 Tf
+0.3402 0 TD
+(d)Tj
+/F8 1 Tf
+0.5021 0 TD
+(\))Tj
+/F10 1 Tf
+-33.951 -1.1393 TD
+-0.039 Tc
+(= )Tj
+/F8 1 Tf
+0.9881 0 TD
+-0.012 Tc
+(log )Tj
+/F10 1 Tf
+1.5874 0 TD
+0.005 Tc
+0.048 Tw
+(d, y)Tj
+/F8 1 Tf
+1.5118 0 TD
+0 Tc
+0 Tw
+(\()Tj
+/F10 1 Tf
+0.3348 0 TD
+(d)Tj
+/F8 1 Tf
+0.5075 0 TD
+(\))Tj
+/F10 1 Tf
+0.3348 0 TD
+0.006 Tc
+0.047 Tw
+[( = d)]TJ
+/F11 1 Tf
+6.3 0 0 6.3 146.098 608.768 Tm
+0 Tc
+0 Tw
+(a)Tj
+/F8 1 Tf
+10.5 0 0 10.5 150.123 604.006 Tm
+-0.004 Tc
+0.047 Tw
+(, and )Tj
+/F10 1 Tf
+2.3163 0 TD
+0 Tc
+0 Tw
+(y)Tj
+/F8 1 Tf
+0.4481 0 TD
+(\()Tj
+/F10 1 Tf
+0.3402 0 TD
+(d)Tj
+/F8 1 Tf
+0.5021 0 TD
+(\))Tj
+/F10 1 Tf
+0.3402 0 TD
+-0.017 Tc
+0.048 Tw
+[( = )]TJ
+/F8 1 Tf
+1.2904 0 TD
+-0.005 Tc
+(\226\(1 \226 )Tj
+/F10 1 Tf
+2.4567 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5021 0 TD
+(\))Tj
+/F11 1 Tf
+6.3 0 0 6.3 239.754 608.768 Tm
+(a)Tj
+/F8 1 Tf
+10.5 0 0 10.5 243.723 604.006 Tm
+0.004 Tc
+0.048 Tw
+[(.)45( )-34(The first two require no parameter estima-)]TJ
+-16.3546 -1.1447 TD
+-0.015 Tc
+(tion. )Tj
+2.1543 0 TD
+0.004 Tc
+0.098 Tw
+(The other two were suggested by Lazzeroni [1998], who proposes estimating)Tj
+-2.1543 -1.1447 TD
+0 Tc
+0.05 Tw
+(the parameter )Tj
+/F11 1 Tf
+5.8691 0 TD
+0 Tw
+(a)Tj
+/F8 1 Tf
+0.6371 0 TD
+0.004 Tc
+0.052 Tw
+[( to minimize the skewness \(which may be estimated at each marker)]TJ
+-6.5062 -1.1393 TD
+0.003 Tc
+0 Tw
+(locus using the bootstrap procedure\).)Tj
+1.9978 -1.1447 TD
+[(W)78(e)0( also considered a variable transformation of the form)]TJ
+/F9 1 Tf
+10.585 0 0 10.585 195.931 521.518 Tm
+0 g
+/GS1 gs
+0.359 Tc
+(yd)Tj
+3.5511 0.6963 TD
+3.03 Tc
+(dp)Tj
+1.1783 -1.4997 TD
+0 Tc
+(d)Tj
+3.6261 1.5801 TD
+(p)Tj
+0 -1.4997 TD
+(p)Tj
+6.048 0 0 6.048 240.548 533.65 Tm
+(p)Tj
+/F2 1 Tf
+10.585 0 0 10.585 200.636 521.518 Tm
+0.594 Tc
+(\(\))Tj
+2.7423 0.6963 TD
+2.404 Tc
+[(\(\))2196(/)]TJ
+7.1772 -1.4194 TD
+0 Tc
+(,)Tj
+/F11 1 Tf
+-8.4412 0.7231 TD
+(=)Tj
+2.8976 0.6963 TD
+(-)Tj
+4.2581 0.0803 TD
+(>)Tj
+0.0107 -1.4997 TD
+(=)Tj
+/F18 1 Tf
+21.169 0 0 21.169 224.787 529.002 Tm
+(%)Tj
+0 -0.4365 TD
+(&)Tj
+0 -0.4392 TD
+(')Tj
+/F2 1 Tf
+10.585 0 0 10.585 253.984 528.888 Tm
+(1)Tj
+4.3652 0.0803 TD
+(0)Tj
+0.0321 -1.4997 TD
+(0)Tj
+-6.663 -0.0803 TD
+-0.005 Tc
+(log )Tj
+/F8 1 Tf
+10.5 0 0 10.5 72 490.224 Tm
+0 0 0 1 k
+/GS2 gs
+-0.018 Tc
+(where )Tj
+/F10 1 Tf
+2.6079 0 TD
+0 Tc
+(p)Tj
+/F8 1 Tf
+0.4859 0 TD
+( )Tj
+/F11 1 Tf
+0.2484 0 TD
+(\263)Tj
+/F8 1 Tf
+0.5345 0 TD
+-0.016 Tc
+0.011 Tw
+[( 0 is to be estimated in the likelihood maximization. )11(This transformation corre-)]TJ
+-3.8767 -1.1447 TD
+0 Tw
+(sponds to that proposed by Box and Cox [1964] and also tends to remove skewness.)Tj
+/F7 1 Tf
+10 0 0 10 72 454.224 Tm
+0.005 Tc
+[(Location T)56(ransformations)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 92.976 434.211 Tm
+0.004 Tc
+0.003 Tw
+[(For transforming the location, we used the generalized modulus power transfor)15(-)]TJ
+-1.9978 -1.1447 TD
+0.003 Tc
+0 Tw
+[(mation \(GEMPT\) [Geor)25(ge and Elston, 1988]. )19(This transformation is of the form)]TJ
+ET
+0 G
+1 J 1 j 0.502 w 10 M []0 d
+/GS1 gs
+1 i 
+205.285 390.784 m
+324.964 390.784 l
+S
+BT
+/F9 1 Tf
+10.592 0 0 10.592 178.696 388.063 Tm
+0 g
+0.375 Tc
+(xl)Tj
+4.432 0.6423 TD
+0.975 Tc
+[(ll)-920(ll)]TJ
+/F2 1 Tf
+-3.9556 -0.6423 TD
+0.331 Tc
+(\(\))Tj
+3.6184 0.6423 TD
+0 Tc
+(\()Tj
+/F19 1 Tf
+1.67 0.3212 TD
+($)Tj
+/F2 1 Tf
+0.3693 -0.3212 TD
+0.138 Tc
+[(\)[)107(\()139(|)]TJ
+/F19 1 Tf
+3.0564 0.3212 TD
+0 Tc
+($)Tj
+/F2 1 Tf
+0.5834 -0.3212 TD
+1.363 Tc
+[(|\))-440(])]TJ
+/F11 1 Tf
+-8.0771 -0.6423 TD
+0 Tc
+(=)Tj
+3.249 0.6423 TD
+2.877 Tc
+[(--)-572(-)]TJ
+/F2 1 Tf
+-2.3926 0 TD
+-0.003 Tc
+0.005 Tw
+[(sgn)-3678( )-1648(  )-214(+)-108(1)-1644(1)]TJ
+/F11 1 Tf
+6.052 0 0 6.052 302.683 399.628 Tm
+0 Tc
+0 Tw
+(k)Tj
+ET
+q
+262.035 390.557 5.839 -12.586 re
+W* n
+BT
+10.592 0 0 10.592 262.035 379.842 Tm
+(k)Tj
+ET
+Q
+BT
+/F8 1 Tf
+10.5 0 0 10.5 72 360 Tm
+0 0 0 1 k
+/GS2 gs
+-0.005 Tc
+(where )Tj
+/F11 1 Tf
+2.7645 0 TD
+0 Tc
+(k)Tj
+/F8 1 Tf
+0.5561 0 TD
+0.003 Tc
+0.051 Tw
+[( is to be estimated in the maximization. )-30(This transformation is an extension)]TJ
+-3.3206 -1.1447 TD
+0.004 Tc
+0.179 Tw
+(of that proposed by John and Draper [1980], which tends to remove kurtosis. It)Tj
+0 -1.1393 TD
+0.003 Tc
+0.027 Tw
+(relies on a shift parameter )Tj
+/F10 1 Tf
+10.8796 0 TD
+0 Tc
+0 Tw
+(l)Tj
+/F15 1 Tf
+6.3 0 0 6.3 187.483 340.724 Tm
+($)Tj
+/F8 1 Tf
+10.5 0 0 10.5 189.638 336.019 Tm
+0.004 Tc
+0.028 Tw
+[( that may be thought of as an initial estimate of location.)]TJ
+-11.2036 -1.1447 TD
+0.003 Tw
+(This may be chosen as the average of the marker locations )Tj
+/F11 1 Tf
+23.892 0 TD
+0 Tc
+0 Tw
+(S)Tj
+/F10 1 Tf
+6.3 0 0 6.3 329.159 322.413 Tm
+(i)Tj
+10.5 0 0 10.5 330.916 324 Tm
+(l)Tj
+6.3 0 0 6.3 333.921 322.413 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 335.679 324 Tm
+(/)Tj
+/F10 1 Tf
+0.2808 0 TD
+(m)Tj
+/F8 1 Tf
+0.7289 0 TD
+0.004 Tc
+0.003 Tw
+(, or as the location )Tj
+/F10 1 Tf
+7.7156 0 TD
+0 Tc
+0 Tw
+(l)Tj
+6.3 0 0 6.3 430.242 322.413 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 72 311.981 Tm
+-0.016 Tc
+(where )Tj
+/F10 1 Tf
+2.8238 0 TD
+0 Tc
+(d)Tj
+6.3 0 0 6.3 106.923 310.394 Tm
+(i)Tj
+/F8 1 Tf
+10.5 0 0 10.5 108.737 311.981 Tm
+0.004 Tc
+0.108 Tw
+[( is maximum. More generally)69(, we considered using an iterative procedure)]TJ
+-3.4988 -1.1393 TD
+0.002 Tc
+0.102 Tw
+(where the entire maximization was carried out iteratively with the parameter )Tj
+/F10 1 Tf
+32.2556 0 TD
+0 Tc
+0 Tw
+(l)Tj
+/F15 1 Tf
+6.3 0 0 6.3 411.931 304.724 Tm
+($)Tj
+/F8 1 Tf
+10.5 0 0 10.5 414.085 300.019 Tm
+0.006 Tc
+0.105 Tw
+[( up-)]TJ
+-32.5795 -1.1447 TD
+0.003 Tc
+0 Tw
+(dated to the current best estimate of location )Tj
+/F10 1 Tf
+18.1633 0 TD
+0 Tc
+(x)Tj
+/F8 1 Tf
+6.3 0 0 6.3 267.42 292.762 Tm
+-0.001 Tc
+(\2261)Tj
+10.5 0 0 10.5 273.77 288 Tm
+0 Tc
+(\()Tj
+/F11 1 Tf
+0.3348 0 TD
+(b)Tj
+/F15 1 Tf
+6.3 0 0 6.3 279.269 293.272 Tm
+($)Tj
+/F8 1 Tf
+0.5489 -1.0889 TD
+(1)Tj
+10.5 0 0 10.5 285.959 288 Tm
+0.003 Tc
+(/\(2)Tj
+/F11 1 Tf
+1.1231 0 TD
+0 Tc
+(b)Tj
+/F15 1 Tf
+6.3 0 0 6.3 299.735 293.272 Tm
+($)Tj
+/F8 1 Tf
+0.6299 -1.0889 TD
+(2)Tj
+10.5 0 0 10.5 306.879 288 Tm
+0.004 Tc
+(\)\) at the end of each iteration.)Tj
+-22.3694 -1.1447 TD
+0.003 Tc
+[(This generally gave conver)19(gence of )]TJ
+/F10 1 Tf
+14.616 0 TD
+0 Tc
+(l)Tj
+/F15 1 Tf
+6.3 0 0 6.3 226.715 280.743 Tm
+($)Tj
+/F8 1 Tf
+10.5 0 0 10.5 228.869 275.981 Tm
+0.003 Tc
+( within 10 iterations.)Tj
+/F7 1 Tf
+10 0 0 10 72 252 Tm
+0.006 Tc
+[(RESUL)74(TS)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 92.976 236.013 Tm
+0.004 Tc
+0.018 Tw
+(The methods outlined above were applied to data for four diseases in which the)Tj
+-1.9978 -1.1447 TD
+0.008 Tw
+[(true location of the disease mutation is known: cystic fibrosis, Huntingdon\222)58(s disease,)]TJ
+T*
+0.001 Tc
+0 Tw
+[(diastrophic displasia, and progressive myoclonus epilepsy)60(. )55(All maximization was car)23(-)]TJ
+0 -1.1393 TD
+0.004 Tc
+0.103 Tw
+[(ried out using the FOR)63(TRAN subroutine MAXFUN, which is part of the program)]TJ
+0 -1.1447 TD
+0 Tw
+(package SAGE [1994].)Tj
+/F7 1 Tf
+10 0 0 10 72 170.022 Tm
+0.005 Tc
+(Cystic Fibrosis \(CF\))Tj
+/F8 1 Tf
+10.5 0 0 10.5 92.976 153.978 Tm
+0.004 Tc
+0.042 Tw
+[(Cystic fibrosis \(CF\) is an autosomal recessive disorder)31(, with the most common)]TJ
+-1.9978 -1.1393 TD
+0.003 Tc
+0.035 Tw
+[(disease mutation accounting for more than 70% of Caucasian disease cases. )-18(The CF)]TJ
+0 -1.0961 TD
+0.175 Tw
+[(gene was cloned in 1989 [Kerem et al., 1989]. )-160(The data of Kerem et al. [1989])]TJ
+T*
+0.004 Tc
+0.068 Tw
+[(include haplotypes of 94 disease chromosomes from a sample of af)20(fected individu-)]TJ
+T*
+0.122 Tw
+[(als, together with 92 untransmitted normal chromosomes from the unaf)20(fected par)20(-)]TJ
+T*
+0.055 Tw
+(ents. Haplotypes are given at 23 diallelic marker loci spanning 1,770 kb around the)Tj
+0 -1.1393 TD
+0.003 Tc
+0 Tw
+(CF mutation.)Tj
+ET
+
+endstream
+endobj
+52 0 obj
+<</Name/Fm1/Subtype/Form/Type/XObject/Matrix[1 0 0 1 0 0]/FormType 1/Resources 53 0 R/BBox[93.4 54.25 401.55 678.25]/Length 62/OPI 54 0 R>>stream
+/GS1 gs
+q
+0 623.9999 -308.15 0 401.55 54.25 cm
+/Im1 Do
+Q
+
+endstream
+endobj
+55 0 obj
+<</ColorSpace/DeviceGray/Name/Im1/Subtype/Image/Height 514/Filter/FlateDecode/Type/XObject/Width 1040/BitsPerComponent 4/Length 15235>>stream
+H‰ì—lSÇÀÏ!Ğ…_±S©e[¤°uPR­RÕ-¡¤iƒ:ir ĞjAjøc"ûÕ„HU¢VK`J¶Vjâtÿt1´­ûAœMİDK§Bİ/Z?b;‰“ØşîîùÙÁöÙ±Ê½;‹{ÉÜİ÷½Ü÷ûŸwï€A(¢0( æ·›v*¢‹0Îù#[~MtÂÙ“şM¢‹0öÀÓ(ºÑŒ‹.@<ÇÏî™[!º¡L—ı}[tÂ™6o¶‹.â.Qb~¿?ŞõûIß¯@Ìû‰×;î¿8ìr»İW¯^üÀÙïÂ\¸àTRşº§Ñ4üé¼°Ãf³544ÚßôbccãK¶Ãûñ¨IåÄÑV[Ë‘&ÖÖÖ–_$áQggg_×é7ZÔC§ñÈétöqºÚœ}ÎÓg´ñ¡3M‰»œ½st9½½]-'œ‰9œ½}'û´	ı®¶®7/Ä9.×àÙÎ>mÔßßçºx¶³«K;ä"×íöz½7?ĞFx0vi°ßu™vcZ{+~¢wløş«‹n÷ˆ×;2è½:ŸcÄ;2æToåEr_ûÚèÂ…¾DU.g§V>¾î¾^íÊœoh×yæÌ‰ñÛØÒz4~›v¶ÙÈın8R‹Ù±oÇ£=UUEúµÛËÖ¯__UUõè#eë,İ¿Íb²¨àABÈb1™MHÃ”ìå¤:å†]ğn£È²Î²O‚Ìxn5‡Y=İRd6“‘ö×E¦…CjN“ia„ÿ¥a¹s`2£”a^Õ²Ç¤ •·ğï}½“›E˜Lñ›jAe‰û]¶¡j=a]Yå“µø?~lPeÀ£JÛ>ü¤î«­İÿTÃş¬çĞÎÆ#XÜ?€ÃF5mx¶U¥¥{ØÙùËÓêàr¾éöbu]®áËx¥À‹ÄÍò”«ÿ)<¯J²®7É‡åç&±ş(¼«ê²ó%áƒ‰£ê*åWb'*ø`LIœèÿÄëóCDÑN$Ï#¸“‡¼^|	Jr4†/çÚåñÄ‰n7yVñó©¨ü#ãcñCnõ¸úo\ÒáûP?D½LõT,uöÓNtá‡<õÚäÑ_¹“É\7ÆİZ²kã‰òq?6¾P>øµ+KÜ?¶›Í©-)ÃÑ*tòÜF?#¤ô(ô¸ÿÂË9"–)kÊ0b{_İ'JîAtDÎ¯âZŠHÒ<Hı½p¯ÑC‰…+Ğ’!ÜÎËóñ²f„:ñïmNüç‡|òd§Ç“kşü“( ÀƒÙ]ÜSª„¬¡ğï8'ê³m×¹Aó`7şí!œGÜsBvzü>>ék‡O¢¬Ğ< ÏäFâAêæ“îÁuÛsj»L¿”Ñ¶x{Æƒ/»X¿<ùAó ç»Ã¯®!|X¤pÏIHó \T»ıAÒÑÑƒÑ)5Â»ñ˜/åĞ‹ú¥ÍB‡'36_ƒPp;'`ŸèãŸ’æÁh;~g+ «È
+N€i”q—Ãh¥~i³ĞáË~Œ¿ó/óÎ¨‘æÁü›ğ€®‘'„ìAÕéGfĞrıÒf¶$àïAòñN'Íƒ‰ç!¦®z¾·Çá6*ø8ã@´â›:¦¥SXÔ¡!Ş)ã¤y1WnU?7°O5_åIfo2ˆ²ÏºÜ=ˆäHˆ?RæAú÷B¤µM!­L’ùHÀô³ŸşSÂİƒ¢#—tÈ˜é$ĞÁƒT³h5û‰ï
+îûÄäPÔî¿¿¯ÃüŸ gïAáwßTæG‚`rz ÇçK³IÁ[e5k¨·@&Ù<¨diİ‡×=üÍXXğö Öñ<ş,ÃßK -…A6ö²OµõaüÏûyïŞ‘`u“~ı«ìßcŸv1‚z|ûT>ò Ù—ı˜L -xm|FíÇè¹+rí$u‚£…	ÍƒÙ]ï–V¨}±SÌ&öiÃğÀG‰í)ê%
+èáA¬ÑSšKØ§]Ã_fìñèJØúx19³ypLáY…@š•ÌØæØŠ¸«tL<×­6‘s:æÈŸ€ƒ—Úƒƒ?.ş«ú^ĞÓƒº¥js4ytL”;=.µÿúúÔİœ®˜Q<?ş„œA_Ô1Q^¬ô¸4äºĞ°Ô/S›Q“!¤g¢¼Hó êÓ:²{ûşçU=ÿ{"x¢¼U@åEàTÊ0¸L‰w:¸W"ˆ,D¿ÿ©ş˜r#Íƒ©²/Ç;=üKƒ°÷Ba‘ö^:}ÉC:òx@şåÀ[¤	¯æ[‹@&í)Ã #zÜäÁE@1" yğ÷%U§@.¬)Ã àîôøø×"šµ
+Ì/™=˜n×:>Î…ˆ‚æÁZü{äòÀNóÿ^xå[ÜSš)1×{Fè£!€³‡s!1TÌ9cœzJì÷Å¶
+ng¤öà¦?šÎ…Ì¢%œ3Æ¡~/¼óôoI3#ÏwcÖ÷‚‡gx90£¯òÍ¨‘ë(±ÿ=´sˆ´¼=˜CKù&L@]4$z/Ü¶§ç-¶ï¨ïiŞßQ´œoÂ´}b‚°<ëAšA+ÀßºAÀwãŸ‡8'ÔÈåÁÜ
+neˆ&`O „ ÀQäÚÈëAèa|gºá¦Ê|p/“k0+Ïş hOÆjîßºŒt’\A©gÜkäü^(åU…pÒ<€ÈKÏùHÛìÓ£ÈÁ±•ë“åÚÌ–òªB8é$Hz0S©ğ©$IÌ¼Œc¶%û±¹R^UgQøEK8fkV²“i=pĞã¹nŞT”pLF»P›—r,D,A+=.Òƒ[É~D‰U¬‰·a‰¾ªéq‘p…v¡½FÎ®â[‹@‚Õô¸Ôl‚ãÅ§@*Õôø1…g¡{ ¯$Ú'(™±MZkx ·×´vV}bÀJKãA¶À¿?J´?pĞãÇ¸V!,ÌcbH"ìô¸ì 	O•ó«C0Yß\«õBo¹Ò„åÙ­)ÃØ³aË¤#µ!s‘{0ÿ2ÃÉ˜²¦×öœ¬Qp§)b yğäex—(ÀÔƒf“Âp6Ö¤­·=û!Ğ’{ğüû
+0ö 0œ5!{ÊğöĞ˜lÉ=ø~A.ÇíKz
+z=U§§?[ßVçÃzŸ€bDpëxÆy°{¹Ìp2æ¤y ¯!ô8i¥Yh:¿wınÒ2õ °I{/ |ìQ©=H ‘{Fè
+~"*¸W"Ã•Œõ à¼`q¯D†*“vz|+×*bx ’¾DûÎ©­±? ™=ˆÖ ´™tX{0û4ã	YÁÑƒ¨Ât:¦¤yxbu>Ü©cœç
+r0‘9=(ešª¦„étL	ÚS†
+Àín`ïÁyd_ô!ğó ‚ŠYNÇ–tºFpgã<¡"ãÁÏƒ˜y)ËéØt¤ÃÅ'~¦VËÚƒ‚%×Â7]Ê4ÕŸN1)iÀï,»I+µïu×/ æ2iï…$Òx@»ĞªëkŞ&Ÿ
+2yPMKíÁêP7<†˜ík
+ÍƒÏOµÃZÊƒ@5=.µ^òú0< É=˜­@K}`x€y’kq"Ûºù'¥
+ó«ÍT9ÏJ„°Òã"<¢Õü“fYøbíøŸß”s,D,…åA)ÿ¤Y<˜+ˆšËyV"”Bò òH;ÿ¤Ù.TÁ¿P9¿:SHz¡·œ>ÒH´?˜´ÒãÛ¸V!š7Ñº¢!0< É=¨ôÀ{dËjx {3CQâÀZj0i§Çeö JğuHåAèÿì—lSÇÇÏ&„?Ip2 ÓÆ‡¤N[çŒ¦®šhÖI­‘J´ÒŒX1bªdVN7ÖPi²JK˜6 ÑZwb“–t•™öO#¬ÉViˆ§ëØèHâL:m‰Çvâ8~ïv÷üÿåü@âŞçËGò»ßŸ—ßıì|ßİ=k{7x<ƒFZH>Z•ô¤ƒã»÷ÚÑ1Ñíßß¥]‘–Ôø¶2øw÷nÅÆgiMĞ¹ŒV%}8œ5çw¯§ñıÆçğ]“Nıñ:³5”Ñ©Cˆ_ŸOTÅğWÂ‘ ¤¸4 ­Rº='Êµ{ö[n.sN”@9Ù€Nê(çƒDÅ{ŸL|»¾Iì 5Á#­Jú|t#„µÜ\æ| ”¾ÅŞtêPGÑÁB[“Åîˆq™¤ü2;iM0ÿ-Z•ôáÉŒ5íFÏ«37—=4¬¢3[ÂO§u¦íè"µ|âÏÃ®|£5ö46(­ƒÅÏW3Öˆ“m¹¹Ìùàâi?³†ø è vÃ3ùO‚8:Èîôq)Mz=ˆJËAñ’ÔZ†3¡ôù‡0:Ø—±"ŸFo7ı¹¹´b`%Ã¸ÖA-ès¡XÏ3ÔÉî	Ã±ïç¿ÖEMÉQ®ŞÄ°#.t  ŒgÍkË<y¹Ì9QbÕ7Ô:¸åzM…ÑA“F.½@Ø™çÎZj?…at°K#7kbÕ¿>Âr¶ig{Õåİh”…ÑÁ~BÌ}\upxÎ¦ÚN ÏU(’¾Lˆ­—í²C¡t0ãÌsßì‡r3I±Õá¶Dä¬ƒ;³œM¥ƒYã†Ç H:ØGˆ­ñÀ³Ø²çûQŞä•záA²ñ{Öyîë[TëAj:8ô¥BzAZ~°}ÍÕ64ÎšÙöÂ‘™6b˜– œN!İ(ğŞÀ—¨™a#|Ñ]Å~Ğ( DŸ÷ÍìúàÌŒ–hí'¾B©^ĞAÌ„ElfÙ	W
+¬ÔtPô4“Ã²]Ş53l„/Î‰âè`7)()CÔBmš³~j¥t!ä$†ÅÖÁ½j°>içÀfZ¥ô!d'†¥UlÛàIõoO^±@š:ƒ
+Z¥ô!d#†…Ö„]©3­YæV)}^Û‡°U¦àµJúj#†iê@vøè£A°é›7¾nƒTuPì0ĞA˜é£I±Zğ8EÒ¦©ƒ0¨¢WŒ:$¤á£ƒy‡IëàE|YHëà–ç¡§˜Î‡®¡¹ˆ…U¹4,ç0©J?in6>ÆDê5G†ÀÃ—Ğ¢Ó ‡Y§íyngÙã—`V ŒÂ$±mA
+Uô¡èt ›Ê9LªÒAb}ğ	eLméTÖ8 ì÷½‡Å§ƒx?‡IU:€w?¾iÀ[ı&YÒAÑ£ÖìTv„xÍI¢kı4ËQEó}ÁÂªî,Òô
+¾&ŠùU*KëÂ"@èCŸ{Âè ^#'´d|2¬®dß
+´t¶°ê‚;ÓÎE!úÜ|=H8ñ•šäqJ…tC­Ù«óÂè`ëâìp½´Ü‰Œ°™Ò$ï?¥Jz¡ÒÁ|-(ëGclfx@ÒAíÚıeNHq=èNJ•ôB¥ƒ3§½¿ÂGƒ˜Èë¼³1nÃcØJi’«ÀC©’^¨tğ(úì„‚¯èq8eÃCØJi’ùc”
+é†J_„K:@Hµ6<„­ìúàŒJÏ]ÿ±²/£ƒuÄhÌ¯3V†ğeº-Ï£s¢s‚ë Ê~tù½•a#|™hSÆ”«8:¨#‡çÌè¡ 6–pe‘’Ì™˜vÁ‘mä°Ô.?·2l„/Âë`-)(+ƒ@çáu@:Ü¬ÅãŒ…e'Œı„¨ğ: í[^}Õ†Æ…m/Lˆ ÒÙo¢ƒxó¬IÏVŠ‰å‹C›!LT!#dcİB ’^„õ «+ën#¾Ò0ïë	±º×'_µÂR='åØ¿x:e¿ì Äî€Ô9ÑÊ¶öTR†ğ:h$¥w”!df×ªA0i¯ƒrÜŒ…Mü8³2eŒtóâè`F®$ßóƒ)c¤˜G„÷…«.¸3Ñ¦øñEÏ)JJ¿ñhe§;òÜ›;/ 7Iõ¹RÒVh¥Uçƒ]/•ı©Š¤­}!laÕ…şÄA™VZµT$ªà' H:Ğ:'–Òz ƒÕZiµ`|Q“~;5r¥¤øO+;íÎsw¹á‡x_GZçƒRÚîƒJ·ÁÃ85sè…[‰QÉ¯âê Ø:¸ò¹½F?J#nuDz].˜Y7ÂÂ)Z.?³ê¦a+ÓVx²x=ˆW!-T›Ù·¢;'İ„ a=ˆ[æ¬‰5È˜±êÛP±x=Pˆ˜™vÁ„8ñÍ‰¤ƒÍ	¢ƒ°U×†Š	µşùJQ1°Šİ¶8$¯õÁw­P(L{òÜ÷5F,MÈµ6Bt=!öËˆ¤ Ö¾àÉs·úáßğŠ±ğhFg$R¤ƒ4"éÀëIX`‰ê€HÄİè×8dcÙ	W&<¹\a¢.é Fm. ËN¸¢:'zªçŠ¤ƒG4rÿ²±ê‚;ùë\Øox
+%¯ƒo;Sq=øK»366ÍU ¨\K]	°2e‘tğ#CÍ² C6fñfÂM‡-L»`N,OYË'år?üƒŠ¥ƒ~b8jfÚ{j7¥‚â´Aš X:ğÃ¥¾/ÀDÚ è`idÎÅÒA?1\êûB‚`Ã×~ÚÔ—t€t`eØWÊ	±ØgŒ/â1dgÛG@'ìú·Á’Ò¤ƒ‘~b8lÎ˜™W¬’dI
+#nb8jÍ˜ÙW¬’dI
+t0kÍÚM1é„K:P(°/DLL»àˆ¦l¬ºàN¡ó‰iYÒB¡}ÁÄ´,í
+#ÄpÔÄ´]‘ŞĞÊ>èzğŸ •fŠ•Bï&¦]èÊ›Æ Fö×©ºŠR;ÅIóAÔÌ´]Ùú5²+4rÓöŒ9´nüÿ§Ğz`fÚ…®~ìê *(µSœŒxˆáRÒAì´VVS¶¬}ÑC¥™beÀC—’4‘5u`eÕw–t ‘ÌÙJ7113í‚Ú:p²jƒ%@På±€BKcâ½QcıFD3¢ó¬Ãáp¹\GGG´ ç(òÎ+´;âTkÊk?9ãµ_Ê½±õ’#çÆ®®®—Ï]nOıòz]­®Lª»çRºNõö¾Õ×w9éu#¯Ñ{í·ƒoe¼¾¾Aï!ïèµëŠsİëõ£ï95~{rÔ;„¼ä÷àß"WìI-„¾àOÕÆÑÈÖJãÃéTà¿ÙÉS±Ìd“Ã·ûF½ØÃ©á v¼Jjj|Péqhlth2Ù>Jõ¦¾Ëõ.oOò›]ëJıİ—Ò¿ğEåg<Õzö$şÇ<ëxáô_ÚƒìÍõÉÿÙ–šš:Dcãöí5˜   ÀPSSm¨)2†‚Ÿø$š›QÅíuuøo1TxKÒÉVÀÙl­šüâ5yNîü1¤•:˜áÙáı0¤ÿÆºš:åŸıäºäÿ¬ş@³BcÀ1²'ñ£ë8‚dãR8ué~ªÎŸsµ"µõvuıPkAt’u‚©@@ÎóĞƒLFäÔz3»)}c }_2e9˜õÊs„)gj?{ò½ÊtJyŠ†‡Ñ5…<äşnt|
+ß8„SÉ'ègC·ñƒŠsíÊªŞ®nïkŠ—ü¦]íçÛ/ŸÙõn”êêR-Ww¯GãËKék]­İİ¸†òã¹\—Î]îN¥Ğ/‰Üÿ±_7°MœgÀ¾œàÄ|ŒŒRÌ(i‘„Mš)ØMLG[«Í0‚ÑÖ0hqKÛ9¡*¸6›nLé**AÒÉiU‰’°ÙÛ›hÀî´®06l%Ç	ñçı÷QÛ»®‚ç'Eç'¯Ÿ{Ÿ{ï¹÷íiêŒİèØ¬…‡vrjÉÕqhï‰¶–lUMM}å·4µÍ»­ıùìùŞã<wêÔµüÌ°…mÏİ‰²Ç}Î‰ËXûE¾ô…$“œò"9íDrÂ<ˆä;ı~0ÉüìÁdoLòõÁ$B!„Bîü]ØGrÎ÷$föX~†cËZgŸ›ğ"¶*„]?Gb¥_lrÊk|àAjŸø©ö!'1‘Gš•qÖ/!Ùô/Noeèäï"®V{ÿ–çN?”/aî~.üP#1Ó§y„Yg»°t‚øÜwÍX³yvlÔ"CRlòk±QQ>usŒâçp—Š13#Š<Ô-ª)>7¦Âƒ’·Üsa^Øä·óÑµÀoü§¨ë1§[üäıÔq‰;y¸¡KŒÙ„†ØÔN…9UˆÒG§q"‹LîVQ„İ?*S¢›h`k8±Uä„ı\º09&ìñyÅ¦&KTX‹M=ÚxY=œ!‘Ù‹óñ ©BeÀße;÷ôˆÖJË|ÍŠ: œèÜ‹æXÖ6sñ¯¢Adnê-#fÂ~t=QÆÊ¿+&"à—–¸v(X5fÑ¹WT˜‰ğ_|á<	‹8‘Š'{´¨w
+–İFi™«+"^”€uƒXQóêê‘­ºÌ¼¢Ä¸±*#6‰z@J)ÍœÑ ˜Ä¥ºìŒˆÅ.æ¯¡ƒİÔgÍD§Clö„ŸÜxX§SxÀ–ô>hƒó‚¥ Ó&:7×‰ÑÅRú Ïó_]‹Xå]ìƒˆCZæqÎy©5ÕRú •ëƒÒIæŸÁş¢KµØÉú XôÜııRB'æ„Ù[¡IÊ¥5ÇU¨ñ…b“‹ĞÀ‰LÎÜ«wâÆ2-L¢§P^©¹»u¨ÚŒnèÌôLÊ>¤<\gàº¿­‚!à•0w>·Ó+-óaÔÅ¦Ä‹÷sNNtnÔ˜Vò¥[´v:–ˆMî2'Œ¨ø#¿)B©è©T	‘áB¸QÅ+›Cn(ì~°õ7´ñâmâ¯Öf÷„3ÊÎï4{DÏİ_,OêÏıhL]îı“G¸ îqm|äT®yI‘Ødö~0~{atæ£ÜâSÄÏ=†Ÿ˜é|n.*h»¾õ8':—Wá£•ÂïFÇÅyEg/D"ï*é‡F‰N¾ÓÙÄÄÔ³!\İôJÈ!açpøE¤¬~±Éq/ş5İÏoş.M<°„ºVbf¼|ş=ãò#	Én¤·xpúùÌF‚O9 =_8)É„B!„BÈ——İğ²ñ¥ÁÉ]ÀŠšoøP˜ëº³€õ@ÌŒûŞªÛ".aîûœÖ şÂŸ|Kº·:´·F=Ú›A3W
+ÌcÍQxk’ÁôÛ¢…IGßç.ÇN@¸:VŞÛŠî±N²xpl.Bâ¸¼»üöB6dB)Ş,ßş[¬»È¡7ı~éşôËîÔ¸ 7eõ¦[–rBÔã„o×ì²¹Æ!%<|?øJzT]íøeÂ§Æ½¤¬ö‚W¢4jœ³`.×ÀÉ]å›À®†Ë™”‘UÓ“yGt¾¥=Ã^Ò¯¡>¡¬vGÜ2×8¤¢µ€Í—t±×&ceáOÊøÑ>OÄ†”
++°wÀ+w•CõA·9^¶
+¦÷±óãº*ìì™’T	ƒz§'ìé6v›å-qh	÷ƒIˆìt Çç(Y¼oÆ<_¨Ó¶%ù¨A§-ì–¹È¡Çú ÃÍ)Ù{áë
+,ŒéŠş».]ÌGƒ¼ø†Nî"‡’ğ~0	N®8$ôÁÇBp¬*[Ä™q„29ôØ{b‡—W²óŞ¼lfÆf"|Ø,ôÁ4¯¶/»ÏûÀèÑü±±gaqBèƒ¦ğÊL°çÂèÆïÃç}0Q[Bµ ¦u¨c}`d·L°çB¼(àé2w™å.r(uæ-ş&{OL\İ4rc~\8¥Ù¦Íô”W.Z6À{â“éjÁ~[ı¢m{şò+ÆûÄ]ŠõÁïPM`âjÄ!w‘C)a·ÿ*½ÎƒãOa×‹.¬áòR\E2TãMüúÈÓØ‡ûŞÓz=w`!âz÷å‡yßÛçNV;’Ø€@è*>¹rà)ø8¹‹”‰/”İ²°îÚŞ9«S·-»í1ÊY…ÜÒeÙ-?YÖ2äÄe7¼¬EÈë·%„B!„B!„B!„B!„B!„B!„B!„B!„B!äw†ı¹k ²Kûßø9n¹« r»apİerWAäÖm{ñb¹« r‹+ø§Qî*ˆìœ
+ÅğÛòG÷ºö666¶2M­G[N¸XĞ$D­GÛÚÚ‚ÁÖó­êNƒÁööOƒ'Ïµ¶e¢óíÇvÃşÙeöæ®sC9\{îSº½ï‹äóp½Ë˜>—]ïó×‚½'&Ø’9K­M'õ³ÆV»İåÊÎ–=v»ı5<hÏr¹,–õÏöÛÿ?^ñ›NÅ=§V«oFêşCê’±SÙGMo4V£™ªÑä)JÔãX¤É(//¯Ğëõ¦ÊÊ¹Í4é…Èdª4™•†
+ƒ^o0	VZ,«õë“iÉÄ‚õ,²Û·[L&Ïg,v<óE«å–}X—½œ‹Ö[·XÉÂ-Ö[&«é­CZg©©¾eh…Pp&ª®²,)ïûâ’%ÙòÙaqîÈÊÇf“ÙÜG³K É®Õm‹5ê<u‰°ÜcKîX^h3ßcÁ ë.¡¯ß9zâä¹lÔÒ(hz§­íÃÌ€õVÓ¹!¹öì}£)bë8«õÕİ{³CvûëVëV—0ä²‘àU{î‹Ìî-Ï½rsÈÊ–˜;“¡F_ee+oÎJµ°`z½¥"3¤Ï`ëÈšÁP¡Z_‰¦ª§­˜+•k„(Ó]Ša6¤Qg£¢Ïèƒ ëÀ¾/*†ëÛÇÿÙ/ß7*€Ï]Ò$JÚï®(¨çæŠÉ×¤A¢•šk›Ò”ÜÚTH”»¨G?›€T_"En‰iAh+­C¨ø hõª”vZ°Nˆ¦-ë;ûüÿü˜Ùµ¯=»	ñì+ëŸt™7é¼Wßïæû5Œ¶¦Æ'Æw´¦&wN·’MÜuÛ{¦w:ÉnŸ¸gÏéæÔÍ·ìqªÚñÉfùt°«ùÆØßş?{ğ¾%ç+x`Éş>¾üÙ¥'oç+ÇŸm~Ïm~ßÇôçwöİØïŒËököëtvf¶C³ßqÃµûfz<X(‘¤Ï×s5Qİæ3™V|ÿ[Kd!’É*İ‘šI?Å±‘„¿VÒÉ&İã·ÿa7¹ôJä0ôÀ!«º†§	¹µ<¸`¢§„Ky c•!÷¹Pİ|î\"	R<ˆnEOI©úİ±<(M8‰¼q{°¶ PÑN.]HlÀNÉrd7N"oº<˜(Æ@†Èfì”i4IÚí‹÷3æ‚Kty¸=¨O~íç³:Èğ ^ÓĞS‚D*Ä¹™DGi¶‚Ktyt½ÿ=3òiÖJğ@Ò<(“­P³¨#=S53¸´^dnxè#Èwcãî…Fä½ '>Ø35#á„zà3ğ=±F6qã¤w‹œœÂÇQ«‡¯)=ĞÜëôhàåë(]÷ƒø@ÏhSñõ@	6ùk:7ü?(^ûÁjìú,åÙx	4¬2¤3(çBÙã¬šÊ6ŸÉ€Ï…AÂãİƒÆÌ^äŒ•ë|&Sj ÷ÅX´o¼<H¢V!Îì3ˆı B¶PëMñ÷‡Ç~¨=XŸ.Q‹vR†ø„%æÁâñ÷‡‡Ù$jòàyPüø	ã÷
+ãÁY #âî?ü@<x9€5û¥Ìñ ¯~
+sÌ¹0KèGd£ø…ûÃã½„EÀ¢ıÂó ¸÷ik5	Áì3l+xõ)ñ÷¢«äzñ‹öÏƒÆltÒ¾œÑÅ'|ñvñk
+ ñ~'»Å/Ú/›µGïÓXÈ»q0ñò@Ÿjı°ğWñëöEÙo:¦c•!Ì{"¥JbÁ,|¥ğÎÆy @LÌR¤âåA<˜tErm0_)ÜsR2éÜŒYŠT<şğ3Á¤+9wÅúCV0ëÿßTıÎ…´U†t¼<ˆ‹Ouè3ôãˆag%â×¿"j<^}ŸÂÚ´‰Z‹Lz<xË²ÃŠğLu²©İÏÌ5·Ô&<2aAˆ÷ƒr¼L®aœ"<S­ÃƒÑ„¯eğî…8ÀªJ;i·‰¸=(îÎüø‹d’¼ÜówŠ_³oÊc½±U`-áÚ”ÎQq÷3Pš¢ŒÂûÇıÑ¿dÿTÇzc¥¡‘Ğ!ÌÜtJ1f?H*cœà"!ïfmh=(“ˆ²œÏgDĞœCÏÈõ ^zŞnBë¼ı3ıs¬âİxiŠd;%ï\h“Ò‘ªÇQÎ¹#œÛ{°ğî‰mB´ô^Kı+™I¢Wì9ÃNé»„Úƒ5•šÑ8z%”Æa;åĞbFE­BÕë|&ÃëAíKÕY›Kâ—"…Êµ>“!º'º=XŸ¹÷íäâ2Š‘ÀĞ·Å;^_ œÂûÇW!¿Jh=ÈÓQ9F;Ù¸„Zdàûn“jç¨ô€³,œ”QŒJc>“)©Š‹üñè)mÜ4æ§wØ÷ƒlRF1ğß¤*.²HtôœŒ®âúO3Y*c>“<˜%ø9Y•N¢V!ÿ{¢UF‹ÓäØ)ºöƒAz°ö‹5Õízp9.ßsá˜TE›è(vÆ&gTn8HRÄ^|…øı)bQò™Ä÷ "ËıÀıœKŠØ9×ƒ†Õ8¢²¾§ïÀÎØ$«ğÃzp)‹ï·›ê´\Ë¦Ì‘1Ÿ<?9É:ÇLäjä‘S¸amB8u''<
+ÉoÀyÂåÆ{lÂ™Ù†“ÇkÉ%((*²7äı ƒ:‘u/jÁİŞu7œÕhgÙl…ş‹V$²*7ŒäAƒ\ƒ’Ç›ÇƒÚ#äû~Ğö D´Šä ×øÕã8y<áyÀĞÙGÛƒ™Â(ÆEå)Ìl^h˜EHÄËƒûX4›£‰¡TÓÉ<ê‘éq!ÄÚ¤SãÇÓ&ıˆÕÕn3Pªé$ÚÎAè÷ƒ1~¼Jj³b%İ,nÄÌæõ^P1‹ßƒ†Ó,[x…ôP×1³eùÙÂíÁ÷ÉÈAÖJõ —¡œØ¦çÿr«áò@á†CãA1Ö[Ñè
+¡òÀãÆzcmj-2Éèü°ŠZ…<x”¶¼raÆ „[ŒD†û'ø!÷³6LûÚÈìóLwøj…ëüÍ²›0y uÖvîŒŞÀ"!÷ I˜<P;G²~—C&RòÉ(®á/ö®è¬=£á—"¤*äÓåHè¬zÀÓ¹ ¹ÇµˆÎš¡Œ0y vŞ´?‡0ÂìTL€ú¼†^‰ÖÆ|&±ªO¯Y)½9¬MùL†ÈbJC­Bş˜HUÈ§ËƒÆÉ£v›ÖñK‘ÂĞ·ùñÈÖzÀX´ªûaPø=zà¦ı@ëåtúÍÌÁĞ‡„‰T…|Üäã çé¤t	µÈ 0å39o"U!Ÿ´Ö9ª?ôèš‡Cğõ`ÙDªB>nà÷ÛĞ¼1nøögˆÎ….Z=,k‰¦ëåÇ'"&= aC\Š×Gtq‹‰†wO,‘Ãó±NˆŞƒ´*.EŠÄÅ-&šRŒ<ÏØí²%:İqÑŠÂÃƒ”*.E†\L4\ûöÙíÑÙòdAô’‚@ØjŸ·–p¸@uÜn-G¦D/)ˆÖ…p}ÉÎhè•È¡4Õîşó»ÃëöçDg[#IÑK
+¢éÁ…Ù®pFÅ/E
+Å±v·zkGüOu$"<İ¯…¯(ÇƒßE>òW8<LñãO[tƒ b%r±=X%á_®ph<(Ä|&Côn´=X?¤wy ò8Ğp=¸°ôU“µ	³©8çBã‹ê®ğUd’_~LäjBé¸À¡íÛmmüŞOlfĞy ğÌ-®°X¢#"WJÇı ø0œ²Xg%N¿Âw.0Ü7YÁî…«Ãƒ:ÒX'gÒë…i?0¸á´&2É÷n¹šPŠ±v7PN²Îê^€e†Ğı@C­B÷ƒ•—ÿşç$ëÔ£Û£[YgèA=ÈíÜµ/i÷êß:j±6!¡ €·d$õğ ¥¡V!JT İ5¹ˆ[‹CÄ$dõğ`YC­Bkc>“R<(’­²3øaµ
+y¬MùLJñ Ln’µËƒ7­“*kÅ¾˜Áó 5%$u{P!“##¬Œ¡9H!evVO$³
+í¤uÅH`èƒ{?Èš+¿ CÂäÙ9Z‰×é=pçAå;Â–
+÷~PZÔ„yP˜ò™Ü',M‚˜ÂÖ
+„´á¾Õƒ¬Méj‘’óD¶V ¸Ï…‹aµ
+y yÚ l©`p¿guúí´ô­í10«Á§ó™çÁº.l©`H[İ‘ÿĞHmÆpY2…Y>¾ûÁ¼…T…|z=°IN›%×£•"¤ı`àI›®áÑÖ¶<(ML†%fÑ=ppïåßşá‹/$¶
+^Pù'¸'uÖŞ…ZŠTRVçhE8¯ÀÅı@2*vAQğ<¨D¦G7±Nh=Èt§L‚x ²Qğ‚‚ày°òõYÍŞ'ÃäÙ9Êßë	ğà'Ÿ¼  xdà¬bóÿc¿ücÚ8Ï8şò#$„1¤KšjJ
+$J·jƒ`BUi!˜t›´843İTu¦M ùcd	vRÖe8['Óş‘…æ\UÓR’Îd[µXmµÒ&%,¶ªªD1çt«²)IÏÆØ~ö¾öb|¾pöıp|şHÇ½ÏóÜó¼ßûŞ{\¾j[Äí£`ÓÛ7ÊÒ-Î^Šœ‡Ò·"l:ğÁb5(W1­xæ"¯±œ”£GpŸ4=dÉt@IÚ…|ø4ìşwññ‰`ßº/wUI,â¿—Q¼şÛ•M²„ÖTI4’|(^„z/,ätéø4,ÎÖ?ë ç&¡fiş¶P•Ä"™ØİÙÇŒ&Ñ(è?YDu7##It0`•´ù`Ó{?4tHÛ‹œ$yğ(I»6Øi¬ø^È|"ºOdÀ&iò1£Kôy_„pät0ÀîÎ>ØtTUÖ}•„|/„M”€Õ'É‡pûÁ=¡
+‰›`ÉôFä¼GÀ‰fQ­€ÕGlU*‰«b¼$àD^T.`5ÁI¦Z ú~T"P%qğé8‚™óÜÖô'šC†ô‹ˆG$qóg•	TI¼:`3s@#éÏ4TúED#É¢`:±	TI8upˆ9÷ £ Sı; ŠH$Ñb¾¼`sş¤Pˆ©,¨[ˆ2âD=ìîìcM:†1d´ $yğ-Òv!ê`áG‚––U:Ò$ç9z‘	uÑÄë`­§r:ˆ¢ ôĞ÷[î×†Ìn+(èÿ#ØÌË2âu`‡ùíntĞlg!œ:Ø#Uò¯Ïì´Xñ`ˆ’£ÈíQâu(„Ï‘,4ÛÅYˆ§›#¨XÀß |’x,aÊ/½"LÑğvs÷IÕ…ü$ù0èqSŞ‰¬Â_7GPÑ:ø”ğ«(Æ
+ ‘tÊ[Pw:éâã3°8¯8à9+é½à!:øBå`,/Ú‘Nù[ÈñÀk¤bñç,ÎM¢ÏŸ·†È@Ñ:ˆ0@3ƒ4u¾N¶°XØ4éÑ%úÜËHDÊ}/üïğä<s,U[%ë¥íIQË÷ s¢sÆèûækÈ@±:XÌkm[O2´D…¢Ö·#*ÑÉöİè¶Â®2P¬ÜF¼8ğ`€’¾•Z'jıàoWÆsTtÀöÿA >Ï#Åê`^3ş3DËĞËÏ^”l*;2DKô„/³‚tĞg­ì´½HÈ²ØöƒeÔt’!Äë ×şrôÿJf¤c®’éà0>.çKÔM¯øïáï8È9Ûu°ÌŒİ·¤ìD^:ØİÙş^XfÆÈTì{a™lÒÁ8ÍdÕÁï÷4:È9§ƒ,ÒA ÕrD½ºDŸ¿pøÄ2Èé ‹t0‹J9¢^C¢Ïî x“jDi(#icw÷Ğ’v!&óè›Q¶ıà2>œ4d«¦ÙœÙ¯¸@sÙöçO!TOY©ƒYdfñ*@œx‰¾%T­z†vJÜŒ$¸Ñ¯ÂtàXí`ÓÜ|?rÎJx†Å›Lbv’I°ê FVê`©‘fñ*^İÁ¬Ô;J×ÇÌ|Dª.ä§™İÓ!ûuĞôfD’u"3n`Öë`	1#ÅëÀÀT€60£}ìÈ©ƒŸp2eë N™Aê 	QÒMÆù^øŠT]ÈOê ÑÒM¶Vß»yÉ@|´MÂÉ<Fà}ï;²‰Ü‰¼$ÑÁAi»µ~/ô ®~’è MÚ.äc­ï…îu+ÃĞûÒt"ÊùÿàÍ}ğ{Á¬Â5“q(æ{aÕr…ãuğ§êjuìYñ!àMeœ:Ø,UàC%\áxÜÎï;{ŒšV|N4"|W§*¥êBæĞv®p}¼¹;ÑüµÀekı^xø9GqEWé ö?¡Vœ^2™#X$Uò£fwï”¶ùğX9‚ŠÖÁ=|„²jGäÂmæ*Z-øÊ~{ttt35uíüÔÔèÅˆ59Ep¹nL^‹„0ÿr¹\Ó®ï¬X_bp05åšÆ+M1¡Âmä>:ÍŒèğ½èz‡C»Ì­¸;ÅÜ3×Í	æ^¼»¹Ã£ÃÃÃØ¸øi4…Å:$yqFEEEeue¾*ba£¢SU©®«®¬¬Â!BZ­nĞjµúC­-õØPc£UiÕâHcµw’£ëZ-	µwaö?ßß«?­×£«¿¿ÿ”iĞtš	Ë4x¶ëhW“™c…«ğ…&Ó©ŞÁ>¦F¿é˜©·}¥¢éTg_¬¢iğW+“=¯ïìŒõÑß{„t	íÓöêëH»¾ó¾†Ûc¿;[[b¿ìHMKKd	ô‡È‚¨ÕÕÌZUå1Ë¨âÖlXõÓïFµÂ²!ü»Å×&'¦nbãX8W/]œZ±Ş>iüüUlaƒHkxøœéÜø8cU›0¯ô;s&Â‹©¯ëT×Ù3Ä"KKÖà^ÎSƒıG£VùıÏhõ}ZbáåÀ7XKD ŞÛº·U–ˆU…²§¡±"*Ú§&Ö#ªÆ:Så©«¢b+ºb›É…ØŠüş|ŠCÇ£úŒ­UUe¬FL¹L‚åòÕêšf²Ê
+¦+¹0/Ö0Õ4××3é#úË"í×44´¬\¸¹EÛRW@Bõ5­Úè‘àåÙYF¢9=³Œ}¿#«OVØô*¹1˜óg‹&¢·âí+Ì=¿ˆ7¹¹7§¯ß#cÙ WïÒÁ&”o¼ßØÁ±Lä©4r—JÓ™yk:É+„éÈi®<"v[É>]É¡²íß›şëº8•Fp=dc:É/¤“œÀ¢!ìÿĞi$¬éLmK1ï>†Ò™8GV@t`‘»‰²cÚõ‡‡ãc)‡˜ÛP¾Yî&rd 7i¹;È‘,ş1ÕLòIúw¼ÃPv“cÍ„mœ¼w>§Ò¯V§r¤–¹ˆĞÈ-•.üx!ÿÜøóŒğÒ˜¯ø1ïì0¯İì†¥–×øÏÍÊÏ¦šyRoµ€/vQüs}üej~>­±ñMökÀŠÂ;|ùùÏ½ŠùíşÚÔ2œ€ÖĞ£³œf¾©¡Z8tµ8ğØ;FËä¾ÙŸ•wo{¨è-ƒó»»ø&³\×Ñbêf­Ù÷t=4ür;ÿYZC[ş¬¹õBìúŒoúbŞqQ³º¹ÚãÔqŞs¯fÆ,M-s® Nxs:¾©¦Z(×½æ…0FóK¢rpÒ0_»Tş£øÎÍÊ¬&PZfh€nM”C1ïÜ·Î×†Kß÷ÅM°›grğuœşÜÖ`Y#8m¼'_…ÛNqSñ¡­ÁM06›xçÎ×’T§#TºwÀ39Tcƒ6Ÿ{
+¼fŞs³á5†JRËn{:ÁT­ü“İVü+ é:xor@Ñ÷ØXŒŸfş“¯jÅæ/äşŸ\şÍJM8É>D…‹KÀ3Â39\–ıxG`÷×ÁÛÍ{n6<Öğ†Ô2ºÀßj€^şÉnÖqc#øtÀ{k_ĞÀà´Ö	P,ˆ¬¡ßøn~«ïtªûİB…7¦¢ƒ¸ÎËfØı5ü ó›Ôu¦‚¥øn×¥¦ƒ™¨Zup‚o2Ş Æìx?<æÿ³_¾±M”q‡”ÑØ¿t˜n@]4€oè†#‘Õé€øB¯‰›‰ÆXœ‰œ+„…tLÅ?i7Híˆ/x¡ñêbÌ[^ &@:ŞAbì6Lü¯×ö®íİõ¾>İ`Ê›»p}"¹Orı=O›oßÜ}û<Oõ7_L-{)eò4ÛÉù€ƒºµd[tb4—½ë‘Îêkµ%<w‚…óEUá^ ÄŒîù=FP8èÇıâé”È í(
+ÇüxB¯˜<·Ã˜¢²§éŒşæ‹©<ğ-kL)ì½}áÏ‡¤mÉ„nm)€ÍÚÚb0ÏDôoŒ$H_ZSñŒññ¬îŞwC
+='ŠŒêNfÒ?¹TAšNÉîŠw*“¼êPtËË~lœl©8Î°é=Íú{ÿ›]…•¸¹$¬u.×¯-qÍ×£ù|Ù|£î@rÜÒ 5>Ë?j×ßû®_iÅŒ)[(*57àHˆÑ/&GäŞÎDÉfÇÈÃ¬îÎ1üâc1´rÇóú{ß;TrıMî!oLş5ÙZ8`R¿œCu?‡ß‡¡äŒõş÷U^ÿ8ËAıÈ€–l*êiàû,ÔÏö·°°°°°°°°°°°°°°°øÿ£ö,šò"wk¬„Oß‘ÊÖ×*©Åó·‡âÏQàmRù:ú©;²ëÎYÕ#¥nM®ˆA{=Q@Ş9“¸s·'ãªšƒ¼ÉÖÓP½™ËÁÙä÷ ¿™‘ì2¯ä•Ãäİ3èÃ•Èu¯Ó6i>E†¼\&Ëã7¨Æì«Ôğ¹ğ˜êÆUÇå,)÷1µˆ-ğƒ‘ÀØ~WÑ6ê_³…8`údçDK?•¡íÒtòpÓ·JÛØ‘éídGìÇÑ»‚›hn"Éğ¨îâ¶%´Ò6i&’ƒdVøÔ]İğ2Öªná°]9¦È mè‹§&231!F×c(†w1(1…W6T¼6^
+”ıïpéÊAÅ½-ÄnÚ&Í¤–ƒ÷!uÈp÷òª[8äÅh.!¡9Z†1ˆÁ|”¶KÓ©å Óçÿ×	¯çp!ÇAb•¥.òY£”=šÊ|Jë@ï[­šG8æÇx.!ærÊ¯å LÛ¥éÂ€¹8‡ªoÀ+±qC{¤–‘Ulv81…8m“f2·/ğ…aêr‚ä ğ‰ÛçÖò7a ŒCˆ	QÚ.M§¶t#=«|àW¼;RˆV]$”‚Š'şƒƒ,ŒÚ&Í¤²ô™õ…­¯e›ÆƒM_.ÓìBìé“®'2µû²]µÇŸİ•NÑvi:ÅO}1v¥«´*ùáêó"s¤Ò~™[ä€âÉ}“+É¹ù>¦zàÀ!mß^üº“¿øÒ9şèoÙRWªÌ+	ığ+|viß“˜ mÒ|¤M›zÊa®«>¾µ[n½€H3ÿ#Dš«VŸÛÑ…ƒ¶IJÌ¤;iº ÎUöÓtA‘23_Õ5TmĞf†Ÿ¯y¦šdæ‹–¥i‚:2¿PëÕğŸ P¢~
+
+endstream
+endobj
+50 0 obj
+<</Length 73>>stream
+q
+1 i 
+93.4 678.25 308.15 -624 re
+W n
+q 1 0 0 1 0 0 cm /Fm1 Do Q
+Q
+
+endstream
+endobj
+59 0 obj
+<</Name/Fm2/Subtype/Form/Type/XObject/Matrix[1 0 0 1 0 0]/FormType 1/Resources 60 0 R/BBox[167 51 313.05 675]/Length 54/OPI 61 0 R>>stream
+/GS1 gs
+q
+0 624 -146.05 0 313.05 51 cm
+/Im2 Do
+Q
+
+endstream
+endobj
+62 0 obj
+<</ColorSpace/DeviceGray/Name/Im2/Subtype/Image/Height 244/Filter/FlateDecode/Type/XObject/Width 1040/BitsPerComponent 4/Length 7627>>stream
+H‰ì—mlÇ€çŒ? û.JÀˆD66
+ıØ@ÚH­]|®ªHSÉG~Tª)©QMKÀ´jj—T@T¥6ŠªpPéœ¦ÅNrV¥*ÂGuFjÕŸ9+QÕ|Ù‡
+ùŠïŒ?Ïw»ûvfïÃ·ëİµÁ³3'vùnvfÎó¾·÷ì»³ 66666666ø“~Ş9Øpg¦¼wïzŞIØpçBl+ôFxgaÃ›7¥róÎÂ†7Ã¿y&z˜w6ÜªÚÆ;	şˆŞßÉí—ë±šššzŒ»ik»wjqg¯Ûİär¹2Sîî¦Ç²t¨­Û³ôAŒÇã®«ßK¦0ÍOkûÑ½G÷<u„Ly¶··wÚÏ=÷"î“{ç1/µ¿uNîœÆ¯×{©¿ßÛßşâùó¯ã^¿L 0§0@ 
+öŞî]Ç½q™‰(F‚È¸Dz¤¢"™2<äƒD3ÿ%cÒdv(Lf—O§¦îİä<ğÔäÄÈd6htr2*
+£KIİÍNáÉ{éÿN†FäÿúWêkâïrõšü5¯^‘ÏÀEogúäœ=w*s;Ïâsš:‹'µzšS'ød§ÛİJNw³§5õ³4¹›êê3?Ò7wÔ×áŸìëË¿ü$Ñ¡Ús°¹³“„ğÈà?†;GåN«ûØAONÏİî>˜óÁ¦½û–¦ÜÄºÚÖôîà¨5öíy\"9ÔÔlÇj¹ªÖá£tÏ‰aTıfX%ñĞ8]Èå$.gAê,’N¹2IÇYP›:Áµµ©s_×”ş‘¾ÕÚ~$õ#µwb‹N/ÿö?À¯¾u+FHä:‰Äğe“ğˆÁ—Ëç7C1 Wk”\ƒ¡ÉÌÉ)	÷F'oF'Ò½P_OşÑqr<2‚;CøÂòz¼×Ck' ËÔ³øô’btT›ştïâÕì¤4r¦.e§®„FÒS—åâ”ú¯!9'yjh ÿê¥kïfRÄ
+]—§äªÎ~b"õ5C£7Ó_s"–N0&ÿÑ`Ëò!RıÄt–Ï{¤ƒÉ)«4¸£ö@
+„åö óLø`{BåAr·ÃÑAš9äÂCnu±Jƒ;*_†»ò-}=¸ıóüÇÇ<¤L¥²û
+~Æ€‡İÈÏ<&Şå™N£}«‰¨<8ƒ_İä€½½(È<fŞy "ë)TÜ~âÒ	ùÌ°ßÌ}…yHÈ; ±ŒyH•ğÛšıaÒÖ³O…ùæA2Æ<¤ŒÚƒ–ñ Ô`ÒBÏ¶“·zX¥Á¼ñàÎ³¬#ÊØ¤Ğó`Ó,0‡P„uH‚íA
+=ö3Íó—ÇF{&o<¸±uDIÛQ~·ë{ Æ<"AË¡K¨–­´%:ãÌ÷œĞò ^uÿå¾àáÁîçYGL£WŸfš?!^õ'ˆïÂc=Œ³I¢bÆ3=àø£†¨áÁbÕˆ7 Œ¶­f¢WxyÉ­ûBÒQİóvpğ ~ÕÅ:b–üõû&,ºFÄ2Á»W‚/’vÌÇ6èÕ3<pš°èZ1*Äò@¯l1!*0aÑµ¢U0ñ ŞC6úèÇKºüô];›uÆÍğàø6|nƒ&,¼$¦{ ~ÀYTNÑµ£ó|(™µOìË³{ƒ2Ã>úgQıE×Îr&È›i4¢°I+?ZÏ F@Œ9MAú‹®UıŞFm¸•JLŠwÜ!7BÄ¤õiƒÆXuAd®Ìñ@æŠ¼pÒÙaÒúÎNe·U,ı”¨a†Âø-şª|¼[ãôsAÔø¢ñ'ïìšmÁÃ~s‚
+H®Bs(_ÎÂ2^I4Àk`c(˜9Ñ:úë?Z_t¾C¬œmÃc~s‚&QiæòhË¨Úşß.8æxĞº2‡Ò{^eÖ7@ïïÛÀœz ÄÈç)9öÖHTõà‚£4Nj–9õ œ=ş‡şú…¨±O”œ¾¸¼K2ÃƒİOâ7şºkDµO„Ïß˜÷öms­ˆïÑ_sÍZÏ‰ü=ˆÛÁêñDT¸ÒG¤ÓÔ£®ŒÚƒ4fx—ˆF[µA?õx*^é#³¨…zØ©\>ôCüzÓ2”Lšà|à[é÷Qı°+¡áÁsøuF«\>Š×ƒ.Viä2‡:Øİ¬=¬µ}bÀÇ>ÖÅ“|<€q1Õõàƒæ_“†“Î"Ö¿è˜UÜQyğa‘§ñ¸Œn›¦!¢uÌCzàg•wT´Æ@Ü	+lŸÌ£‘ùöÔØƒ «4¸£Ú=âXaûdÉëˆ†Ü
+²Jƒ;*‡!¹VØ>=J{Ğc^àdmXnw™ãPİ¾pÔ;»€[=`7¦Qi’ß
+ã¯šg•¨Ÿ>iŸ4	» #pİ˜yV‡ÎƒÚ¢e<0Ú÷˜8Qã—Û8„‚æZV÷@0ªfzË`!›8èxØÄ6nz0æc“„fÇ€bíáEÛÌX«4¸³^{Ø:íXÕƒ<ÀöÀ`rÌÏ*î<­=7Óƒk¹¹ë71Æj±ëA
+z`¦I”Z|·Nl¦Ø¤Ğó Ü¼ó¨Dn‘Ã¼«&iäÁ°UÜÙ¬=l¦Iô”Ü6ê<³2Åö ÅNía3=€k1¹ùÒobŒÕ¢íÁg‘yP¬=lªùDrƒÆàq‡s+i‡ıl“áˆN=X°²[#âq?ØXÜƒÀ\Ø°ó@ü)›8ºhy0Û0İ¶ì<¸…ºØÒ#¡áPxéÛÃø`ĞÏ8~lQHä}¡‚MøaÔÀ&ZÀßª~AZyP©ìõ´şØy0ülé¡éAëzp¨ødKà]FqôHlÔŸÄ«ı,SáJ‰²»X*T–™¼Ñóàv`Şég™
+WTõ >úji¬ãA™Ád_UÜQ{ ‡*È»u<Ğª_†!Áí`m2Yæà'ïU¬á„–*ˆLõ€µ= É‡ßŞ©`'æÚf¦ºÀâ,nQóLø åÁ´_,›òÅ=€~}QÁ8^hİæ¿¿ìó¥=ø´?Bšù
+æ™ğA,]>&UûâÈ–ò DÙıÈ±½ ŒÛù*¹ğ@Ü 1˜ŒÁÇ°²Gàßå`!-2ôY¥ÁeY‰Ûğk~d8 hÜ²XÈƒbEOÂWG?/À|—lØCté³Jƒ;ªûÂñgÎ5v€…<–<Hx&Î6+&­ëp¢şç¤màr<®w­û¶bÒB¬×iaš?r<8ß('-»?È2İÀ4~ä</4ÃÕdo˜i.<ÑÙ.O·0Í‚É²ìa3®JzƒLsáI‰öğlÃx’Ü˜=tÃOT“ª:÷Ëì’K÷…F„P‘b²7Â8~èxp¿…^é@½Åh“Sşéõz/+&­ãÄÀƒ8*[ùC¼È©Ë±=¸ßF/ÆÚ´ò‡x‘ëÁ¶?§œ´= éè¡¸er<˜)<İØ¢˜ì°M†)&“êqªä3‰¥ZÕ„¤ò²°š¯õı,PŒ[ÑƒıøuX1Ù¦HhĞ[Œ:R	yÿ9œÎHî¸=ø~ıX1I³Ì ]ô£NÊ¸‘”ãt=^¢¹UKûƒfXVbôM¡rz‹ÑGö )ô÷+†ézpuĞ\&‰ÙÃ^?,–*&izG>z‹Ñ§’¼İø/B(’;<ÕF3Èj¡¹Mrî³Gª[“4=Ès*µ‡éz0‹‚4—£IN=€?×|O9i!äûÂ'½¯Ÿ—»Ü}Ÿ´t=€	ª«Ñ$×ƒ‹ÿg¿übÚºî8~LH·66tÑªn
+à4­ö0Aâ%/SI€Mª¦.NZU*l°íaµÅ%Úf¤v–x‰Óifİ*³Ö¤•&Óš·)ÁÌ$/Û²˜ëUš´®‰ÆØûìœ{¯ÿ\_òpî9.×_éæüÎùİüÎ—{?>ç\o¢áÛ$ĞÒ9ñÃ#†£ ’¨u¯IüíRæ |¥ÄÁº}v¨S@t¿Ë\Ò¾°æD·‰¯İ8kA:ç j·¡5;Òßz€nã7/à6Şíß2â`µŸŸ'¦Rä PæÀÏØ?Ih
+â6Ş”‚õH§Ü±X,¿Âm´Ê$ˆ|L±WJâ n8%)ƒ]²#q°™ÃÁò3=UÍ>z5 î—æTÉßÒ¬FW2èC‚Ø~æO¿HÚU;'C¬•ËÁ;½ÏIÒå`¸i–£ªô£Êã«ãLmğS.¿Aèƒh¿ÿâ=£Òœj
+ôÓ,GWÅDíøé4ŒË½K3´¹;}ÿş³·R¼àEèS Ğœê¶j9ªJswã­¬Õ.w@K;ì•ËAÜº^‘ã4ù‡î91í§Y®8•ÙVA3/\”ËÚú$?9ÌÔ
+Orøñq'iWİR41õÃ\y\ı®—ìfj…§¶ò9H9±Îƒ SHõBÆ+—ƒµg_O‰ë¶×mé˜ƒøwŠ´à`ÁÉŞmäpğB=¤³Ù,à`Xàâ‰ƒ
+8¿špts0ÃC¹ØúP—†!s?œ´õX^7şu„îô#=qsş@HwˆÁŸäíù ÎÃÏWCÜÎz9˜á¡\bUÍßÌKvC¶fø©ƒÔÈëi¼ì½pQ.èŸWò“úå #êÄS.HI9Üt8&ßËKvBÆn¸)Y‚ƒY7å‰À8åŠtßæ  ğH^r€µn*ÅÁ”“òD³ÀN¹"ÅkT’ÃÌlğVrŸò8õ}a}¤\‘Ô9€¬lğV)¦¼LmğSÜ¨’Ô[T’ÔÏ‰ÉŸQ.HK©Ìz™Úà'U.e‚äyHe¶eà¦R‡º*û‚Q%™İ‚à•ÙfA•:ÔUÙŒ*É(AĞDe¶5à§R‡ºJ®~¦6øé¡ÖƒD+­õü:e¨+Qá@%™YÀ	VxªÂQ%Ù-·ÃÀ®½®ªìF•d7”ÚÛåº­SS©ïÆ
+DÒï3pÂUºç fTIf¿8(iñ3œ­ÔwãK<U¶¬QúT}8m=®<Nƒ¿ÿšV%M«QIòä êÎ–Êç }ò«hÍ‰hrĞPM«’&R]2çJÔ¹ÎVÀÁúSöğ8&Z3˜ ­JšH•ƒK¬\pWÁ¾öoî§ÌAç—iUÒDêçV.¸«`=ˆ¸Q[Ø‰hr°E­’&ªp ª`=Ø¨†wÆMÊ\Ñz…ÁÏ.¾ ¶›©*ü^xCHuãvXà`†‡bõÅc	ƒõ”¸›éˆƒıÊãºæ l—À¨Mó‡§¨•ÒD
+Ä„6 s+|­)[†˜7~HmSµRšHƒ Ÿdn…”8÷ãõ "šûBÃj¥4QÉ}2µÁDÀY<Sà a°œ¥|>øã	j¥4Q!©ëWÄ–iJu((ŒÅƒJ ÿõ^†¤íÔÒNY)™ÏAªµÖ$hhq]t
+QP4ÆŒ*ÿã¤FNT•ú=‡I“ù?‡È÷šğâ` Ò©¿Jl<”<äßî\ƒR¯W¾y_·ÚRÖ,ØOZÀA[ˆŒ#zDÁA:…(+–YâJûÖ_ñµÁ…ƒàf?iáq„şMlĞâ õx)¢«0ÿğ¸Qå..ûB9¬{.>q0ÀŞ
+SÅÀ)ˆ7©ÜõNŠ”ü%I¶ï¿}ÚIÚİÎrÉ­ê9ñ,#å¡d‰íq×s‘ŸÖÖÕ‰Gƒ
+ºá j,K&GÆH@í|¢UH+%tÀAZ-©x>è•[ZëÁVæ4R¶ÒÃ©$9X”[ZDš…rPÂ¨<¾›8 •¤êw#-6Àã”*i%=¬ J%É„ôš›V%TVëÁæ÷4)ûÎ	•d¼^%IíœXöJ”X°ºÙÚ´ìÌçTúnÌJGìSçÂÁèb>§*§X¹à®²ZÖ~æsêƒØq…Á²â 	ì§ÔÃÀY<X^p9°owr»#‰¨™£rş8¸S½ÇA¿lîÄAÃÙ¥bõ*É£¬\ğRÔHA)Îf‚å]ÎA´^%¹ë9ˆ€)Ø‘ƒ(‡3<K©r`aå‚…VÆÒ6(›û•ÿS–iû)/é†ƒğªdwæ`—K7,€3*Ù‡á DÑMÙI7,g>UÀÁ2 À@‚Ô”/º¢M*ÉC¬\0Pâ'jÙ|’UÉIäp°œ9SîJ­×«$wê*à —Û“ÛCA`gå†ƒ"õ*Iıp¬Éïä6‡ƒäÌÜpêzğ4+ÜµQ£<~Ryx÷i½I%©ÅÜÇWÒÌŞ
+U8µYÌÁ0¾f«Ø[á£
+¢Öƒ4¾Rº^ÒhËæ'~9H/úÅö{+|¤ÄÁª0ey”ŒÍğSÁ÷BªÕ ^&¾9ğM@?ßçƒğsğó#$Ğ7ÂA´ìG:Şnà+èGzçà¥'ÑD:æ ( ´€/}s;R•ø	ê›á§„1¯}dòİ½$Ğ‘&¥ÑĞ–Ÿ4úá`Ã˜ß¿ÚpÀMÚ£ì­ğ‘2²¾ÂÊwm•Ç¹ràa8W).ákjoÎ ÔŞG•âÀÂÔE¾¢ ‹İd‘åñ[øÚØ“s_µö^8ª9XFv“EZT’‡·Ã	0®©Î*8'fÅ“ƒha8™Ò\o‚j/ilM§öfø©9HAv“EZŠÇÖœ¿*~7æp{†‰^*ü^Èˆ'Li)›…ø÷O‚Å¹]ªRçƒCL]pÔZKñØ$±€±õÂQZŠÇ‚Ï¡ä$Øİ{A®JqĞèp¸¦]Ó±·¯9°&].×ŒÇ57J:Üqy<3ßœÜ›ñx<ó>ß­›¿sÍÌà”Çã#
+æoÉ)Ÿo)¬|îñ,ú2½PèÁÊŠ|c`%„µ”ò­H7â¶ñ J‹7†`ÖZHJeaqTĞİIkgŠÇ¶šø9	Êj=€â¿!(=X¹'>Åç2øÖÒİñMø|®ù›9ñ%‘ÔÍìKr‰/L|›i×è˜Ô±Ù~Q£<é øbÈT‹¯LÇP[k0e»¦Z“¡ÑdÚÎÕ5T™AC•Ô©­3›ÅÄ…¿>=÷7±mÆ÷Õš‰Y,–oµYÌVéá¥­­­İ²jk³š-ÙÔé#íæœO6›J76·Y²©Óurù:3LaÕf-6$÷¸cĞò1ÖÖv• /@G(ôŸ}¢(ı¥Î=¸‚S¡bSé=À©{¤‡;‹ó¾{KRª{Ş·ˆ‰œ{oñî’x#æsnÆõ¯é%ÒÁ)YY¦Ó‹.1Ez„Ğ®àÕ¦ó2Ia]¹fº>šéÙ°Şz«wìÚIáÎ`oßØP6ÕÛ;ÔÚ1Ö'¥pk°÷µ6ñF"«u°×v^Lõ	*?Áw­V+yÍ{,–v«õé‘7HŞ%1¢ÚÛ³©ã=VéF‹å ÇÚpŒ0s¬ı¢83NëhëèS¸ü…}’EëyÛ«²ÅÁ¾‘‘ÑÑ>Ò©Â™Ÿ:ä?sh,ó\“äáL:ŞÎ<Å»gğ¼çÏKÒ›ğM½œ}Iî¯dŞ_ ¡ôş2ë*Ty’Rı;ŞòöË>¶‰óã)	ø-!²5‰B¡%rU TÅ{)Iş˜j´
+èºi¦„ •J½„—1mÒ²HLZ»K@›h·Ê¬ª:µØlÛXµ³ØK·ÍnÕ÷V:ó²u£ç×³Ï¾»ïÄ–,šô<sUy>Òé¹ûãs¿¯ïùİóœÿgª‘ÏU#Ç•jì™<ÕØ§«‘ª‘U¹ûã€9··“«‘9
+Ááp8‡Ãá|ÔĞOUc“ÿ§F¬ªúsüİó “§ÿpVñÂÜn«Mb4›m~µî6ì\"Ó»;`t®À¥º ¶6PËç`ŞwŸ¨.1²œ¾ô¬¼¸‘Õ<r(hìàÍ~w-´Îûqb©\Zw/µ<	ÓfófëìîŠOGsªl¦i?/OÉ”œ9/µ{¦é¯…b¼bW×(å+=Ğ¿.>¹X[1¦®=úÂÃ´)®cÖo/,ÃíGıÔîˆk•ÑğsoüÑÏÓÊ'ë`8ÿ¥LÊ#º£è¢®=“Œßt°™%°‰7ü†“Új@TÎ>æÀîd0ßA)Ÿ´Aó­Ø—U/uíÙP½E7›©w”ßÌè;õ\èÍ.ìFôïİ5†¸DiÿrŠ É3>ò,ª%%²ŞD«ïUº‘>Ä
+z¹ÇPØÔ„©¨¢SÏÀòı{M"ÑX‰qúfYß†bÛód“Kÿ@Àj×p“gŸ:!bE?ÒZ{…·ÊİÈŒ‹ØF]{&¤zÙLmÓï|Ÿ@†ôı m¼…6¢QĞÏ@jãğÜˆO@¯~E,“³¾ê-[ÅndÉ\ôQ»¦N¤ÇÂXƒ´@k“>øâë{¥ö uí™°¯å~^ƒÔÉ ËzÉÏÈw{Š(%ê©ÁT´ÛHDdzyV’Ì} ÇŠî;*s±Ú%}à@úhwŞÍ°&‡álEz\ÀêÚ3Éú¶÷
+ºb¸‡xÓO¿3–û „ÜWİØŸ
+M´rˆ%—¡„¤ÍÍ¾ŒûÁµ©gtS‹d_¸‰ßLÇ6$%Z{šlº¶ ş¶—egAqñë^63»9ç9-–ìÿH$Ñğj³5ã¿à§•CHUÏ]Ø’2µg!çÉ·3šÁ¢›|'^é`Ø¡È¸OÙUhÏ7…äQ…ÖAöŞË¡¾d6~Àş¿®—ÙD³§E.ØÖb´…á Õ-D¤Ù«/X¢ĞÊä;qa]é2ê;jÏ‚Q¿Ud3µ…ÃLïr|fD ¯êBz©álı"jû$™rŞöiLÕIÔöÿ¢°Š1¯’Qf+ú^æóÀ•ßRË/?ãIo?ÁP{6^ŞËjşâ!ƒøÇ—Üp\†ö4ğ\Œ¥vyLT1…‡Ãáp8‡Ãáp8vL¿46ÿçü‘œ5ì×@–ğ—é—ºxãÔğ> £0¯æõÓ®šşçz{JBV "Ê¼&²‚áiWhşç9a‘“OÍo¢ùf%9şù8Ìãaó‡ß7{$É<.áÔ™<@2\ºø•ï!°8cí)÷ŞWğ®l®&Wç«O“ñ‚2}êÃ¾cmÂZCúÀX6"^Ø¾(3°^o~Ü}qÃjÃ6è±dì—|ÖWè°:dÍÙY>Ö…³-ŸÌ­jÔlÏú^ër–ô@¦¼´<´´EIÄ,ÎX[n'/¾¿äŞƒCƒºkñ—ì°Q$²9ãÑºËê5‡ôÖ^l:†-ç0‰ªw;d]å ã‘`(˜S«CÖÒ©0kÈ²p 96Xrõ#³·	w SHÚ¤Œ€VÃnuÈšCú +˜¸Š?ª×‰èe¡ÔtcøL çËú¬Xcîªô½ˆ?8Zîƒd¾YéƒHvyÉ·A«±Øê5çaò‚hs ¯®ZWî—Å& Ã=±£P}Y¿Õ!kÊªkûBŒ!BúÀ½‰_Wú „ä©†´OwêN«CÖœ]•õÀ¹Çw‘}ánÕÛ†PVĞšÊëÁŒgBÉ>æ_Ë+×Ÿoœ"‡ì‘ï6‡ÿÆ}á¡õZ¥r26ú³Æş›á;ñ‡Ş[ü¢ïğOí#¯4+Tï¾³Ë³şrìÀ±hâr"luÈšòì=Ê[¢´MÒúş$æ¡oAüÈòŠú«ñÕJN°:dÍëê’.Sò-â¥[…§ó]bA2Õá)ùãÃ÷ ¤XÒ"Ê»c…xÌÂV“”®ŸôY™ÂR6]‡,Ma1ÿµQo·4†•\½>şÕÒV#]LÙÊ‡Ãápnjş= ×Òfã
+
+endstream
+endobj
+57 0 obj
+<</Length 297>>stream
+BT
+/F8 1 Tf
+0 8.5 -8.5 0 331.982 165.764 Tm
+0 0 0 1 k
+/GS2 gs
+0.008 Tc
+0.014 Tw
+[(Fig. 1.)-999(Plots of disequilibrium against location for the cystic fibrosis data, using the six measures from )-6(T)72(able II.)]TJ
+ET
+q
+1 i 
+167 675 146.05 -624 re
+W n
+q 1 0 0 1 0 0 cm /Fm2 Do Q
+Q
+
+endstream
+endobj
+66 0 obj
+<</Name/Fm3/Subtype/Form/Type/XObject/Matrix[1 0 0 1 0 0]/FormType 1/Resources 67 0 R/BBox[86.7 110.75 386.2 419.4]/Length 68/OPI 68 0 R>>stream
+0 0 0 1 k
+/GS1 gs
+q
+299.5 0 0 308.65 86.7 110.75 cm
+/Im3 Do
+Q
+
+endstream
+endobj
+69 0 obj
+<</Name/Im3/Subtype/Image/Height 1286/Filter/FlateDecode/Type/XObject/Width 1248/ImageMask true/BitsPerComponent 1/Length 10272>>stream
+H‰ì—ËŠæ¸Ç]SšÕhÛ‹!^ä!’@hç²Ìbaü5½èe­CÈKdâ¢MäÆEf7‰‡q¬X’/:²,ùVà?Ô÷}–uù•tnâüÒ¥K—.]ºtéçß6íO¥»CAşóuâÒ–K÷ôêÎÅ=Š\ş›~ûÅo~0éî‹Ï~ùÏ<ç®ÜK¿«ù¿şü·u–î•‹ı¿kK[³ÄŸşò{,ÅêlŸıìı÷§üØÆ²e¾Qÿ]Ä"[ï²´WV¶İ)ìzqlùŞvY}!ß›Â®‹&+Ûîv½8?İÂ®—ÆvÙ›_MW>¥éb£é¥±­àeü›±Yô›é-âb£j#{;ï¾?OXäBìÛß—tÊ¢æP¶¶<bÂ&éõ1IÏa›>˜PîY->YÄ,Rk³IÒ®ïÅŒ>ÔÊle’ˆ¯ª;Ğ:úX×µ·ZîZÇvÏGNºVekz4ÅÖ‘Ş'ê9lm9q²"IÕê>Ó´¦½5É}ÿKíoãNu¶*•_#ÚÀÖÁİÛú#µ
+[ÉäTÓ	Vƒ‡–Iè\šVd»M–?²ñ˜8²Š/üM·EÓùµéğ«ŠˆÀk±%]²²FŒˆ[‰­M¾J«SÖtW5ØÄG°½	¶äÁÎÆoäl-“nÎÆ:¶¼±ûdEŞ8ÀÖÜË0ÌvcMgV­NÇ·©Ù)ÀÖ¥j1O°½%iÓ¹#<Ó’¿¨Y°UÉOÅŒã¾İ°lYÕí™Á6šYK#­Ê¹¶ox¶[ÇÖ.°é?élŸê²å¥ä•Hê-8»rŠÄÇ†M†] yÓ}½ÓÛ
+m³
+Ïö¬ØF{Ã³Í;êÙĞ¼Ádÿ{0ÛÍR	#£yƒíL6´ƒÙ"XÉ´‡‚Í;øeú©˜ddû<CÍ¡L8u9èëM½GŒoíç©Ùİª’I¶nT‘“)7¸òBû%nÆ[&>ÉÖÚwˆâ\ù´Á±õ&ŒS$VkŸ–â`ò ­d{Í0S”L­îb§ÇÆù÷\c«ql}¤[.Ørû:„CµŞe†w_3Ì}pö-·ö¢ªëU}ùgK¦¾[±ÈF9Ôx¶Fùéb^oÂÕu—©rÄ|Ã‘ÊøVfË56jSÏ¬û+6nÉ“¦JÖÿx–³-Ä7N9T[Éßú'0k¼wÖ^œâ©n¶7Şñ™2ØSmlƒ½=!Ø*†^ªÈĞ]•\ñ­Hü›`áÁ‡êb»%ŞcX6ı¸¾R®ø†`«XÀZª^Á+’-h¹*ğP![!šÆ–»G‡Shõk$µQÛ=/sÏè°ÀŞw‡Ùõ‡&õÛ¯2÷èÀ°P± î°&7­e¼ö¬NDÔqô‡*ïxØ‚k‹[PoÈ¦òBÏÖ¤¼NƒK÷ëØ€íç<€-¸ì	óÀö¬Êˆ‰­a®±m˜ùEÀö=`«}l•ó­UAm©Î–yØ‚‹îßI:;ì­c“n»(ÂÕ©18‡Ÿz‡®œAîco&ÉAä ß²%‰XÉF8Ò°píÊ§n—ŠJ£`Ô×!¸‘sªE [“ÉOÔpBªº««îu‹v¤!Gf¬w&á]ˆÌáuá£™hnİŠİÓÒ†b{ƒ]Á¾z¡²áÿû™ĞÅ/•”°ú¡²#•­@ôYZ’a;ZÚ0lÄè&„NvD6bÂR*ıˆläè&g¸~D¶€Œm™¹éµe[„¹áGÓØ"¢›2§ĞÎk1KÃST7ÖÓ„48>%.gp$¶HsÃf[D2í'È0½Hl¤ÛXep¶hsC…-ÚÜºCÅt¢°á+şE¡"…-2ºÉ%¢%gÅ›nÂ¾¡şgŸ0®±µ¹ÇEÕnã$™¿aßJ÷kœ0›O°7›¾ÁÒ@a.áûÖ 3n©Ä-5œš[C­€Î=¬¡æVDr	·7SSÙÆ¼oF	AfC\ğ¾ÑÎæÏÊÁûfLIg«SoK›“íÑ—|SõW¡gjÎHgóWÏ¡ùÔt}rìEä>Û¾ÙÚÆ	S2Ëlæë`ápíÛ
+uå¸ŒoËm.¶5êÊAo=ïm3Å]Şò\ Û*u%v²Àø¶J]9®ÃÜï}Ílòo[D4³É“îÃüQt…ÈS_†±Ù&‹ØJÏ¿Æf‰¼ş”íXÜı…±Y8ÈE¹ĞçÛ 6ÛÿÅæIÇÍÒ6É,éÅåÂ„“ Gó:ÉÌ6]…åE›Ûà Gı«$5ÛtÙ"o›;úê¯S³M“Õ%£ìÍ]rA¶:gf›&k8ŠcsF_Àñ©æf›&ë­­J±ÎËàxv³Ùà…i3AC¶J®´Ä¶fÍ;È}!Û.¶UkŞA.g°7§mPårÃO]l«Ö¼ãúÃ€l_¹bˆ§$ÊaÄ0/|ù*5ÛFÅC9æÓDå,kÏ•kŞAÖ ©ØÚÄ‘ë=4UƒÅİ¼m|gm–#úB6›·Z÷ú‡™]÷®|ı›´ìh¶M"¯Ğ²Û8jK›ËŸâ´ìÿh¶§µXfZ4“ñÜ&ò
+-–"X¶MŠ¥Åàdc«,ëlEäÔX{Û¤QjÙÂlÙ¦QZ2e,Ûvæ¶}‘l[‘ÅÔRèD²UéŠ,ØÉ!ÇM&^‹/lT„(-¥jdıæºªÅkavX“/±mTZpÈ–ÉjcÎæ¬Çãıd¡÷¬\ÆÁ¹½9ëñ::¾,Ô_Må¬ù¾9.CİÌÑ¾à€ã™óÇ±MÏÎÕ«øjİ>`û¨ØÔ™Ş¦7îz|6û¹ØöM±I—Ur×ã+°ÙKÀöI?Ódr_MW`³»ºÉÆ¸…Íé
+¼Š~öøiø©C4¶·Î‰ãıt!3ÀØËdÚ•lÍÄæ¹šÆÇ·…ÒÕ–³$[5ù‚çjºX·ÈjÑf®’­LÆ7nWXEVg0j$i:=ÛØêv…ud³YÈ¦$[1E†m¤å5ïYÅhá›Öãƒlu9‚mÓz|\Ó²‚méª±ªl‡³ÈVl[^M'Yœa‘­bQÈ¬lâ£bıSDhqp‹å,îÛô”†àèj×2~6kªC©R‹_Í<+ûÙÂ€4±YŠ?İZ­tökî‹¾0v`A<ºÂØæÎàe³—ò(…±ÍÁËFw…@{›W°^{‹(‚bˆÅ°½l1Y!ì6Û›%ìl¥Yyíc£g…`Í–ò±–÷iæ>¶}
+$%Ó<}lûHJ¦3xâÛ.w…AfñïaÛÑºÅ|ö°írWd:ƒ‡-"+dÔÉ_ØÓf¹ÛÍqW ¨ÊÁ£›Íë
+”EFTp³ÍRœ©’y:Ép7›×J‰Áí§^W(Ö-Sà^8Ùæ¥èl²uÙ 9ÙšÔ7ÙÊlĞœöæ¿+¬ÌÊÉæÏ
++³Á2ÉÉæÏ
+%‹¥1æËµ—½ù]au6à.6³f±hİ¼`,)ÙŒ¢n`ó»Âêju3’l·û÷z‡ÁŞ¢
+$F¦gÉ–ÜYÙŒr*H±ºÒïu‚­I`õ=Â–U›—&¤tól5«˜7W¯@c ¨lú¢‚­Ê!FïF¥¦:¡ÓK°•F}Û³E¹•M7rÁöl_¦1®@g+§Ÿ‚í£eÕ¾E¹M»H-³yï
+î%ˆ¾ ¡`{Ïëw`^ùé½+¸— Şµãl8Ô_+¶(W çİÌ{¶úÛÚè³¯¦,ŞdÌr¦+WhM¶¤ìm<ÓïÄ‡bK÷E59ƒòSÛa½HÅŞÑr?ŠƒÙFC9«L’”Î6:ƒğ…r8ãMü8˜mtY‡d}8Ç¾	IÖo·L>TÙ“|‰¦Ù"ĞŒ™¡¯{sùPg~ZS3“Sƒ3ô÷õĞ¦¡lÔŒîÔ-…/ğbØÅ‡@¶j¶Áä¾z{
+¶!3´¹Şú|
+¶Á [%[fãƒùçz£ò»£}aphomà¾mCgh2ĞÈ¶Iìí¦MÕWZeı{pÎÁ`“:œ­ÏçdSÎpN¶2Ÿ0†¨[Bµ7ÊLªL2üTÀ·İYL©:Ü<SÑx<›ºÏ˜l)?ÖŞ
+í«Íæïdë+ğR|œÍO{¶ÿ‰³±ÉËT¯—Ã¦"Ê)ÙZu©9›D lıeğP_Hå—LZ gÕ…h;Ÿ)7Øª\&²Cco®¾7ØJŞ¦üX¶¾Î(Du	òÂ³Ê§Ç×H¶œ?v_u~PÁ¸á§Û0†
+Æ_›h;[™ò™/î§½ªŒlUvx|ÓÙ’D<ÄV˜à.sl>½åF`;¶ÑË#)x?-™ø<[6ït±Íä9S¥³°è.3gËæŠ!™Ñp"¶¾ät"¶™Nä§3]l4(¾Ítf¶ÅŞ™Î¼oMgf;µ/dó¶‹Í¯‹¦3ûé™ÙÎCÎÌvê3Íæmga;uÉæmga»Î”¦‹¦‹¦‹¦‹¦‹¦‹¦3³]5MMMí‘§ü¤lõ½Îöãş4P ¾U‰ÎVæ»Ó@}+Û-›õŞW€í¹ÊS>±¥»Ó@¶µÎ–¤»Ó@¶÷M–ò“²}hÛÆÁ–¦ü¬ûÆYÊOêï![6ë½¯`áïR>²ùî4P0öşŸıòçq·8½^¬Arº ©’Å¼äd‹[†éSå"Hw‡¤¸b0òbL·ò¦J°8ˆËMŸ"\‚ YSD‡ãê…”ì±dêõÇ6û~ÀÚä3‡ü-E>RAèèy* tÔ-è¨[
+	 £n
+@wİ4äÖ¹õcÏ-õ1;…HOÍ-<…HOh½e[;äÖ²›êO'İ$cúËI7ÁX€î¸I^¨.tÕ·ò»J@GİâüÌrÒmáğ|‰x‹äfÃ“y¦‡÷‚Ë9$â‘®:é¦Î,]uÒÍå³Şå;Š@ºé–Cní[?È­äÖrë¹õƒÜúAnı ·~[?È­äÖrë¹õƒÜúAnı ·~[?È­äÖrë¹õƒÜúAnı ·~<·Ğ×ŸNº¥l¢¿œtKĞQ7á…ºê¤[$€ºÅ˜:ê¶@$7JnKÄ[tÔÍåysÙ-F	è¨›ËùM0¦«c¸Å#ô±f_#ô;º[Ê¦úËI7Œ@ºé–Cní<571B¿pËîo³úıİÂúÙğ>ö×Û;e½±ümÚ§,?™‡q8·`p'OÇ-Éjnæ^‡ï!Òáû›ÈW‰›n\èª“nÑxïYc¸I^¨¬ò3ë˜n¿>cµ”İğ`nß¢üÑê5Zİ–ˆó¡nÿıáßuT(ñÓ¿T÷»u
+ÿ[ñ+62V=ßó?~üëÔËÜ‚í3ßã¿kvmç–vp{ö“ëÛ›Ÿ·t™uØ‚•Û&‡Èlè/şù‹¶öK‹>¡½‰•›Ê½]]-#¹=Xtƒ¢p³‘A}»-#¹Y±9ëórĞŞŞÆí]_™}˜÷X´qû0Ö¸AAAAŸq~j‡*@2ˆ@N=î?`ÈÚh·ĞlÔÃ	NP@³[äI†³†F©v»öÄ—A‡¡›GÍÜ$B¿©IŒá4y¼hh”€Ğ_ÄI·Ğ³q›5¶zƒ×wâ›ÿ¦¾I	¢¿ZÉ.nÍ£j7L.¹wİĞB-ğ›XÈhh”¹AG7oÑÒ`‰"¿©•róÅ:½àRå–B¼Hy7?niğ^¹AS«Ì-Æ—Mn¨İøz9¶Û›İÔ^€ÌmÕèö¦«[
+ëV·Ïxc«µy…/ƒf7vÕÙM´´xËÇr»àb™Â˜n3/V~VnM¾½<ëêÆ[İ&+·ßàgÍnˆŸk7>¦ÛõÕ¼ÙºÁ˜ns¡İ[ånßo^oÚ­ã^huC;·Ö½ wÕèn‰Õz‹Ûİæ¼Û¹`ãf•CÚr¯ÿ€¾:³äønÍzmsf©FÏúöü†Ië™µÎÎú³f·ìÆĞéş–6šuÚvÖ+·Ö;’êæ¼›HtpÃV7-dóI¹é»%÷›®‚êÌâ³ï­÷/VwK¿iJ”ÛİuòŠ?ó›Ü²›}Òé=«ñF«™©;9o¾[¼Ë¨rj±ù]ÜÚïäSı¾ĞØçEë;`Zße"/eùÍTÚú0O‘Öw@‚ ‚ ‚ ‚ ‚ ‚ ‚xò€şXXB“òÇb¼ù>Tğş$6e$,nÜÒÌmu;·åÆM^)¸æ¶\êy[ŸF§„é–Hí&N£S¢Î-9N	å&“‡Ô“_©“ÁÛWàˆ›ğáì‚ÅÉDşp-ƒÏ™'ƒS›enÑT²€)7&™¯Ü®Üq»»K^_œù×q$.}cyyá-q»“«s>_Æqr	såöÍ•WÈÉ'C9Ü‘¾Ôn+yÎop%¿J!vÄm¬Õù®ÜîÕqµTn?Ka]8gOFæöµ*øËx¹q›¸ãv+•›ÈÜ^nÜ¸+n İXÁ¹ã¦ç-eóÛWN¹I^p{}åÌzÓ{á<˜ïöÂå…C9äk|äù-w;ƒ•#nYîÕ9DVÊ-Vç©¿pÂô™uy~¥Ü¢dëæİ8q²©>ëÏ_{‹X|)•ÛZòÜCØDß‘.Ù4\©û›rSwË?1_Z37á¥'‹h%§2x¯İ–¯¹÷^Ì–Ü=¾Çˆ·ºš[9â¶Gş4]xÏ2Éwï§&yf[Ø¢šü$uÙíşÄ5¼;µ AAAAAAA|ŠüûÔˆßaòcV	?è¸)¾­Ö
+ÁàÏÿx?{>Àag¿şâÿÔ¬Ñ#Şÿÿ>Ş°e&oŞ¥ÿj¾ÂM42{‘"6İF…[b7ösÙooİ×mv|§Š®§‡¿	0CÉÑ%jàfÈ70Cäf˜!gÜ¸rÆÌ¹Y fˆÜ, 3Dn€"7À9ãÆÍÓnÁ±%jàfÈéy;ºDÜ9ıLƒcKÔÀÍ3ÏÌ3ófˆÜ, 3DëÍ0Cäf˜!r³ ÌÓûôè5€’G—¨Ì-Q˜!r³ ÌÓ9$8¶D`†è™Z fÈQ·;ıá¤›ôGG×[òŒéª“n‚éêÖe³xBŠÃ‹ˆûXtó®S
+åµæXt›]§ÊëdÏ]§Ê»­œãÎmŠ³àØ:% PËóæaÄ­S
+åõ¾›àÇÖ)…²¥âaÂ­S
+å„=×UGİJg–Sniù¬wÊ1Ô…½Wf0COÃ-êŞßİ™=¸’›ïi:éŞß˜Ç˜¡İyÚİ-eÁ›2P®úêßv•õsãÃ|Š@¹ê«a—ûÜCèØw$Ô?Éí¶}ìv™©¶‘ÿè–øÃ¼4`†vnIÅ¯ulİ6,Fx×¨½pfUüZÇLµ¼Ûï£ïÜ¤oßÑ˜r{Ìon¹± ôp±©Šy{(Yeµ[êÛw´qÛ2º[Ğ
+óhrãQÁmäg*ÙŞıÍÒ-Û2™›0·Ä‹ ›ĞJáãYaÛ×@1Üsã™Lç¢rÙ…J»’?Æºl#7uÈûØãP§`Ü+HÊkÄ9îÜ¦r«>Â)ê…:æÕ-
+eåvƒÅû›åLÌr·7£ŠaÙíÁp³ëcã6:P(ï=SÆ,ó óF½=…²áf™T»ƒ»	,íÓØ¶æŞm/¿Y£®G£çÊ‰êjw7®rïà…òŞyjJƒ÷cùB9-ßC¬‰Æ’ÙŠ•0Kİ˜!r³ Ì¹Y fˆÜ, 3Dn€rÆ›!gÜÀ‘›`†ÈÍ0Cäf˜!r³ ÌĞnÉğ.ğPn¢¢ÛîTt2‚[XÑmw*:ÃÍÜÈ-eŞĞ.4`††»I÷ÜB¦Q…Ä5·”m˜åÆÍP?·ˆíxÅüJ€êå¦Õ²ÉÊ§Ïïo´ÌP7ÁØd[N¶šC3ÔÃMÍš_¨ŠqäÀuwS.~±®g÷±)f¨»Ûş4Éi’å’€êê–VM’šÊİ˜€ÊİBë.ÂÊÅUí˜¡ÜmXö¨d[E4xÉÊİ¬{®}xƒŸ*˜¡[Å/UDÌ¯ùE}ªÜRæ×ÿ4p¯VtrÛ¿”«0èâ–44Ó'«U'up3ÔÅ­iI¥Â†Ym§Â`“C¸Å_G[‘qÉü®BÀmroÓ¨ZŞTj–oÌı™ÕòÈtú®IÌVp3díÖöÄô±'œP1d`ù·‘MŠ€ÁÙºI«­Ü”eZàcvj5mjÕõ^qÜYº5œV%Dï­úöË_GrÜãZ¬		gøÁ™/¬ı~†Õ‡=`Â†3g÷(ÖbƒıÖbƒWƒ,Ã‚ÊMu÷4©¢Èb7»Eø­!‹ùş©*›„lb¿Ú^»pà&!›ø×.œ=ÁWı±õòpÔ*qWK0ÊS=;#Ûqı®]8s†ñó„"¶!&ı©TDç‹`Î÷î;]±µ1ÓEì¿)åáÏQÂµl÷Æ’ùR?Ğdlm\$ê®r#0Ê/=“ˆmŠ<İ±ı‚Q>°}"[{€®Z8e9[ôù¯ùª1'ïéï"è,å^Ê¶SÑóD^ìY0ßHOd»êd_‘ÿšoïŞ)°u×¤²}üm€Q+YÌºêàŠÅ†õºˆíš£C×d#°^Ÿg±íào_Qüå¶æ”~Ø®rUZÑNÑÑ?ÀÖ«È)Îb¯¸)ÀvÕMĞŠ¾à&?Ûx].¦Õª¸şà¦¡ñ½ĞEN`hŒtq°«zâ¶ñô¿.Û9)ò8,z+
+°]æ/Š(°«êğëOÿKË¤Ä“Mqî‡Må¿çsŠøæSí˜¿YïîˆØ1»ÜGmjÍM>6Çi:Q7‰ÏåcsÅ«¨ĞßªˆÎp 4«½]-Šmˆqq0+»PâÚ’8¯ãâ`”ù›~sÍ¯âØ:%ïsêPné8.Å„cå£®®²¹]ççìwµ¸+ŒòĞÌ>~•íŠÏÇ òækD{ò°uXiˆÑ$ßTsº¢gZg‹Œ†k’o*Œòí­³Eù¦uÉ7F9°nI¶4fSÍù^¼çí¦¬Ò”81ûùïBÜ–z:‹7æì^ÒÖÂ!µ|'¾S0ÊƒêuÕÍwK]	Ë«¤›jvóÆ¬¸-õ²I7FùëZc‹K§½lÒ[eÍØÎkãd‹t¼£wzáÿiõšæl‘×»nÒM…cÜÆÑ/nKlÂÏÇ”.¶ØX`“ù#8Æm¸-6–“lSÁM.¶È-=&‰¶Á1§‹-U,=K´©à&Û—w‡5H79Ø¢·4$ÑİrLê`K½¥²M7q¶¸Ï<‘zînâlİÚ@ƒãu™$›êœ³í˜å¤^‰aØ˜u°¸‰±­oiwııíU°¸‰±u«Ãt×Ä1üIÇ[ÍÂ°¾ü7°	î>¸iÉæ¹¥·°õ*ÔÜ´dóæ[ØÂé¸iÉæ	
+7ÜÁ¦:æ]°ù<‘øSÓ¥N:€›l¾°Ü‡†÷)¸©à¦›/Îu¥`hpLl³Åfã
+e7f›-6Pè´‚›l¶ÎÑ#•¡Á1³Í–>u»(Ä›,6AØ»^M7Yl½£C2Mş³ì˜Úb[Mİ’È¿©à&“mºç–†|7¸Éd¼/ß,ÿ‡/4—²è÷í|à&“í~Aá(ohp´l¾8ŸDŞM…£óZE¼ÛåÛÇäÛ}=ˆ–ï@ƒ›.lşk”D¾Snº°õ*0r¨=,Ÿ7]ØÖ?şN=¬«çØÀ1ã¹w0Î§HzµÚıØÛ36ç×BdHÀæY{è)ì‹üÊÖÕq‡®y=4àğk+â•-8s¶õÄô™v•Õ|fƒA!	ÛºµTUÊ4ÙÂie¶õ¯†ÛTıÕB?³…ƒBŠ»à	 7åÙ4Ø"ÍÇD¯V@ïùãGkÆfş#I+]ÂZıj = /¦éÄÖ6)&–híğ€ú†~6M'¶{§•­yêœlwO+	W6„Û‹ÕµÑÏu—˜^+[t`;ÜaÛıÓÊ‹V¼ÈíYÇ†£ş­3Ûêå¹‡V\Âí	ôáT›ïë‘Íİé9Ü%¬•… íÕŞŸjdÃ¦Y^÷ıˆİëœ×otvtkJãi:å²âiİVG¶¾ªtŸ¶1›Û‹€:ê*5—·cs'˜ Í„¹¼!›3Åé4¬™Ë¢Ï[*6g‚~œ®éã6¢1S±9?SavP¶^‰Æ«D>Ú•õÀ¬<]Ø:Y¨ŸªTÜf™>D³Ñ‰Ø\N0+İ…­²§{t³ÿ#ÌÊ0#›ğ%csä"°&ÚÍáE`Õ.lÒó–ŒÍáE`ÕfGÅ6¥bs„-Xµ¯úãßR%"ÎÁ;Ílƒ£Á©dl;á„˜xúïˆ8ğ>qléÄrØÕŸ¿¡y	W¯ØUİì
+»û¢]U´û¢]U‡_·èò0-sğ.[7–‹ÀÑ¥yˆK/Şc;¶ÅIï±[«jÕj;¶Ñö"0+»yÃ·c[gå±ªjÚ”Íö"fe¨*]İÍN~a¶`>p²ÙÉ/ŒrŒ²Ù_40Ê/D{Ú–Íò"f96ëÀÁ(ÿ¼=›åE`”s`3{{Jƒº”aØ_¶¿§VòÃŞÓ¤«›²Qu™†y¨gß»Yn9ËøÚ‚a6§d%¿0ÌS5/è¶lFØ‚ioçƒ¸-›‘üÂ²Ïæñ‘$\½:—À7f»$¿p46qiw.€·mÍöêEÀÛ¶fëÕ© Ş¶5Û«oÛšv' ğ¦ÍÙÎ¼iÛxJ—°GSóH‡Î¼is¶sØoÙ8.Ğ«oÙí¶àhi
+âÒó¼!¶ã×xCló·AçíôµŞÁºÃ¸=¶”İCé¶ÀÛ·\·§‚[àí[ÆúV
+úÀ·o¹§í)¡ùíé™mTùíé™Mƒ·çÁFùí©2*àí[®ÛìsÏoßrİúÚ¨€·ç³f›†‡C¬Ü´ù7 'Ë`İz¥Ÿà°u³›oÈm-ïÍš­y,ˆCÿŸlq(çuë3¾§½ÒOğ†ØFè'xClG›²fk±"pSÖëvüÓ5äp	ÜtbkëGr¸n:±íM• k¶fş³SÄp
+Üt^7õ@§`”§'ÚS¦lCe±u¾«¸Ë7l¶Ë¾÷UÇæ3}Õìi3ÿæg{ê=m³Zµ´À(¿Œ›²=--0Ê_&ì)W6Ê™Mí)Óóö…÷´[§–åú´§íØ°´˜†>îi3¶¡^Z`”ûºS”iN>¨^Q¦l£t5K6ú×\Í“í¨Â&¸©°	»ZS¾lêğk7Àp
+vUQ¾lºÚm€á¸)×ó¦UØ7åÉvLïòdÛ½ÕÏ,ÙÆªj(S¶¡ªt5K¶¾u5O6št5K¶—c<Í’íÑ
+›H0Ê9³}Î˜-ç»³:]Í“­ªjÊ”mª*ı'K6jŸô3O¶£
+›@à¦Â&¸©°	n*l›
+›@à¦Â&¸©°	n*l›
+›@à¦Â&¸©°	n*l›
+›@à¦Â&¸©°	n*l›
+›@à¦Â&¸©°	n*l›
+›@à¦Â&¸©°	n*l›
+›@à¦Â&ÌÊî­~fÉ6VUC™²UUS¦l}=èjl4éj–lŸÕ,Ù¾í©°‰£\Øä‚QÎù.äìCzôºš%[Â˜Õ'Ãb›ªJÿIÁÖ%ã^9Rz¶¡™Ÿ	†MÏvÔ/-ù]8©°	^m{¶9fí›ñºíæF›œ·ÌÙÇÊ1Ä/İêÛG7å³ªdyHr2VUC™²åœ÷öõ «y²Ñ¨«Y²%ü>MÁ6÷³¾íi¶o¿ªœº›Ó¿MMû½›âalúu€S·ôÌÖ\LÿıÛôæ7Oµ¦ßş¾õÍÄ¡ó]Hñ]ıõiEûtö!¢é¾ı sî"cC¯Ù¦ÃÌŸg/ĞGÁ˜ûpÛ`d6cîÿU0æ>Üå?‚aô‚½–S±ı$™X¢İÓk1[2F±	wÿv/¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢õÏÃo¬éıÖ.í§Jõjz“zÜ¯44¾ö†§©¢>‡ª};VŞCº7˜–zêŞNUÓ>Ø>|~WG°õŞYj«Ã?Ûª Û›±ªw¶ñiªéãçş/1lŞvîğfüMıŞ{†[úØıı:Æm†Â LÃƒ:aÇ†Ù#dÌ`˜íQ‚^ Ş2–àRD(Ú«TP¹‚^©E¾>JNâ 5)NÄ?Û^ğ>(&ù¨ŒÇK6‰IAHiXÛÊ·r
+Ps&m¿j…íêµe²êdsvµYƒÂ¶¹Û&”Æ¶Çkî¬ªºØhéµÙ¶Îªh›Áw	mm[ §´İ¢mÌ*W‰„¬…í#°n6Ã¤×VÁÛ¦€êÜpW‘À…ÌôçÓÚ~ÓÊÓ¶•-Ó„Üö+)±­³êŞæ*zÚÙæîŠYZÙ.á«Û†?Lu´)OÅunmÎªÖ6İm-xm™ôÚdı?ıæ^¸u]§^¨K´ıqV´Y§h³{ïØ<û[{;­Í×¶İŞ«`©²ËyêßC¬íÌ·÷
+õÇyjmYÇ9Äocu[ÏsóõX‘RÑm~3î®jÛºO]…3’g~«÷Ş"WWlş³Öm]3>·¼T¸FA<³X×ûBâ³	lË„sm1“Û{—‰&hşÙrµÒïørè*Qû»uÙ`™*Öí~ê¿/xÛÚ; …HŞ¥q‹xm’ÂÀ{‘(ŞG×˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜×Ìv}+0†?|¬öïckÛö¢yšGÛno3µ­:Rÿšy´÷¶i€¶»æ]×6Õ“ç0¶ı»^„nÓi/œ'il;|N9€ ÅA¾~Ë±©Hºdd¦‰&ÔÚ’hŞ·¬¶É!œP2SdN(H3¥dˆ­,ÕdÌh^I5§m–ä{roAC!ÕbÌÄ¶Úè	[Ce.8-ë[VÛÖJá9…¶RO¸µ§´
+Ä&Ôü´mÍm¥!@U ¶LÏğƒµAc Ê&“mµƒQÚ<·°läĞ–e3D<ÚŞ„eÓôÀ6âAÙ¾ófÖ¶	fÉp¥¶ÊLÃ±‰{î½r.0{fMG)®S©¬MN‡Eç)äu1ËJÏ›d!ƒÎHòiƒ3’FÎo×Ìod`gK ùff{[ñ>ˆ¹v\SœÇ×öörkÑ¨‚°=K£
+áõ<Í7-L[³{T=+şf×-{V	³/ÛGÂìËîÿÿşï Û÷…Ğ
+
+endstream
+endobj
+64 0 obj
+<</Length 2881>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 63 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.003 Tc
+0 Tw
+[(246)-2527(Cordell and Elston)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 84.033 510.973 Tm
+-0.016 Tc
+0.021 Tw
+[(W)80(e)0( applied our methods as outlined here to the problem of localizing and gaining a)]TJ
+-2.0032 -1.1393 TD
+-0.018 Tc
+0.111 Tw
+(confidence interval for location of the CF gene. For the disequilibrium measure )Tj
+/F10 1 Tf
+32.0612 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4859 0 TD
+-0.014 Tc
+0.114 Tw
+(, we)Tj
+-32.5471 -1.1447 TD
+-0.017 Tc
+0.054 Tw
+[(considered the six possible measures given in )-33(T)70(able II. Graphs of measure against loca-)]TJ
+T*
+-0.016 Tc
+0.042 Tw
+[(tion for the 23 markers in the CF data are given in Figure 1. )16(Although these are broadly)]TJ
+0 -1.1393 TD
+0.083 Tw
+[(similar for the dif)16(ferent disequilibrium measures, there are some dif)16(ferences in the pat-)]TJ
+0 -1.1447 TD
+0.012 Tw
+(terns, particularly at the far left \(0 kb\) region. Each measure was then calculated for each)Tj
+T*
+0.039 Tw
+(pair of marker loci, in order to determine which disequilibrium measures show the clos-)Tj
+/F5 1 Tf
+8.5 0 0 8.5 63 638.022 Tm
+0.008 Tc
+0.005 Tw
+[(T)75(ABLE IV)128(.)-496(Corr)8(elations Between Disequilibrium Measur)15(es and Distances Between the Marker)]TJ
+ET
+0 0 0 1 K
+0 J 0 j 0.51 w 10 M []0 d
+/GS1 gs
+1 i 
+63 625.238 m
+423 625.238 l
+S
+BT
+8.5 0 0 8.5 63 627.987 Tm
+/GS2 gs
+[(Loci, in the Cystic Fibr)15(osis Data)]TJ
+ET
+/GS1 gs
+63 609.25 m
+423 609.25 l
+S
+BT
+/F8 1 Tf
+8.5 0 0 8.5 63 612 Tm
+/GS2 gs
+0.01 Tc
+0.039 Tw
+[(Measure)-14617(Correlation)-12696(Rank correlation)]TJ
+/F11 1 Tf
+0 -1.8809 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+19.3289 0 TD
+0.008 Tc
+[(\2260.63)-16420(\2260.67)]TJ
+-19.3289 -1.1805 TD
+[(Q)-18599(\2260.68)-16420(\2260.71)]TJ
+/F11 1 Tf
+0 -1.1739 TD
+0 Tc
+(D)Tj
+/F8 1 Tf
+19.3289 0 TD
+0.008 Tc
+[(\2260.61)-16420(\2260.71)]TJ
+/F10 1 Tf
+-19.3289 -1.1739 TD
+0 Tc
+(D)Tj
+/F11 1 Tf
+0.7337 0 TD
+(\242)Tj
+/F8 1 Tf
+18.5953 0 TD
+0.008 Tc
+[(\2260.66)-16420(\2260.70)]TJ
+/F10 1 Tf
+-19.3289 -1.1805 TD
+0.012 Tc
+(dif)Tj
+/F8 1 Tf
+19.3289 0 TD
+0.008 Tc
+[(\2260.61)-16420(\2260.70)]TJ
+-19.3289 -1.1739 TD
+0.006 Tc
+(log )Tj
+/F10 1 Tf
+1.5607 0 TD
+0.014 Tc
+(OR)Tj
+/F8 1 Tf
+17.7682 0 TD
+0.008 Tc
+[(\2260.55)-16420(\2260.71)]TJ
+ET
+/GS1 gs
+63 542.75 m
+423 542.75 l
+S
+q
+86.7 419.4 299.5 -308.65 re
+W n
+q 1 0 0 1 0 0 cm /Fm3 Do Q
+Q
+BT
+8.5 0 0 8.5 63 93.997 Tm
+/GS2 gs
+0.007 Tc
+0.053 Tw
+[(Fig. 2.)-1007(Disequilibrium values and fitted curves for the cystic fibrosis data, using the measures )]TJ
+/F10 1 Tf
+39.8451 0 TD
+0 Tc
+0 Tw
+(Q)Tj
+/F8 1 Tf
+0.7403 0 TD
+0.007 Tc
+0.053 Tw
+[( and)]TJ
+/F11 1 Tf
+-40.5855 -1.1739 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5069 0 TD
+0.008 Tc
+0.011 Tw
+[(.)13( )7(The true location of the disease mutation is given by +.)]TJ
+ET
+
+endstream
+endobj
+71 0 obj
+<</Length 8987>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 247.294 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.004 Tc
+0 Tw
+[(Fieller\222s Theorem and LD Mapping)-2526(247)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 72 635.981 Tm
+-0.017 Tc
+0.058 Tw
+[(est relationship to inter)15(-locus distance in these data. )-39(T)70(able IV)21( gives the Pearson correla-)]TJ
+0 -1.1393 TD
+-0.016 Tc
+0.084 Tw
+[(tion and rank correlation coef)22(ficients between distance and each of these measures, for)]TJ
+0 -1.1447 TD
+0.013 Tw
+[(all pairs of marker loci. )6(W)86(e)0( see that the rank correlations are similar for all measures, but)]TJ
+T*
+-0.017 Tc
+0.052 Tw
+[(the \(non-rank\) correlations show somewhat more variability)64(, )8(with )-16(Y)111(ule\222)53(s)47( )]TJ
+/F10 1 Tf
+28.53 0 TD
+0 Tc
+0 Tw
+(Q)Tj
+/F8 1 Tf
+0.7127 0 TD
+-0.016 Tc
+0.053 Tw
+[( showing the)]TJ
+-29.2427 -1.1393 TD
+-0.017 Tc
+0.013 Tw
+(strongest, and log )Tj
+/F10 1 Tf
+7.0731 0 TD
+-0.021 Tc
+(OR)Tj
+/F8 1 Tf
+1.2958 0 TD
+-0.016 Tc
+[( the weakest, relationship between disequilibrium measure and dis-)]TJ
+-8.369 -1.1447 TD
+-0.044 Tc
+(tance. )Tj
+2.6457 0 TD
+-0.024 Tc
+0.169 Tw
+(The etiologic fraction, )Tj
+/F11 1 Tf
+9.2814 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4805 0 TD
+-0.016 Tc
+0.17 Tw
+(, does not seem to perform quite as well as the other)Tj
+-12.4077 -1.1447 TD
+0.174 Tw
+(measures in terms of showing correlation between magnitude and distance. It would)Tj
+0 -1.1393 TD
+-0.029 Tc
+0.116 Tw
+[(seem that )-94(Y)]TJ
+4.6866 0 TD
+-0.016 Tc
+[(ule\222)60(s)113( )]TJ
+/F10 1 Tf
+2.1543 0 TD
+0 Tc
+0 Tw
+(Q)Tj
+/F8 1 Tf
+0.7127 0 TD
+-0.016 Tc
+0.116 Tw
+[( is, therefore, the most appropriate measure to use to analyse these)]TJ
+-7.5537 -1.1447 TD
+-0.017 Tc
+0.062 Tw
+[(data. However)42(, since many other investigators have used )]TJ
+/F11 1 Tf
+22.5638 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4859 0 TD
+-0.016 Tc
+0.063 Tw
+(, and it is of interest to com-)Tj
+-23.0497 -1.1447 TD
+0.152 Tw
+[(pare the performance of the dif)16(ferent measures, we present results from using all six)]TJ
+0 -1.1393 TD
+-0.017 Tc
+0 Tw
+(disequilibrium measures.)Tj
+1.9978 -1.1447 TD
+0.003 Tc
+0.074 Tw
+[(Figure 2A)52( shows the results of fitting our model for )]TJ
+/F10 1 Tf
+21.8565 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5075 0 TD
+-0.031 Tc
+0.074 Tw
+[( = )]TJ
+/F10 1 Tf
+1.2256 0 TD
+0 Tc
+0 Tw
+(Q)Tj
+/F8 1 Tf
+0.7289 0 TD
+0.004 Tc
+0.075 Tw
+[(.)71( )-61(W)84(e)0( took the fixed)]TJ
+-26.3163 -1.1447 TD
+0.002 Tc
+0.022 Tw
+(identity transformation )Tj
+/F10 1 Tf
+9.573 0 TD
+0 Tc
+0 Tw
+(y)Tj
+/F8 1 Tf
+0.4481 0 TD
+-0.005 Tc
+0.021 Tw
+[( = )]TJ
+/F10 1 Tf
+1.1231 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5021 0 TD
+0.003 Tc
+0.022 Tw
+[( and the iterative GEMPT transformation for )]TJ
+/F10 1 Tf
+18.4603 0 TD
+0 Tc
+(x\(l\). )Tj
+/F8 1 Tf
+1.9384 0 TD
+0.005 Tc
+(Prob-)Tj
+-32.045 -1.1393 TD
+0.001 Tc
+0.157 Tw
+(lems were encountered when using a variable transformation for )Tj
+/F10 1 Tf
+27.6823 0 TD
+0.003 Tc
+(y\(d\))Tj
+/F8 1 Tf
+1.6198 0 TD
+0.004 Tc
+(, suggesting)Tj
+-29.3021 -1.1447 TD
+0.127 Tw
+(that there is a limited amount of information in the data and it may be unwise to)Tj
+T*
+0.003 Tc
+0 Tw
+[(attempt to estimate too many parameters. )19(The variance/covariance matrix )]TJ
+/F10 1 Tf
+29.8637 0 TD
+0 Tc
+(V)Tj
+/F8 1 Tf
+0.6047 0 TD
+0.004 Tc
+( was esti-)Tj
+-30.4684 -1.1393 TD
+0.018 Tw
+[(mated using the bootstrap and the of)20(f-diagonal elements of )]TJ
+/F10 1 Tf
+24.1836 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.6155 0 TD
+0.004 Tc
+0.019 Tw
+[( were multiplied by 1 \226)]TJ
+/F11 1 Tf
+-24.7991 -1.1447 TD
+0 Tc
+0 Tw
+(e)Tj
+/F8 1 Tf
+0.4427 0 TD
+0.004 Tc
+( where 1 \226 )Tj
+/F11 1 Tf
+4.4922 0 TD
+0 Tc
+(e)Tj
+/F8 1 Tf
+0.4427 0 TD
+0.004 Tc
+-0.001 Tw
+[( was taken, in common with Lazzeroni [1998], to equal 0.98. )25(W)79(e)1( obtain)]TJ
+-5.3777 -1.1447 TD
+0.026 Tw
+(a location estimate of 848 kb with a confidence interval of \(770, 942\). This estimate)Tj
+0 -1.1393 TD
+0.003 Tc
+0 Tw
+[(is very satisfactory)62(, lying only about 35 kb from the true location.)]TJ
+1.9978 -1.1447 TD
+0.094 Tw
+(Figure 2B shows the results of fitting our model for )Tj
+/F10 1 Tf
+22.0508 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5021 0 TD
+-0.042 Tc
+0.093 Tw
+[( = )]TJ
+/F11 1 Tf
+1.2688 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4967 0 TD
+0.004 Tc
+0.093 Tw
+(, the etiologic frac-)Tj
+-26.3163 -1.1447 TD
+0.003 Tc
+0.05 Tw
+(tion. Here we again took the fixed identity transformation )Tj
+/F10 1 Tf
+24.0108 0 TD
+0 Tc
+0 Tw
+(y)Tj
+/F8 1 Tf
+0.4481 0 TD
+-0.02 Tc
+0.05 Tw
+[( = )]TJ
+/F10 1 Tf
+1.1771 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5075 0 TD
+0.004 Tc
+0.05 Tw
+(, and used the itera-)Tj
+-26.1435 -1.1393 TD
+-0.001 Tc
+0.123 Tw
+[(tive )-7(GEMPT)15( transformation for )]TJ
+/F10 1 Tf
+13.5415 0 TD
+0.002 Tc
+(x\(l\))Tj
+/F8 1 Tf
+1.3984 0 TD
+0.004 Tc
+0.125 Tw
+[(.)122( )-110(The final estimate of location was at 762 kb)]TJ
+-14.9399 -1.0961 TD
+0.003 Tc
+0.069 Tw
+[(with a 95% confidence interval for location of \(654, 856\). )-51(This is somewhat disap-)]TJ
+T*
+0.004 Tc
+0.04 Tw
+(pointing as the true location of the CF mutation \(shown by a \223+\224\) is at 880\226885 kb.)Tj
+T*
+0.027 Tw
+[(However)36(, by examining the data we should perhaps not be too surprised, as the data)]TJ
+T*
+0.003 Tc
+0 Tw
+(themselves do not look particularly quadratic, particularly in the 0 kb region. Several)Tj
+T*
+0.001 Tc
+0.123 Tw
+(investigators have used fixed transformations of )Tj
+/F11 1 Tf
+20.4256 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4967 0 TD
+-0.012 Tc
+0.121 Tw
+(, e.g., )Tj
+/F10 1 Tf
+2.7321 0 TD
+0 Tc
+0 Tw
+(y)Tj
+/F8 1 Tf
+0.4481 0 TD
+-0.013 Tc
+0.122 Tw
+[( = \226log )]TJ
+/F11 1 Tf
+3.4988 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4967 0 TD
+0.004 Tc
+0.124 Tw
+[( [Devlin et al.,)]TJ
+-28.0981 -1.0907 TD
+-0.007 Tc
+0.1 Tw
+(1996] or )Tj
+/F10 1 Tf
+3.9091 0 TD
+0 Tc
+0 Tw
+(y)Tj
+/F8 1 Tf
+0.4481 0 TD
+-0.009 Tc
+0.1 Tw
+[( = \(1 \226 )]TJ
+/F11 1 Tf
+3.3368 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5021 0 TD
+(\))Tj
+6.3 0 0 6.3 161.575 307.729 Tm
+0.005 Tc
+(0.6)Tj
+10.5 0 0 10.5 169.568 303.024 Tm
+0.002 Tc
+0.099 Tw
+[( [Lazzeroni, 1998] in their analyses. )-91(W)88(e, therefore, incorpo-)]TJ
+-9.2922 -1.0961 TD
+0.004 Tc
+0 Tw
+[(rated these transformations into our analyses, but they did not appear to make a lar)20(ge)]TJ
+T*
+0.003 Tc
+[(dif)14(ference to the location estimate or to the confidence interval.)]TJ
+1.9978 -1.1447 TD
+-0.016 Tc
+0.156 Tw
+[(T)50(able V )]TJ
+3.5725 0 TD
+0.003 Tc
+0.074 Tw
+[(shows the results for all 6 disequilibrium measures. )-52(W)78(e)-1( see that mea-)]TJ
+-5.5702 -1.1393 TD
+-0.014 Tc
+(sures )Tj
+/F10 1 Tf
+2.4243 0 TD
+0 Tc
+0 Tw
+(Q)Tj
+/F8 1 Tf
+0.7289 0 TD
+-0.088 Tc
+(, )Tj
+/F11 1 Tf
+0.6101 0 TD
+0 Tc
+(D)Tj
+/F8 1 Tf
+0.6101 0 TD
+-0.006 Tc
+0.092 Tw
+(, and log )Tj
+/F10 1 Tf
+4.0441 0 TD
+-0.043 Tc
+(OR )Tj
+/F8 1 Tf
+1.6954 0 TD
+-0.001 Tc
+(perform well, while )Tj
+/F11 1 Tf
+8.5255 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4967 0 TD
+-0.088 Tc
+(, )Tj
+/F10 1 Tf
+0.6101 0 TD
+0 Tc
+(D)Tj
+/F11 1 Tf
+0.7289 0 TD
+(\242)Tj
+/F8 1 Tf
+0.2538 0 TD
+-0.014 Tc
+0.093 Tw
+(, and )Tj
+/F10 1 Tf
+2.4081 0 TD
+0.004 Tc
+(dif)Tj
+/F8 1 Tf
+1.0691 0 TD
+0 Tc
+[( are less accurate. )-82(There)]TJ
+-24.2052 -1.1447 TD
+0.004 Tc
+0.112 Tw
+(seems to be a correspondence between the performance of a measure and its rank)Tj
+T*
+0.055 Tw
+[(correlation between magnitude and distance in the marker data \(T)74(able IV\), suggest-)]TJ
+0 -1.1393 TD
+0.014 Tw
+(ing that the measure with the most negative rank correlation may indeed be the most)Tj
+0 -1.1447 TD
+0.003 Tc
+0 Tw
+(appropriate one to use.)Tj
+/F5 1 Tf
+8.5 0 0 8.5 72 178.98 Tm
+0.009 Tc
+0.004 Tw
+[(T)76(ABLE )15(V)124(.)-495(Final Location and Confidence Interval Results for)22( Differ)22(ent Disequilibrium)]TJ
+ET
+0 0 0 1 K
+0 J 0 j 0.51 w 10 M []0 d
+/GS1 gs
+1 i 
+72 166.252 m
+432 166.252 l
+S
+BT
+8.5 0 0 8.5 72 169.002 Tm
+/GS2 gs
+0.008 Tc
+0.007 Tw
+[(Measur)15(es, for)21( the Cystic Fibr)15(osis Data)]TJ
+ET
+/GS1 gs
+72 150.265 m
+432 150.265 l
+S
+BT
+/F8 1 Tf
+8.5 0 0 8.5 72 153.014 Tm
+/GS2 gs
+0.027 Tw
+[(Measure)-11351(Estimated )-37(location)-9403(95% Confidence interval)]TJ
+/F11 1 Tf
+0 -1.8809 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+17.9483 0 TD
+0.009 Tc
+[(762)-15465(\(654, 856\))]TJ
+-17.9483 -1.1805 TD
+[(Q)-17217(848)-15465(\(770, 942\))]TJ
+/F11 1 Tf
+0 -1.1739 TD
+0 Tc
+(D)Tj
+/F8 1 Tf
+17.9483 0 TD
+0.008 Tc
+[(850)-15466(\(683, 1,126\))]TJ
+/F10 1 Tf
+-17.9483 -1.1805 TD
+0 Tc
+(D)Tj
+/F11 1 Tf
+0.727 0 TD
+(\242)Tj
+/F8 1 Tf
+17.2213 0 TD
+0.009 Tc
+[(750)-15465(\(573, 867\))]TJ
+/F10 1 Tf
+-17.9483 -1.1739 TD
+0.012 Tc
+(dif)Tj
+/F8 1 Tf
+17.9483 0 TD
+0.008 Tc
+[(775)-15466(\(542, 1,766\))]TJ
+-17.9483 -1.1739 TD
+0.006 Tc
+(log )Tj
+/F10 1 Tf
+1.5607 0 TD
+0.014 Tc
+(OR)Tj
+/F8 1 Tf
+16.3876 0 TD
+0.008 Tc
+[(885)-15466(\(703, 1,096\))]TJ
+ET
+/GS1 gs
+72 83.764 m
+432 83.764 l
+S
+
+endstream
+endobj
+77 0 obj
+<</Name/Fm4/Subtype/Form/Type/XObject/Matrix[1 0 0 1 0 0]/FormType 1/Resources 78 0 R/BBox[89.4 194.5 385.55 644]/Length 67/OPI 79 0 R>>stream
+0 0 0 1 k
+/GS1 gs
+q
+296.27 0 0 449.5 89.4 194.5 cm
+/Im4 Do
+Q
+
+endstream
+endobj
+80 0 obj
+<</Name/Im4/Subtype/Image/Height 1873/Filter/FlateDecode/Type/XObject/Width 1234/ImageMask true/BitsPerComponent 1/Length 13946>>stream
+H‰ì—Í®ä8Ç]S$„_ …á	`	Rko20;zÑRÒ©Ù±eE¿JXÍr”®Ä_Í%Ä•úğñGb;‰KÔ_ê¾eWbÿÊşûœãa(J'“zg÷l05ÿøã_I€*í%ù;ĞDêíËéûßóUÈäáhâ·„›ı¨şë:ñ.}ª$´o?Œhõö“Şÿ›~Ñ–Fèhooú'?üå7Ÿ]ù¯×RG{=õqh_‘ÃŸ‡á‡áoÃ¿üŞÃJò9´_õú2üçKşiƒĞ*íCbÉÆwB1ĞŞŞŠEßv¼P4IH©hŠÀe¢dLï…¢5/ãÒñ}H,A4¥2ãÚYYÑdÂ`6ZÖÿ®²jªÄş]m\²–'Á@µÑØĞğ$¨œhãª±$¨öˆwe¯e\µ!÷	Í‹Æğ£ÙÃ'æ¹?š¥”-X-EFåq,­+·(’UJ²PLÁ»¥àB¨2KÉ7µ›YãZŠ Ú«B+Ókß	ÅÔ£ ÊİPQÉbƒkK’ŒÙ L´2—’)‚•GıR,šRÉhl{
+§¦ÊUz¢-«d4nö”ƒV™=O´e=TÈ-xÕhËz¢aTò	åfO1«ÖUVßÂ)­˜U{¨cğD[Ö#ÛÂ©’³Aeö”¼¡|{
+§3ttK[cÀ.ÄË¦$–fV­<´[ğÇMI,A´ş ­Z»38¡oÑÑÛãè‚h‚T÷-í¿£5E¡½\·-í4–w4²=®´ºŞG—vóÚ§º²ßRshMe=¾¥ š h‡Ñ@6¿ÖOè¡áÖã[
+¢yGë-ßGÜP"ª‚ĞÀôµ¸'ªîE°ÍqtøÛP,Ú ¡QA7±å¿¶Œ&©¤›¢˜òo¨de¡\×1¢í{o±Ñ6}¬Û›Mmß{‹6k4kyYhª‡M[Şï[Ï ²3Zeö\ãZS ›şhûŞ[ ZMï[\ïÆõ†ÚÂ2Ñ$!÷RR¡UÛİĞ³Ôµg\²}o{mĞ®-ãŞî{¥h'u<u4n¿° Ú«†Ö‡aß{KÉh•Ö°ĞØD7´“J 4U¬í{¥hb·àqF£›óh‚h\Ü‚‡Ük=¨;Ë¾—;‡^ĞÍ†v­ c_ãz«>ŞzÔÈ„†ÆQåN=ÑDf´Œ¸ë¿ Ï§‰ÆÍ‚Ñòoh‹ôZeõğDKØcPY=<‘Ä’ŠŞm±¡Ø[Y=<$›¶X5¤¶H=Öª±í)œr¬ÛÂ©‡òZÁh%«g'=ÔªŒöÜĞeıÿ¢¥¸ce4Éğï®Œ†¼œõXh?š%äô¬•Wí‰†QF¯}_.ÚwåÆµÏå&*RŠÖÂ‹Fc;¡˜h¢ÜU“¬ØcĞÑbÑ†—Üq-EäS¹«Ö”‹¦R^¡h²\´¾\´á%í~–U+—’)z¢ad€ŒFÜùàö2ĞÆfÃn¯‡Bk¹óÁíe›^Z=;éqN¨³g'=ZÃJEëÉ±Ôô.	)MĞ¦*tCh¡«¦še®ÚëĞ³'Z€
+­Ìcp*÷ˆJ–<˜Ö(8äU™hçô^&ÚĞĞbÑÜ=;©d4fõğí)œ*yÕørÏNz¢aôDÃè‰†Ñ£g¢Âè¡ĞÊ¹¶ğåô<=Ñ0z¢aôDÃh´â^ãË=©’/¨×¶@GÔkO4ŒJFcfOşz-ZÿËC©'TR×!¼ lÀ´†øÃÇ’Ğ¸Ö8µ]©h¯¢/„Æ´Fah\k¼şXÓ§¡X´V5ËAãZCpYê	¬]#Q!uÛĞzü'Y[Òµ…Mú1{z-M~$ìÒ“¿^Cê²FâÃ­´U‚Ókß	ÅÔí­>Ÿ?TcÙèŠöÏá»s“Ï5vMîV0é‚öC~´†œEÑ\Ñ>Mš­&áî,ÚO«ëyA;B¦¥Ã²]Oè;B¯=<™ë|šb¸Z=:óàŒ®h_çkw Y¡Æ¸åĞËÌƒÖÛpŠí€äŞ+5$Ë‚&	¡÷– ­pRrPq(šaı·l müµ9Ò»0#-!1@/£c“Ñ:Íh·æzraıQ‰xkG²ÜŒU—Ö+W˜²2@ í5ÇÊ±hª“Fd ©{(ó<(×¢©=–x¡ÎyâİæX5!º©ö¤%÷bÎ)÷1„º¿¾/¼2‚‡LEk|¹¼N	µU"š¿äncã‡¨’ĞZÔÇ€Ö%§÷¹{Šw¯=‚Q¬¡ihŞC°ø¥Cv€MAkf­^Ç„¼hóvq!+šXpSÜAÈŠ¶´cmTFÈ‰Ö:ÿ€Œª(s¢-íç|l±”­^œ8jG3¢uËÛğˆö°õ,-dIšˆÍˆb¤˜Ğ–­™µØÑ|h"ÈâËGåÂ¬ü2œ4(Ô/˜;³zx0®>ĞE„†è@³z‚Ô–mğf[µP…ïh.´ ó©´˜hïC2«'p¨°ó©us¡5Á¥˜İÑLhz(íéü³¡Q7š¾ŸİÂ†îh&4=$È…©Cm™	Mß$¹áBóh´N·öZ`JK@ÓŸ!~M„%<š ÷Ïµöy-0<ãÑÚ;œké¿Ä«´»cà-ĞR ôõRÈ5Nÿ)fõğ€×İú1Uõ¤ r¬šŒ¹]”qs ÅÜà&¥øÁ#z?Ãªu€Ö½Œ\¡hòú\˜©¡Bv ÉcÚMÁ(ä† ĞÁ Õ4ò…AíhµøDûzËƒªéâ# í$>Æ£Å‡¥€SĞ^%-üb©+ |@´î}<Z|è|¢õï¢Ñ0¡Ci9|$£	Ô~†„ˆ6ü<­¡QOú²Ú0x$:Ô¡®ÙÂCÕ±h¨Ğq¸‹'&*ÖÄ¢¡BÇmñGÁôÎD,ZM£ &M	d)|EQ_Å¡…äBß[íBøÀ×kg-^ìœšĞ–ÂG"ÚÒ/÷èl³¥ğ‘ˆ†ÌRŸÎÿ/„íV½gµ«ªm\²1~SàŞe†a°Í8´†"ˆn2‹Ğ–†VG<ëz²´°™äµUàŞeT-F”tB%² ºMZN´†"xtA³eDûª 0Toµ e Ù=­#‰V3ÍÖR8>Ó=9F I’h5Ól’Á/õ¦TëFñP“ú¹D«\ZGEWÉ%u„Î|É´†¨dD))’­6şº™LĞNŠ+­MJ g	2sÈË^V'Ÿ‚±<˜)ŒL4ŒÖ§ĞMøÁ£ÍZ8PòØù]ßPdí4&a¿Ù ZsÊç õ/3y<Ò£Ú4§×lè‹»æ9 ¼ÑÑHT‡àD•ÃjgyÍ†Nï9¬vVC=_À¢¨­BÑÒ®yº¼fÃ–’¹¬6c6,Z6«ùÍ†EËf5¿Ù°hÙ¬æ7-ŸÕüfC¢e´š×lH´ŒVóš‡–/ª)yÌ†CËi5¯ÙphY­æ3ÛXÖ
+AËj5ŸÙP«–×jêŠàêE¡åµšÏl(´ÌVó˜…ÖĞDk@‹bD“p•r[ÍšàÂ¬n¿	c¢ô–óXõ®ƒĞŒpİjc4ªì¾04x"3G5¥†Ú}´üVs§QZî¨vÔ1&â¬`5gdÊ¡ğl¯`5§Ù‚V<´†ÕFÏØ[Ÿ\¶H—#Æ£9~_Ù{æÌwé²‡G[Åj®È¶Õ\ãF£y®?é²v#­¡™P¬™Ñæ¾ıd•dbÑ<wÆ²Ì‹¶šÕì,{mi6SfnE«g¿MRklDûú°„¶RÀU2ë@€Ö’ñüÍ¢ÉÕ¬fß]"ÑZšH“a6€&~F6t¥Ü>©¥ 	‚Ç™jm2ò6=tKÚ7–»Œ6tm¥2ò*™ Z¯¾šC[Õjf…hÕ0¶ªÕÌĞ•Ö*#¯‚‘-
+me«f‹Bkhfk¦5¢ĞVÌí“€Ùl4é½2ò*`¶´õÊÈ«z½¼7ĞÆİløàQK×Àj´)bĞV·Œhf=µ†ô$áµ5ËÈ›´ŸÖÒPLi‘-"®™7UÔÒÛÇp´uËÈ«4³A4QùÑÖÎí“´³‹"rô£­pÏºG(€&	ñ£­\F^ÕÒë'x£¢uåEÛ àn›ï¡•ğŞC·±š^C ´“âò mdµqwªË€ö:ƒÖ¬]áŞ&¢—E0Ğz/Ú&WIüä²¥¡h[äöIq£y7t«S0Ê‰6sÚ­¬6šÍ…Öª²Ã¶QÀU.4ÁOÈİ&·O’.4¢’ÛYí¶ ­ó¦w¹ÕÆs0À¢H9Ê‰Ö2GçZºLXJÎZMXc¤ér		C›¸‚¦ã€Ù&c‡¡Íçö–fàÑ5™-m>àfÇSC›¸ÙÑUÿ{Ğ:Ø=p³£M	Ûƒö?öË_ÇqÜÀôú°Úb°œr€˜åµSºS¥
+òûÛe
+c©‰§+l›"ÀyŒ æœËäd¸Øò8à‰!åñXIÉ–h™“åWŒ5¤E~æŸdPÿª•¶VÏv×YÔhm hû°PèHé…T9ØÔj[²ãlgíÕ=(—ˆ®&“YWSé2µ§™CÔÆËp_Ôâ¶LhMu™Ú÷¨BÂ!Û ‡£øT  ÙÕ`¥dô¥&r•rM÷á4NÏä`bİUŒ÷´;#+‡ã€3ÔpO{WÈ#JP3ÜajYkm"ÕrxˆšÑb˜ZÜV)3I
+eÀêV3ŸíÃÔZß–¡BªÁfMSÍ|™¨†[*y¹Åµ'½œ¶¨’åšî àáHÍr¶¹nÔNr¶wmƒí'jÖ4Ô:2Ü~tí'jÖ4Ô:2Ü~<¶Ö&ÛNµÓHmt©í—©SÒ¥v’¥v]jé5ÉD£K-ŸmØêj1j¨€~gyéUşá*%¯©±©'j€†Z=Q£(%uµ{¢–Šëj€SÓwYÏw×ê:U½QÉw˜š9=ŒšÚFYUM¶¬Ï±èÉˆİP+êš#ÁQùÑ“!cŞ®öœá¦°oótÀÜ:¡»¤.…}›§õÖm°»ç¥°oóÎÔrBkqm·ˆSØ·ygj‚šÚ.ÃMaßæ™+5äV&4~®ìŸ„sWj…:Ş÷j€Û‡şqM¤½ßlœ$)®ªQğ¼Ö~ïß¾35Å^-Ãö©Å7Şª¹Èpİ©q²_óÜE†ëNM™Ú
+%4òV-E.¡§™P@8ìßğ32£ï‹}	ä/mĞ? ÙÕ˜ƒûÊ‰ÔrØ·ÍJ[§Q{ÎpáPM¥Ïj…ƒ¥æPW2î`©	w;TşÈµ!7È
+®âEòG>«õOkäı_åUƒ¼rm‘©¸:G‹”ŒTÕ6{5·T#»§ŸäÏ}cv°PW{¹‡2ûİö‹øu‰/şõß€‹£º:\ë´Àå†7'íó@ªã±yQ‰Ù·…aZ–†²rBùà' Üı	ÇŒld'¶…‘Ù*CÙZ-´¢µÛKüó/jê›Pbì&µX+V†²œì:`ĞòšV3Œ‹û¨ıÇPF/vK¯îª¯¶±è#ß»QØìjæâµ£(Àîà,ˆ“T'j(@àÀ!$)©?=æ‘˜È+M®Ğ)XÊ!W}ÿ&o-q¨U¬
+€cœkÑ‰€Sí|ÂÀ”Ó›Úa¹ÄB6ÕËŸDŒòÈP“p€¤œÁ€ƒO ÅQ³"[3°¸A»ÕŞ)QÑ‰^.Õ`åºZÄşıUkm³¹Ğ®œKÊû4Cæş†^J5ø¸¤ĞË×"‚Ëå:m–óˆãÁhÙ¬È(]\ã÷P»ğ%”Ê¥9Ãšó©ÖXI$–kÃb"`’<fZ•j}ÖVŒR™ÕÄ{¼²ªekc1É:£¤Y\L
+´R55Âñfµ+òƒ®öYªQqAìj‰ÖK	Rjz(j8ƒë•^“H5i ıĞ{Rë#@é”Š¿Í¹[RƒšX+µ§äp5ÁÖRí{ƒÚPñãÑj…R3Zà52Õ$0ò‹A®Å;£Ú#[Õ>ú—j€H5µŠ§µ9ùÅ`°ŞXÔ–ôş¦UZÔE[ÔVJígƒÁƒeÔŠè‰÷Sƒf5jSKØâŠ¤µ©eÔäaW\öQCÉ±jBÕxd5Šû©É•`Q³®5¥ö³¾z2«åD©]´„\›Z¦vèqj¦J‰%äÊoJµ¶ÓÀ¼CŸÕô*ªâšEíÚ×raQËdŒ¼j=C[ÔL!·T{2Rlg¨Xóykæa	¹$ûœ›Õ¶g¨®F¥šáx—jŸ®1„Z±9»½Eoá‘jgÆ3T†\™yw<ä2Ánïf0Ñ'ôC{–›3dê³6XSEËìQO—6Ÿ] ¥f•€²Ü0 Zïæ¤¨€ÑÃ2×F¥`:ÍõüW&àX@İ`!wƒpyŸ)±ª™SIyXp”FTOåµEİNÖ>ég*ôÅÙMn¹ ÜrmI±¼Ğ˜^z‚/`ÇrmIÍW:Éï.{oÅp@ ÿ)È¹«—'Tş-n	#>Ll÷P í‡‡j3T~p¥ö<‚gf§V T~ò…‡jÛOVªÁ3ÙÔ¨«Á¸RKÎ'´'ÅT€°)Jq	Ê?½Ø5&ÅàşŠ˜*µ+€|Qû°¸œÏoß¢÷p²O|1¿†«îOO&([,æ‹»ÙÁéFªİßc˜u¿xz2±æóÅ—j8‰6ò¿Ì#µ›â[g×x×ò¿	#‰'j›âF†3Œ®‰RÛğ©Oj—B€;©–!¥æÑ¨eRIµ+_ÕÔ„få„ÔÔZ£¹È
+©mpsïšÚ¡—ÛZªİÏ‰OÁc«–”j‹¹?qİ/n¤Ú)5yP]y¢–‚t1¿¹GïåZª}ºº@^œ¡)˜>!ğ¬æKR”‚ÅDfkoàÅø§J%ßâ‰šˆÄ²€r©ú_¦¸âI|>¯”¥&üTãDıEç•0Ã±ú‹Î+a¦À»?ŞQ^úüTøÜ@ @ @ @ @ àœhL‡\%ÌÔÔÒEï`üüıoş|DGÇ+=r0-š'TÕ Bcö~#¾³NMQU£(%rè†sù!Åw‰_[¨å‚âvµwHÕïü²xH·G«m“jèÔ}HCceçµ);?hªaoÕ¸¯jkµĞü\k9¡ÄS5
+¯jL„§kƒÈW5‘báé„–µn^'"ÇgÑiªár+xÁ+RówB…¿Û@x­æéA¥ğxÔ<VóxBƒZ7¯E-ŞŞ¤š·—=Õ¾Æµrø¹J«0jİÔÔ
+,¨¹îºÔ(èÒÀáiC‘QiâR-`Kƒ¯Gqià±š€Í‚!ÛÀ×Q“ÁÃW5r}U“œx‡9oû¿ªóZî%Ş¨9ÎÍoÔ\mƒ”ÑqµÖâ^oµò5¨¡":A­°YàÍZ{Ujÿwqí¸MŠœòªÔ<Ğ v °YàšÇ£ÔúÔúàñià*óØ¾Ñp:jnÕœ†\: ¢›Fí+VÚÇ;´å4ˆ Ç5ÆµÆ†Ğ¢ p§¤]Íí²>’†ZRYkrB'cëT©©±‹I]Œ/´§¦F•KuœU­×(¸Á{µQ»Eİ+ÏyÊkj"ÆÚ÷GV7yC-ÅÚ÷Ç£¶Ö6´¨«åX{a<jj_šjht¡
+°ò¼ñX­¹ÖÎªV_kşªåé½¯Û€ª4ÈÏàA¿iª‘Ñ…öÔÔøl"ê§ÁøB{ô¤¨v†­S¥-ÌŸ|­¤šù”åŠz*yVµÆ=”“},ó*/gó%–;ËíP##ëTiªU&TÆ5€ÅùhÙê4@cº4Í‚ªEcª4Í‚êAÅ´Ú1Ñ:÷T-†õ	õG«ğ_5/´V™Š±55¨}Dªç˜OÕÖj¡¿€â™@µóàG«q°Ãy.ĞªF;ÕrP¡óÛCÔŠ#ï¡ ÛkUë:Ci)„÷NİêjÕ	;3ÿÖe\»UÕòÿ±_ö8–ãVfÍ3P8pŞ†Æ;gÃÄiï`&s0°4è Âò¼5:èĞK°ŒIÙ 9° úIï§¨KI¼”T"aè¯¨#ŠüŠ?÷’½ZÜdLå¹BFõvjïPÔk¾£¤vÑÛOVK =´~6ğÜêóyñfÅ}JĞø—½¡1-²!à5Ğº“‡Ö{ÙW94ÛEÖüZ[ÁéİFÿ¬\‡…ì¢ÈJËÔ¸Ÿ×¦Ô÷ß¢µã¹é&Pã>jS™µ"ï~×‰ îŠƒV‘€vSyiaäm¨@Zã‰¬j)5h¥oÆÊUv¨áGóO˜ö¤8àtìm´ğIµÆN 5¼hšS‹v¨áE+„ó+µBNpºñ¡)Ş\­0l †mú¤tWÃ¬7!PÃƒ¦¸q¡NÓr¾÷ Ü°P/»pšœìš¹ÒZ•Âi;LÎçÓh5K‡Ô˜DÓÂ©?.Ry@Î×“hƒÖÛ²ØjL¡é°´]-‹m ÆZ¸z­¶ £¤MÚ‹†-­ğËV¨1V‡ 9ŞÏè«1Íøo^§µ±şë9ÇÃà5`	©9kr‚w%PcmŞ’7–@14=oE¥¶¾œÇĞæ†ÏùaÔA›½×Ôì{†á–æ¯™¹›šù;mvü 5†ÑæOËü¥ §¥!†EÉpî°ZÔš9–}jZĞéÖızŞƒCh³Òç‹fœZÁÁh¦Z4hs7œv¤[iÙ µÿÚœ¯@4µìú17‘:ß •ïº3‡ÔpÑáT
+•š³X^]´Yí’F…Ó_Î'.Z±p´š³@MÏOŸV«ÂéÈ+çmÉÍãE36¨AÑš%÷µÍX°°Êõß.ÚÌ,C5ã?„UÖ.Ú› Uœãa•Õ÷çQ'hnD}…ì«wJR´u6A«à «|<jmMĞ*8İÁ*ŸN5E[%¨]T‡Î(¬òéÔP´å™ıE¡
+VùŒ–õÑVÈì/
+mv×î¨Í;(4´Á*»km­ vQÖ¬rEwh³ôxÛWà‚UVß¼ë‡ÜĞÕÑ`úuØŒÚiA²AÔjÏŒUAÉ
+vËâ¡—CëĞ æCKV°ÚQ²ĞÂşÉ¶kßAÉ
+Ô°Ğ‚“”­
+Y¼ ÆZx’ò¢%+8_Ë[)<ŞzÑ‚%œæå­$œw>ù¶AX8êw²R^Ë3µq
+øjÜÕ¯i£ïOoÈm¬úYh«:^¤øsÑï¿Î’·6òÕx,üÇNÅÛ6¿ñÄoÔ¸•/âï.PãŠöJóir¨qE<öˆ½óa?ˆ{z¾şğÅ>Ï ÷ÑıPôzóÉºv5%Äíõæ³í†Wö7¹ºr_q>ù3
+«\™Ûµå5ç“½Ga•OævÙ{ÍùdŸ¶`•O¦¹ -‰·5üUx3j7tGã.Ô!iÆlñnj°Êw´2ôR`I1¾eıë½Öm­_òlU4^°[½îĞzÁ|šŠ³ƒX3
+»UYuq³\FÅBcíQXå[6¨³YP×F8h¬Eïƒƒ}Ù›'Î6àÍ(zàŠÆNcÒ¬O9éÆi¨Cãµ?(Ş¨s’´ÃpÉ¡K6KŒ<
+j\Ğ^5‡¶bìQP£CcE€EbÌ(œo¤Y0jüıíß£l|6šrÚ­éİ£NSË¶Aå´7¦Æu¦–Nr¿Ê;£Ã%äf!<–Ğ¼'#PcY¢
+@óæQ8_x>˜V š)<{ÔØ­z˜~j,CSN{ãòE]§©ehAûÇ“Gá4.ƒX–HMÏ(®ßßŒÑ<{—?Í=mlˆæ‰ºè~õË?°%ÚôE÷«ô}·l‰6=£è~•ú.»UŸª½¶&^^Ş}®ÌóÕØmrFÑışòÁ<]MÑ&gİo,43•Ğı~ù)Z91£è~¿s1Û¢é‰c8º_õæ;\mÑ¦fİ¯z%®UÚĞıê&J60“3Šëß(9Ô´É;{jlŒ61£ ÆÖhã+Pck´f4!€[£Ú@ÍÑFá Ææh£3
+jl6z±5¶G›QPc{´z$!À©(_d@#3
+jD@«†¨mdFáÔ“¯2 ájÄ@QP#šLñ F´áC¨møĞ†ŞÓs$´ÁCzOÏ‘Ğê¡ŞÓc$4SÀõl«gø8hC3
+«­H°Êg´<ÚĞŒÚÊ±Öš)İC¬²–ÏÑĞjw±Á~§hh)öÃãs<´Ò9OÂ~øé9š›âa?Tˆ‡æŞù`?¨hÙà¬‚Î(ì‡:&šsçƒıĞ "š“âÑ{zˆæ$Ğ
+ñĞ9O‚Vˆ‡FÃœ
+r‘„€ŞÓyÈJ¹
+¹ó¡÷M÷mè½Œ‹Ff½wMn”Ü…ªŸâA_ÇÛ¡ô† ú:&Z?Åƒ¾‰ÖO o£¢UvŠ‡ıFÄ<y´ªíğŞ‹‡Èh½ğËWï¡W•VB€å«üÔâ¢Ù3
+Ë?¶¹=.š>`ù§–+.š©^,ûdšèhİ¡­½8hYl´î† »Í ËNaÔºï¢XkİO9hUüz	—+),Weeìkºïš"v¢2]øpÑjqH í>Üm`Ê,´óŒÖ]Ü}í–âA_ÄGÓ×ó$è‹øh·ú">š).)ÔO íq“D»'áørcYûj§€V¹!·U
+hİy2M´ËÔM­=O&Š¦ÒEkÒE3Ï&Y´V ÆÆ¨±£1jìh;C ÆÆ¨±£1j¤ƒöHtĞ@!PcGcÔØÑ5v4†@!PcGcÔ¨³í!†j¤<jr{ˆa;C°Ê™(š>Ô©¢©‡tÑD²hGõcªh'.Zı6Y´æÍÆ¬òÉ|*š2"Y4Y¤Š¦³*U´:S)¡=öÎ\çÃG"z¤F:h F:
+j$Œ¦åöÃr¶A)ã€¸BïiGã	ÔHg­	ïĞ=ä2ûAçÉ¢‰CªZ‹‡TGM¡È5•ë”Îk°ÊUZGIXåc‹–æZ;™&K-	µÏk‰¡Á*_ÖZ‰Ä¬r<Ò\k*«òDÑ´¦]n‰V¹ishšh¦ÌR=ytJ-ÍmĞ)a´D·A«”GMn1,Pc5†@!PcGcÔØÑ5v4†@„Ó{Êhr{ˆa;C ÆÆ¨±%5v4†©‘¨±£1jìh;C Æ¨5v4†@„¯-	oƒ:ÛbX FÂº£1j$ŠVe©¢5â*š"Õà¡Pæ‰šÊµLíØf©4Óû©²!Xå+XåÏ3·Ao•9²[½ÜÆh¨òDÑºD•&šéÒ»nc´2K­ëG·±£Í¹‡n‚ÖäFÉà66A;Y)ƒÛØ-KMšJ·‘ğ6¨W qj„BüC ÆÆì‡*K­sÑòµx,Á*Ï=¯m°CÊTO¹	ßéŞ¨æŞC×Eû9şıÏç%ìV·Aûò¯ÓC)Z­·Cÿmşi¾¬¾ƒÑ2»×_õÏò7GµBOÁ²A>wÛ E§¯'ò±y	¯×÷oÿñë§‡éµÑŸ3E„ö•Èä/çµv`@Uî¯3†Ö%*síöqø}mÚ_{5Œò÷Êª3†ÖˆÃıÑÛŞë£u‡"W~´ŒÕ­fÔ	”Í´›Û¯W@;1êüwın9ú9N·»víÚµk×®ÿ}Š0 :WĞ‡FlÜm#d%U6YGçÕA?Ô"ç7›™'_•Rz*4"+²jä–yGûğ^½ÓßúÚºwzĞş1.2O…úŒ†rğZtW•üpTú-Müc,àCƒÁãûÓäOÇ“ş~ôVå¢UGı'9]©M6ÙÓÓÑƒö¬Nõl´æXé}h™o5¶h1VåPĞ>™Ê;Æä¡M_WõíSıƒÍ?ıôÅÉZÖ’¦Ÿê?®‹VûÑÄ-ã ıöŞ<ÕñÕ>wëE{+O+£`Ô®ÿÇ~ÙëÆnc˜“¹Èd‹œ ina„û[º0.ó(Ù7HyÃ’ãbš`]n™G‰.Sl±åj2°4Ò( W\’šŠ”F”<#ğîuF¿{HRÙé² º%Wì÷s«­‚Ô†²V}<¿ÚıÃYÔ¤|¢ÆÃ—A½ZoÎ¦64×Ä¨â!–ò5DmpHùsHñ0%7X­Ğáóß?ÔÖ¯[¾‡*µê,j_nTÕn{gÁjgÙ*¥ö2°½WÙÃFŠ>…ªÑ0µ¡=´Ê¾ƒõútõ3GÉïÃO¹°QÛ»R£0¤vEW«ç‡µqğõ³:æøİš lğ ®_[Äˆ×–ûe¹¨ÿ#ƒğšd-aè®Lş¦e:]…Às6ôœ{É31x×(J+¹ºëÏ³öˆÈbôšH$‰D"‘H$å—æë;¦ŞyXL‘=Ï‡4_FFqqxÚ7(˜¯£Ú£ùµÚc$›Gµæ«Q[G²iqPƒæKÜaR[Ê\æõò—’ı¼’Õ{OØKl-Í“D’äf	9äKYÕßú<ü‡—çIVäÜ|¥Ô~ZåJíæê`Q«nn®î ]ßoäk}}Cq¨=K.nî>ÜQøš¾<µ[¶ŞÆÖÒ<i™ìCMé×ìyıª®ş*ØË&¶–æInêªf¨¬±íš+µµçF­ ğmQ©©¬É²&šP"2j*kòUÛpª©­>Õ>Ü"Qk–);µë$sMgíºş¦ÖuíÙ¨İ\±5
+µ'Sr¿¹¥j7xQj¼şxEEÉ-È'µQ]Rj«U£öşK•RSÛû5}òPjæP„ãäQ[u(º%ğ İ«1$jÙRŞ×ËÇgYfêºR\¢8Jº¦?QÀ]µÇ¸İÔLB\‰njª?i\‰¨ş`qzø%¶@"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰Dâ¢ü±Í‰‚Íß³ø÷·$8W”W?/‚úÄV«¡fn_ü]¾üöÓçìrŠZµLÖ³+|¿øgç@Øjœ\Ví/ßşO¾„Ï‘–ÚãÕ ó©gÁ~ô†ß*µ¯²ß.×İÀjo+­Æ"™x€ÕŞŠ´jõMj!€ÕŞÈ÷˜teµy–£UcJM•6$€Õ®h‰UM°ªIí…UMÊ¤¸Äj›_¢h]©”,ŠGĞºJja€À:×$êŠXÏ¡Ü@R Ü@R Ü RµÇ<CªV‚õ”‹X­zG°¨ ë20c‰SÍXaV£Q<: «XÍ€³x0«Ñù%º7€y®Ñù%º7€y®±ù%º7€s70$µ À$µ À VKÅ# pˆ÷PÌYcóKtn ó€Òù%º7€YÍ/Ñ¸Tr 7€X-h à’Z à%—ÌéÑ¸CÖ8YÍjânà VÅ¬&àÅƒ’ÍiâöEIYJÍmÓì²l«ÑÙulÀjW„Õ8‘9x·Ï‰İ;§ev(|)Ë¸K¬6Ï*vÈZ	²ZÎïcVûU/Ï½ZA¥ˆ«fÙVæAMYÆ-l`µ[jy&eRë¬öF«íw"coğ`µ7ö2Ğ»ŸßÇ¬v«xDŞÛ¥£ºä2Ó¼:5`µ…Ş¨5í:nMÓ€}¡·÷İ2À¦V²ÃöMMƒ4kš¤ ´®”—o§š:qh’Ú) u¥Ô83-tj
+µj0ªáY¡ŞKâİÀVÃs^3Ø‡¢|^pöQ›m¾µwÃşµe!cÂÁØoTxÔJBØAM½‡F. `µ]5ñ6µ‚ìÈä¯şëmj\«íW¨Úæ§«åÄÃ«í£Ô**Å£ ’œ4ïe}Œ{İ»Ë½Z¹’%¸wSEö9¯‰«f¬ös/tâFò§´4 õS>ZÎşû–ZE>6Òì0–™Î•÷×å¸Y×«&š&ˆíÖõ×µŸÏª÷y}‡"ó”Qfy»×NµÃmÇßv§êÀìÕÔ3ÆlÜéQm'İj;¹Ã”+éxµbL)ê˜÷'¦ƒ¹{×OÿZóºßÏ55u˜û[U×ì>u¢29nœ
+è»Éûáµ@Ê¬©e™ûÃÓÉ?Ó£º«FÇ©ì÷±µT#ö‹¹ğöx?ŒÍš»â‚ùµ™pısÜÀHµzJÊvè‰@/§Vx+3n¯Tï±ãæZ>m0÷ø%ÇÂûAĞÎ5`"§Ü¼ø¡® Fs‘¸¿ƒ²ßÍP3uVÕµ7Á{Ï"ı»Á ù©9ïË›V;“™që<H€-å¹Ìš¼ıÇƒT«Ïgfş›y¯Oò°³š7OdjÖò³šu»y µâ•Ö§ãÿ
+î=!+´3ÿoÄñºÈûFBå=Ü[†—Áø×À JwW ÷aµ·né}¨Á ûÚê6wp6Ü‚äõ24×ª¾İøíˆvåïwvúï{6¼³À[gypĞâ"K óé#çZu¡%°'·*ˆ¯ÆNü¥¸ÜDÛõnu0Ní²Ã©áÇÀıíÔ2(/<œMûeîO'ÔÄ%Wçú°JÁëŸõşUy­Ó§Ú^°£tqJMœùŒÖÇ>`Åªwj
+ö«]zuZ™!µ{3«£WÏ2œÑôÔV»fRĞîû/]lmJS@ÀŠğò¶_­œk8¥N[&Ûj[®v©’;ßpj^õX£Ö=×ê™V§XíjÅÅÖ¬vÿ€ÎUÒZ€ÕîW›­¤Ù€Õæ¥Í.5~ñGĞ2¸îV›±¤Y8»A§Z9û€ÃÇêK5nj³§0{(Ø!}òğÕŠÙ×@å«i<51ÿ¨Ì7ì•Ü|ş5ÀÃÔªû@ZÅÚ×ñn¹8]ªRV²VdşÂ!»—R+X+¥Ú
+ï Ş¡c¦©*a¬ Ëœ¹eóÜn µByŒÇ¯ëVÉ™´ÓjQ“vz£Šq¶=öE¾j©qÒúunìÎÙŸ<„	Ïú~çcO¦JÏz³B+;Óœ8ã¬QãºG]ÒQ“û×­;i-µô¨–GNZû=TÖGµ*vÒúÕbÏ4OíWhE ëö9±Gm£½ŒšXÅOZ+k¥>™­¯È2…µc]SË“EÑ±éŞêèËS¶ÕÌºScqtlÀ¾Ğ'F-şLsÔ„ÜÀéü&Şœj½D%©M!©MÜ b5ûe/.àgZZSğ²†g|NjˆTĞ€@œµ4×HjSHjSHjS 7€G-em
+ˆ³†x7Ô°TÜ-0Í5°ÚÕ5Éªñ¿¡R³”ÿX1¤j›Àª¶İ¨å‰óJ©Q¼YC«¶E«†xğÚâÁÉXKnEPîOê_MPmï;µZåKÊb…O­„íØÔø'BwtjœÁ.€OM®wUÚĞ¨½nä‹şV)+YL›Fí§ƒZÁbêØìÔî›E¥æó¯µÏ\óÉ¯¾ƒ] Ï
+óÉoÖ5h¾j„»ì¾ÍªÁ£fŠdp{o(E¤GIgí»DûFµÅ¬V#V£˜ÕTâ`«mğÎ5®ODHÕÇZrÕn€u£B¼‡š“Îj@š5MR ©M!©M!©M!©M!©M!©M!©M!©M!©M!©M!©M!©M!©M!©M¡­ö_¼jxÕÖhÕI†T­$„%µl5K¬s­bh— hÕä
+¯Ú^µ¯_¡UxÕj¼jğªÉ¤„§V±´ÕTÊJGÄÇS+XŸÏG-C; õ
+Mj|.j9`UdU­"«ge†UMïíxÔÀjoµ5;k[YÓ¤Âg£†v®•¸V¨S×˜¬Y,—–!XKn³‡ÒX*.­“YaİCI-€¤6…¤6Äjàğ¨!ÎZR›BRû?ûe¬ã¸P^D±¼Ò…±LŸp!˜¿’«Ònº+–N)q›"ÀşŠñoHp‘–F!Èòí­åÕèd½'ó
+Y+®È'‰œvÔº@j] µ.ğÃxÔ¿5Rë©uÔº@j] µ.\‰šåV"UÓ}ƒUMõğª1´j…B«¶ÑhÕbµ­š¡Us¬j¹»Áª¦ä­šÈ°ªi‘cUsR£UZ®IÍO7$TÕü+ó‹	/Ô|hCb5^ùË&>[]Ä£†kZ¡¤Ö‚kQcV5ÃzXÕ4cXÕ”T	V5‡¶”Ü/¬jVZ®Fí\Ëñ®P%r¬qÍg¬jˆs(²Êƒ^À£v-¥d€ÔZ@j]@¬Æ/àQCüÖH­¤ÖRë©uÔº@j]x¡få,j¹&5Ä”ÔZ@j] µ.Z*j,Â¤Æ÷ÎëaUÓŒ%ˆÔö?¨’¹Äª¼pªm0«YAjm¸5´sM9İMM‹ÙT¨Æ5…U­s68¿Zçz~µÎ•Ç+¨ğ¨ñÃ¤Ö~xZu®y/_²Í+©eòøNşçj6ñÙêøNğÆµcì.œBÍ›ùä{rH­µY·ôÎÎ3×øŞ¹íXiğ½ó²”´òøN^© Gª¶-8Õ
+gºíCÏ¢f«ûP{5¥ú¿°¼P;ß5î/;˜½T€ø5›ü¾4?´ëHøŞPE©v¶¡eÿåa¢½¦ÚŞàYóÚÅµ“šİ¨{¬~^;êÓkDG!|iÔÇìm.VÕ?ª¥ƒİÕLÈ¡»3Şğo/{y^¡:i¸Q4´mÚ³§õj›ziR3IÃ_¾Gª=cN1z#]â.AAñ•ôı¶ÅïK.„ß¬q7Ú˜cI&¾vˆµûÛi Í&J<oaª¨H÷¼B-šM™œ7" Ûs3ğÌ¸ê×·åı –Ô¶©ûé@DQmÛ!è?¼û~@-³(ïÕ·­V*×c@ÍÄ’sàkƒjz<ˆ9ğ€J¦éØÕ¤E¡Õƒ¬mÛzµÛƒ½-¨¶„Z”™Lx”BjÿrêÛÅFßQÛVØqÒVê?¨ü»zÉ%ß¬[¹[™{`¹5ãäƒl«–@jv”¤ĞfR)°|¹[›Ÿ 5eŞ%?ËM;5©mí0ù €^şğj@Mxµ·€š¾jÀ$= ÕœWûS ½|”b» neÑÚ|%ÍŞ¹¨ùiñ'ÔËİ¤A­v5«Ù5ÛŸŸHÍg< õTóqV‹
+XMéñ)Ô² –¯ÆÔB\k»BÔŞkğ­é¸a®ñíÚ|¬ĞM¹ìÛÅµÔÔ÷æLƒÚğ¶»Ú¯mÕÀe`¹ƒ‡fß4«A!7¨µMT°š–¹šEbfƒíJC‰ª°#ŸŞÛUp6Ğ‰‘)”oÈ¡>½+(½›xÂ9P3´VS¾^Ó»	•Ç¶¾--r¥¢HİûJ‹µ+%*ÄŞE‘•ó´ ê©å\U®õiÆ[©-ë—'gw7b< U.P…f}îL¨êsÑJª¢ƒš€Ğ6ì7‘»mÔ©6“ğ¾LI`¦Ÿİ4%·NşAAAW‡¼´@•ÅîçNš‡Úêó/¶T—‘©²|:á¼ü±iä'Íó¬¶(Ì$¼µÅ…l*<«í~vjé…l*ªéiP[_È¦‚Wë»™›Ùş"—£ ö‘ÉÕ—o<?Kg˜c÷ùŒÏú^m2`Ú”ÅlÒç,š½wÚÆ£,jú]<Mç<NÙ8ÑæÒZ¥S&§‚ßŠõ|ë¶vü ÓâÒZ¥—%CÔ6©ò1#×hÔ†>œy5¹SëáQ+œWËJµB5ËxµmùA<jo| ÙS{@¤6túîYmˆHÍ“ß¦»¹VÍ\óïiúf<ÊeĞÄµrßøàÁÅú“šà(²AæôCÊDåÕ´nqäĞŒ}zËCåáçš¶rÀµ¸¬<øœg¥ÚTŞ QËYÒsï}!¹zÌ÷Ó‰¿†£Ê=Äo§<(ö‡ V³2—•¨ÇŠp—• ŸèxtO_• ‚ ‚ â?Ê¿ <Y
+
+endstream
+endobj
+75 0 obj
+<</Length 1912>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 63 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.003 Tc
+0 Tw
+[(248)-2527(Cordell and Elston)]TJ
+/F8 1 Tf
+8.5 0 0 8.5 63 178.98 Tm
+0.006 Tc
+0.047 Tw
+[(Fig. 3.)-1008(Disequilibrium measure )]TJ
+/F11 1 Tf
+13.8531 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5069 0 TD
+0.008 Tc
+0.046 Tw
+[( and fitted curves, plotted against location, for Huntington\222)48(s disease)]TJ
+-14.36 -1.1739 TD
+0 Tc
+0 Tw
+(\()Tj
+/F5 1 Tf
+0.3468 0 TD
+(A)Tj
+/F8 1 Tf
+0.7337 0 TD
+0.008 Tc
+0.084 Tw
+(\), diastrophic displasia \()Tj
+/F5 1 Tf
+10.0713 0 TD
+0 Tc
+0 Tw
+(B)Tj
+/F8 1 Tf
+0.6803 0 TD
+0.008 Tc
+0.085 Tw
+(\), and progressive myoclonus epilepsy \()Tj
+/F5 1 Tf
+16.6811 0 TD
+0 Tc
+0 Tw
+(C)Tj
+/F8 1 Tf
+0.7337 0 TD
+0.008 Tc
+0.085 Tw
+[(\))44(.)44( )-72(The true locations of the dis-)]TJ
+-29.2469 -1.1739 TD
+0.007 Tc
+0.015 Tw
+(ease mutations are given by +.)Tj
+10.5 0 0 10.5 84.033 129.997 Tm
+-0.017 Tc
+0.071 Tw
+[(So far)37(, all results quoted were obtained using a bootstrap estimate of )]TJ
+/F10 1 Tf
+27.3098 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.5993 0 TD
+-0.016 Tc
+0.12 Tw
+[(.)64( W)80(e)0( )49(found)]TJ
+-29.9123 -1.0961 TD
+0.002 Tw
+(similar results using the multinomial distribution approximation, except when )Tj
+/F11 1 Tf
+30.1444 0 TD
+0 Tc
+0 Tw
+(e)Tj
+/F8 1 Tf
+0.4211 0 TD
+-0.014 Tc
+0.004 Tw
+( was very)Tj
+-30.5656 -1.0961 TD
+-0.017 Tc
+0.01 Tw
+(small \(in which case )Tj
+/F10 1 Tf
+8.1422 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.5939 0 TD
+-0.016 Tc
+0.011 Tw
+[( was not always positive definite\). )6(This suggests that the bootstrap)]TJ
+-8.7361 -1.0907 TD
+-0.017 Tc
+0 Tw
+(estimate may be more useful and more robust than the multinomial estimate.)Tj
+2.0032 -1.0961 TD
+0.004 Tc
+0.063 Tw
+(It is of interest to compare our results with those analyses of the same data by)Tj
+ET
+q
+1 i 
+89.4 644 296.15 -449.5 re
+W n
+q 1 0 0 1 0 0 cm /Fm4 Do Q
+Q
+
+endstream
+endobj
+82 0 obj
+<</Length 8014>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 247.294 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.004 Tc
+0 Tw
+[(Fieller\222s Theorem and LD Mapping)-2526(249)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 72 636.491 Tm
+-0.004 Tc
+[(T)72(erwilliger [1995], Devlin et al. [1996], Xiong and Guo [1997], and Lazzeroni [1998].)]TJ
+0 -1.0961 TD
+0.003 Tc
+0.107 Tw
+[(The location of the CF gene was estimated by )-90(T)74(erwilliger [1995] to be at 770 kb,)]TJ
+T*
+0.004 Tc
+0.044 Tw
+[(about 1)42(10 kb away from the true location. Devlin et al. [1996] estimate the location)]TJ
+0 -1.0907 TD
+0.132 Tw
+(at about 60 kb from the true location, and Xiong and Guo [1997] at about 75 kb)Tj
+0 -1.0961 TD
+0.001 Tc
+0.107 Tw
+[(from the true location. )-91(Therefore, our location estimates using the measure )]TJ
+/F10 1 Tf
+31.5914 0 TD
+0 Tc
+0 Tw
+(Q)Tj
+/F8 1 Tf
+0.7289 0 TD
+0.003 Tc
+0.11 Tw
+[( per)19(-)]TJ
+-32.3204 -1.0961 TD
+0.126 Tw
+[(form quite favourably in comparison. )-106(The location estimated by Lazzeroni [1998])]TJ
+T*
+0.004 Tc
+0.112 Tw
+(was only 10 kb from the true location, but the data analyzed by Lazzeroni [1998])Tj
+T*
+0.051 Tw
+(was later found to contain an error \(Lazzeroni, personal communication\). Using the)Tj
+T*
+0.06 Tw
+(method of Lazzeroni [1998], we estimated the location to be at 900 kb, that is, 15\226)Tj
+T*
+0.123 Tw
+(20 kb from the true location, with a 95% confidence interval of \(749, 1056\). Our)Tj
+0 -1.0907 TD
+0.025 Tw
+(method does not, therefore, appear to locate the disease mutation quite as accurately)Tj
+0 -1.0961 TD
+0.006 Tw
+[(as that of Lazzeroni [1998], but our confidence interval is somewhat narrower)58(. Since)]TJ
+T*
+0.158 Tw
+(this analysis is of a single data set, it is not possible to assess the true coverage)Tj
+T*
+0.106 Tw
+(properties of the confidence interval obtained; comparison of further data sets and)Tj
+T*
+0.036 Tw
+(simulation will be required to compare the coverage properties of intervals obtained)Tj
+0 -1.1393 TD
+0.003 Tc
+0 Tw
+(using the two methods.)Tj
+/F7 1 Tf
+10 0 0 10 72 446.513 Tm
+0.005 Tc
+[(Huntington\222)33(s Disease \(HD\))]TJ
+/F8 1 Tf
+10.5 0 0 10.5 92.976 430.979 Tm
+-0.016 Tc
+0.05 Tw
+(The HD gene, identified by the Huntington Disease Collaborative Research Group)Tj
+-1.9978 -1.0961 TD
+0.116 Tw
+[([1993], is known to span a 210-kb region approximately 1)38(1)11(0)11( )11(k)11(b)11( )]TJ
+25.9658 0 TD
+-0.027 Tc
+(from )Tj
+/F10 1 Tf
+2.2996 0 TD
+-0.016 Tc
+(D4S95)Tj
+/F8 1 Tf
+2.6457 0 TD
+0.117 Tw
+(, 240 kb)Tj
+-30.9111 -1.0907 TD
+-0.026 Tc
+(from )Tj
+/F10 1 Tf
+2.1543 0 TD
+-0.016 Tc
+(D4S180)Tj
+/F8 1 Tf
+3.1262 0 TD
+-0.018 Tc
+0.041 Tw
+(, and 250 kb from )Tj
+/F10 1 Tf
+7.3215 0 TD
+-0.016 Tc
+(D4S182)Tj
+/F8 1 Tf
+3.1262 0 TD
+-0.017 Tc
+[( [Xiong and Guo, 1997]. )-16(The data published by)]TJ
+-15.7282 -1.0961 TD
+-0.016 Tc
+0.063 Tw
+(MacDonald et al. [1991] gives counts of alleles on HD and normal chromosomes at 27)Tj
+T*
+0.066 Tw
+(markers in this region. Since five of these markers were separated from the others by a)Tj
+T*
+0.053 Tw
+(gap of indeterminate length, we used our methods to analyze the data for the remaining)Tj
+T*
+-0.023 Tc
+0.117 Tw
+(22 markers \(from )Tj
+/F10 1 Tf
+7.3323 0 TD
+-0.016 Tc
+(D4S168)Tj
+/F8 1 Tf
+3.1316 0 TD
+-0.055 Tc
+0.119 Tw
+[( to )]TJ
+/F10 1 Tf
+1.4524 0 TD
+-0.016 Tc
+(D4S10)Tj
+/F8 1 Tf
+2.6457 0 TD
+(\). Counts were given at individual markers rather)Tj
+-14.562 -1.0961 TD
+0.108 Tw
+(than haplotypes across the chromosome, so it was not possible to calculate disequilib-)Tj
+0 -1.0907 TD
+-0.018 Tc
+0.123 Tw
+(rium measures between markers or to estimate the variance/covariance matrix )Tj
+/F10 1 Tf
+31.4349 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.5939 0 TD
+-0.015 Tc
+0.124 Tw
+[( from)]TJ
+-32.0288 -1.0961 TD
+-0.02 Tc
+0.052 Tw
+[(these data. )-42(W)76(e)0( therefore set )]TJ
+/F10 1 Tf
+11.0308 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.5939 0 TD
+-0.017 Tc
+0.053 Tw
+[( to equal the identity matrix. )-39(The data and the fitted curve)]TJ
+-11.6247 -1.0961 TD
+-0.023 Tc
+(for )Tj
+/F11 1 Tf
+1.3822 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4805 0 TD
+-0.016 Tc
+0.025 Tw
+[( are shown in Figure 3A. )-6(The true disease mutation lies approximately 1,460\2261,660)]TJ
+-1.8628 -1.0961 TD
+0 Tw
+(kb from the first marker \()Tj
+/F10 1 Tf
+9.7782 0 TD
+(D4S168)Tj
+/F8 1 Tf
+3.1262 0 TD
+[(\) \(although note we had some dif)16(ficulty in resolving the)]TJ
+-12.9044 -1.0961 TD
+0.082 Tw
+[(inter)22(-marker distances given by Xiong and Guo [1997] with those in MacDonald et al.)]TJ
+0 -1.0475 TD
+-0.017 Tc
+0.071 Tw
+([1991]\). Our estimates of the disease location for the six measures )Tj
+/F11 1 Tf
+26.4243 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4805 0 TD
+-0.085 Tc
+(, )Tj
+/F10 1 Tf
+0.5399 0 TD
+0 Tc
+(Q)Tj
+/F8 1 Tf
+0.7127 0 TD
+-0.085 Tc
+(, )Tj
+/F11 1 Tf
+0.5399 0 TD
+0 Tc
+(D)Tj
+/F8 1 Tf
+0.5993 0 TD
+-0.085 Tc
+(, )Tj
+/F10 1 Tf
+0.5399 0 TD
+0 Tc
+(D)Tj
+/F11 1 Tf
+0.7127 0 TD
+(\242)Tj
+/F8 1 Tf
+0.2322 0 TD
+-0.085 Tc
+(, )Tj
+/F10 1 Tf
+0.5399 0 TD
+-0.018 Tc
+(dif)Tj
+/F8 1 Tf
+1.0043 0 TD
+-0.015 Tc
+0.071 Tw
+(, and)Tj
+-32.3258 -1.0475 TD
+-0.065 Tc
+(log )Tj
+/F10 1 Tf
+1.6144 0 TD
+-0.021 Tc
+(OR)Tj
+/F8 1 Tf
+1.3012 0 TD
+-0.015 Tc
+0.152 Tw
+[( are 1,406, 1,383, 1,396, 1,410, 1,432, and 1,378 kb. No confidence intervals)]TJ
+-2.9156 -1.0475 TD
+-0.016 Tc
+0.095 Tw
+[(were obtained for these data since the parabola constructed using Fieller)-38(\222)58(s)0( theorem for)]TJ
+T*
+0 Tw
+[(95% confidence had no real roots. )27(W)80(e)1( see that the measures )]TJ
+/F11 1 Tf
+23.1847 0 TD
+0 Tc
+(d)Tj
+/F8 1 Tf
+0.4805 0 TD
+-0.014 Tc
+(, )Tj
+/F10 1 Tf
+0.4697 0 TD
+0 Tc
+(D)Tj
+/F11 1 Tf
+0.7073 0 TD
+(\242)Tj
+/F8 1 Tf
+0.2322 0 TD
+-0.015 Tc
+(, and )Tj
+/F10 1 Tf
+2.1003 0 TD
+-0.018 Tc
+(dif)Tj
+/F8 1 Tf
+0.9989 0 TD
+-0.017 Tc
+( perform best in)Tj
+-28.1737 -1.0475 TD
+-0.016 Tc
+0.1 Tw
+(these data, giving location estimates 30\22650 kb from the true location, which compares)Tj
+0 -1.0961 TD
+-0.017 Tc
+0 Tw
+(favorably with an average error of 89 kb from Xiong and Guo [1997].)Tj
+/F7 1 Tf
+10 0 0 10 72 209.48 Tm
+0.005 Tc
+(Diastrophic dysplasia \(DTD\))Tj
+/F8 1 Tf
+10.5 0 0 10.5 92.976 194.513 Tm
+0.004 Tc
+0.024 Tw
+[(W)79(e)0( also reanalyzed the data of H\344stbacka et al. [1994], which consist of counts)]TJ
+-1.9978 -1.0475 TD
+0.001 Tc
+0 Tw
+[(of alleles on DTD and normal chromosomes at 1)39(1)0( markers on chromosome 5q. )17(These)]TJ
+T*
+0.004 Tc
+0.047 Tw
+(data have been analyzed by Devlin et al. [1996], who successfully located the DTD)Tj
+T*
+0.002 Tc
+0.114 Tw
+(gene in approximately the correct region, 70 kb proximal to )Tj
+/F10 1 Tf
+25.5064 0 TD
+(CSF1R)Tj
+/F8 1 Tf
+2.9048 0 TD
+0.004 Tc
+0.117 Tw
+(. Since counts)Tj
+-28.4112 -1.0475 TD
+0.089 Tw
+(were given at individual markers rather than haplotypes across the chromosome, it)Tj
+T*
+0.082 Tw
+(was again not possible to calculate disequilibrium measures between markers or to)Tj
+T*
+0.003 Tc
+0.032 Tw
+(estimate the variance/covariance matrix )Tj
+/F10 1 Tf
+16.4301 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.6101 0 TD
+0.003 Tc
+0.032 Tw
+(, and so we set )Tj
+/F10 1 Tf
+6.3496 0 TD
+0 Tc
+0 Tw
+(V)Tj
+/F8 1 Tf
+0.6155 0 TD
+0.004 Tc
+0.032 Tw
+[( equal to the identity ma-)]TJ
+-24.0054 -1.0475 TD
+0 Tw
+(trix. In common with Devlin et al. [1996], we excluded )Tj
+/F10 1 Tf
+22.5638 0 TD
+(D5S413)Tj
+/F8 1 Tf
+3.2396 0 TD
+0.003 Tc
+( because the distance)Tj
+-25.8034 -1.0475 TD
+0.161 Tw
+[(between it and other loci could not be estimated. )-144(The exact locations of the two)]TJ
+T*
+0.004 Tc
+0.004 Tw
+(outermost markers )Tj
+/F10 1 Tf
+7.802 0 TD
+0.005 Tc
+(D5S372)Tj
+/F8 1 Tf
+3.245 0 TD
+0.002 Tc
+0.007 Tw
+[( and )]TJ
+/F10 1 Tf
+1.9816 0 TD
+(RPS14)Tj
+/F8 1 Tf
+2.7375 0 TD
+0.004 Tc
+0.006 Tw
+[( were also unknown; we used estimates based)]TJ
+-15.766 -1.0475 TD
+0.003 Tc
+0 Tw
+(on the recombination estimates of H\344stbacka et al. [1994] and Devlin et al. [1996].)Tj
+ET
+
+endstream
+endobj
+85 0 obj
+<</Length 9215>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 63 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.003 Tc
+0 Tw
+[(250)-2527(Cordell and Elston)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 84.033 637.001 Tm
+0.001 Tc
+0.114 Tw
+(The data and the fitted curve for )Tj
+/F11 1 Tf
+14.0706 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4967 0 TD
+0.002 Tc
+0.114 Tw
+[( are shown in Figure 3B. )-97(The true disease)]TJ
+-16.5705 -1.0475 TD
+0.015 Tw
+(mutation lies approximately 35 kb proximal to )Tj
+/F10 1 Tf
+19.1406 0 TD
+(BT1)Tj
+/F8 1 Tf
+1.6792 0 TD
+0.004 Tc
+0.016 Tw
+(, or at the location \22635 kb on this)Tj
+-20.8198 -1.0475 TD
+0.024 Tw
+(scale. Our estimates of the disease location for the six measures )Tj
+/F11 1 Tf
+26.2515 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5021 0 TD
+-0.016 Tc
+(, )Tj
+/F10 1 Tf
+0.5345 0 TD
+0 Tc
+(Q)Tj
+/F8 1 Tf
+0.7289 0 TD
+-0.016 Tc
+(, )Tj
+/F11 1 Tf
+0.5399 0 TD
+0 Tc
+(D)Tj
+/F8 1 Tf
+0.6155 0 TD
+-0.016 Tc
+(, )Tj
+/F10 1 Tf
+0.5345 0 TD
+0 Tc
+(D)Tj
+/F11 1 Tf
+0.7289 0 TD
+(\242)Tj
+/F8 1 Tf
+0.2538 0 TD
+-0.016 Tc
+(, )Tj
+/F10 1 Tf
+0.5399 0 TD
+0.004 Tc
+(dif)Tj
+/F8 1 Tf
+1.0637 0 TD
+0.005 Tc
+0.029 Tw
+(, and)Tj
+-32.2934 -1.0475 TD
+-0.012 Tc
+(log )Tj
+/F10 1 Tf
+1.5928 0 TD
+0.006 Tc
+(OR)Tj
+/F8 1 Tf
+1.339 0 TD
+0.004 Tc
+0.049 Tw
+[( are \22625, \226221, \226122, 16, \226124, and \22693 kb. )-28(The only 95% confidence inter)15(-)]TJ
+-2.9318 -1.0475 TD
+0.001 Tc
+0.079 Tw
+(val obtainable was for log )Tj
+/F10 1 Tf
+11.1442 0 TD
+0.006 Tc
+(OR)Tj
+/F8 1 Tf
+1.3444 0 TD
+0.004 Tc
+0.08 Tw
+(, which gave a rather wide interval of \(\2261,289, 156\).)Tj
+-12.4886 -1.0475 TD
+0.002 Tc
+0.133 Tw
+[(W)77(e)0( see quite a bit of variability in the location estimates, with )]TJ
+/F11 1 Tf
+26.8454 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5021 0 TD
+0.004 Tc
+0.133 Tw
+[( performing best)]TJ
+-27.3476 -1.0475 TD
+0.002 Tc
+0.043 Tw
+[(giving an estimate only 10 kb from the true location. )-30(The measure )]TJ
+/F10 1 Tf
+27.4448 0 TD
+0 Tc
+0 Tw
+(D)Tj
+/F11 1 Tf
+0.7289 0 TD
+(\242)Tj
+/F8 1 Tf
+0.2484 0 TD
+0.004 Tc
+0.043 Tw
+[( also performs)]TJ
+-28.422 -1.0475 TD
+0.103 Tw
+(quite well, giving an er)Tj
+9.7566 0 TD
+-0.018 Tc
+0.106 Tw
+[(ror )7(of )7(51 )7(kb. )-87(The errors for the other measures are somewhat)]TJ
+-9.7566 -1.0475 TD
+-0.016 Tc
+0.035 Tw
+[(lar)16(ger)38(, although quite comparable with the results of Devlin et al. [1996] whose location)]TJ
+T*
+0.175 Tw
+(estimate lay approximately 100 kb from the true location. For these data we have a)Tj
+T*
+0.048 Tw
+(problem in that most of the data are clustered together in the center of the location axis,)Tj
+T*
+-0.017 Tc
+0.067 Tw
+[(with very little information in the tails. )-44(This is not ideal for a curve-fitting type method)]TJ
+T*
+-0.016 Tc
+0.001 Tw
+(such as proposed here, and is likely to be the cause of the rather erratic location estimates)Tj
+T*
+0.149 Tw
+[(we obtain. It is interesting to note that, in common with our results for Huntington\222)54(s)]TJ
+T*
+-0.017 Tc
+0 Tw
+(disease, the measures that perform best are )Tj
+/F11 1 Tf
+16.6569 0 TD
+0 Tc
+(d)Tj
+/F8 1 Tf
+0.4805 0 TD
+-0.016 Tc
+( and )Tj
+/F10 1 Tf
+1.8682 0 TD
+0 Tc
+(D)Tj
+/F11 1 Tf
+0.7073 0 TD
+(\242)Tj
+/F8 1 Tf
+0.2376 0 TD
+-0.017 Tc
+(, which are those proposed by Devlin)Tj
+-19.9505 -1.1447 TD
+(and Risch [1995] to be most related to genetic distance.)Tj
+/F7 1 Tf
+10 0 0 10 63 453.997 Tm
+0.005 Tc
+0.007 Tw
+(Progressive Myoclonus Epilepsy \(EPM1\))Tj
+/F8 1 Tf
+10.5 0 0 10.5 84.033 439.994 Tm
+-0.016 Tc
+0.016 Tw
+[(W)80(e)0( also applied our methods to the data of )10(V)58(irtaneva et al. [1996], which consist of)]TJ
+-2.0032 -1.0475 TD
+0.033 Tw
+(haplotypes on disease and normal chromosomes for 5 loci surrounding the EPM1 locus,)Tj
+T*
+0.009 Tw
+(which lies 30 kb away from marker )Tj
+/F10 1 Tf
+14.0005 0 TD
+(D21S2040)Tj
+/F8 1 Tf
+4.0927 0 TD
+0.011 Tw
+[( [Pennacchio et al., 1996], or 330 kb from)]TJ
+/F10 1 Tf
+-18.0931 -1.0475 TD
+-0.017 Tc
+(D21S885)Tj
+/F8 1 Tf
+3.6121 0 TD
+-0.016 Tc
+0.001 Tw
+[( [Xiong and Guo, 1997]. )23(The iterative GEMPT)16( did not conver)16(ge for measures )]TJ
+/F11 1 Tf
+30.1768 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+-33.789 -1.0475 TD
+-0.052 Tc
+(and )Tj
+/F10 1 Tf
+1.744 0 TD
+0 Tc
+(D)Tj
+/F11 1 Tf
+0.7073 0 TD
+(\242)Tj
+/F8 1 Tf
+0.2376 0 TD
+-0.017 Tc
+0.113 Tw
+[(, so results for these measures were calculated without this transformation. )-98(The)]TJ
+-2.6889 -1.0475 TD
+-0.016 Tc
+0.164 Tw
+[(rank correlations of )]TJ
+8.22 0 TD
+-0.036 Tc
+0.166 Tw
+(disequilibrium with distance for the pairs of marker loci for the six)Tj
+-8.22 -1.0475 TD
+-0.038 Tc
+(measures )Tj
+/F11 1 Tf
+3.6715 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4589 0 TD
+-0.059 Tc
+(, )Tj
+/F10 1 Tf
+0.4535 0 TD
+0 Tc
+(Q)Tj
+/F8 1 Tf
+0.6857 0 TD
+-0.059 Tc
+(, )Tj
+/F11 1 Tf
+0.4589 0 TD
+0 Tc
+(D)Tj
+/F8 1 Tf
+0.5723 0 TD
+-0.059 Tc
+(, )Tj
+/F10 1 Tf
+0.4589 0 TD
+0 Tc
+(D)Tj
+/F11 1 Tf
+0.6857 0 TD
+(\242)Tj
+/F10 1 Tf
+0.2052 0 TD
+-0.036 Tc
+0.024 Tw
+(, dif)Tj
+/F8 1 Tf
+1.4038 0 TD
+-0.038 Tc
+(, and log )Tj
+/F10 1 Tf
+3.434 0 TD
+-0.037 Tc
+(OR)Tj
+/F8 1 Tf
+1.2634 0 TD
+-0.035 Tc
+[( were \2260.68, \2260.65, \2260.77, \2260.52, \2260.70, \2260.65, suggest-)]TJ
+-13.7521 -1.0475 TD
+-0.047 Tc
+0.09 Tw
+(ing that )Tj
+/F11 1 Tf
+3.1316 0 TD
+0 Tc
+0 Tw
+(D)Tj
+/F8 1 Tf
+0.5723 0 TD
+-0.016 Tc
+0.091 Tw
+[( )50(i)50(s)50( )-75(the most appropriate measure for these data. However)43(, the estimated loca-)]TJ
+-3.7039 -1.0475 TD
+-0.023 Tc
+0 Tw
+(tions using these six measures were at 513, 641, 787, 489, 899, and 633 kb from )Tj
+/F10 1 Tf
+30.4792 0 TD
+(D21S885,)Tj
+/F8 1 Tf
+-30.4792 -1.0475 TD
+-0.016 Tc
+0.076 Tw
+(as opposed to the true value of 330 kb. Confidence intervals for the six measures were)Tj
+T*
+-0.015 Tc
+0.116 Tw
+(\(290, 614\), \(\226)Tj
+/F11 1 Tf
+5.5181 0 TD
+0 Tc
+0 Tw
+(\245)Tj
+/F8 1 Tf
+0.7019 0 TD
+-0.128 Tc
+(, )Tj
+/F11 1 Tf
+0.5831 0 TD
+0 Tc
+(\245)Tj
+/F8 1 Tf
+0.7019 0 TD
+-0.03 Tc
+0.119 Tw
+(\), \(667, )Tj
+/F11 1 Tf
+3.272 0 TD
+0 Tc
+0 Tw
+(\245)Tj
+/F8 1 Tf
+0.7019 0 TD
+-0.021 Tc
+0.117 Tw
+(\), \(310, 588\), \(723, )Tj
+/F11 1 Tf
+7.9802 0 TD
+0 Tc
+0 Tw
+(\245)Tj
+/F8 1 Tf
+0.6965 0 TD
+-0.019 Tc
+0.116 Tw
+[(\), and \(536, 1,372\). )-64(As )-6(for )-6(HD )-6(and)]TJ
+-20.1557 -1.0475 TD
+-0.017 Tc
+0.037 Tw
+(DTD, the measures that perform best are )Tj
+/F11 1 Tf
+16.1764 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4805 0 TD
+-0.025 Tc
+0.036 Tw
+[( and )]TJ
+/F10 1 Tf
+1.9384 0 TD
+0 Tc
+0 Tw
+(D)Tj
+/F11 1 Tf
+0.7073 0 TD
+(\242)Tj
+/F8 1 Tf
+0.2376 0 TD
+-0.016 Tc
+0.037 Tw
+(, but even these have quite substantial)Tj
+-19.5402 -1.0475 TD
+-0.018 Tc
+0.069 Tw
+[(errors. )-55(The errors are slightly less than the 220 kb error in )-44(T)69(erwilliger [1995] but much)]TJ
+T*
+-0.016 Tc
+0.014 Tw
+(greater than the 40 kb error of Xiong and Guo [1997], both of whom also analyzed these)Tj
+T*
+-0.018 Tc
+0.104 Tw
+(data. Figure 3C shows the data and fitted curve for )Tj
+/F11 1 Tf
+20.7442 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.4805 0 TD
+-0.016 Tc
+0.105 Tw
+[(.)97( )-81(W)80(e)0( see that with only five data)]TJ
+-21.2247 -1.0475 TD
+0.085 Tw
+(points, we do not really have enough information for a curve-fitting method; the curve)Tj
+T*
+0.059 Tw
+(fits well but basically just repeats the data, giving a location estimate close to that loca-)Tj
+T*
+0.001 Tw
+(tion with the highest disequilibrium. Since this is quite far from the true location, particu-)Tj
+T*
+-0.019 Tc
+0.055 Tw
+(larly for measures )Tj
+/F11 1 Tf
+7.3323 0 TD
+0 Tc
+0 Tw
+(D)Tj
+/F8 1 Tf
+0.5993 0 TD
+-0.03 Tc
+0.055 Tw
+[( and )]TJ
+/F10 1 Tf
+1.9762 0 TD
+-0.016 Tc
+(dif,)Tj
+/F8 1 Tf
+1.2418 0 TD
+[( we find correspondingly poor estimates using our method.)]TJ
+-11.1496 -1.0475 TD
+0.02 Tw
+(This would be true even if a piecewise polynomial were fitted as by Lazzeroni [1998]. It)Tj
+T*
+0.071 Tw
+(appears that, given data on just a few loci, model-based methods such as that of Xiong)Tj
+0 -1.0961 TD
+-0.017 Tc
+0 Tw
+(and Guo [1997] may be more robust for accurate localization of disease mutations.)Tj
+/F7 1 Tf
+10 0 0 10 63 186.52 Tm
+0.005 Tc
+(DISCUSSION)Tj
+/F8 1 Tf
+10.5 0 0 10.5 84.033 172.517 Tm
+0.004 Tc
+0.027 Tw
+(High-resolution localization of disease loci is an important step before embark-)Tj
+-2.0032 -1.0475 TD
+(ing on positional cloning, which may be infeasible in regions extending more than a)Tj
+T*
+0.03 Tw
+[(few hundred kb. )-8(W)41(ith this aim, linkage disequilibrium methods provide a promising)]TJ
+T*
+0.003 Tc
+0 Tw
+(tool for fine mapping disease genes.)Tj
+2.0032 -1.0475 TD
+0.004 Tc
+0.091 Tw
+(In our analy)Tj
+5.0592 0 TD
+-0.016 Tc
+(ses, the regression approach proposed here performed well when ap-)Tj
+-7.0623 -1.0475 TD
+0.154 Tw
+(plied to data at a reasonable number of marker loci, but poorly when the number of)Tj
+T*
+0.003 Tw
+[(marker loci was small. )17(This is not unexpected for a method that, although population and)]TJ
+T*
+0.065 Tw
+(disease model free, requires estimation of several regression and transformation param-)Tj
+T*
+0.136 Tw
+[(eters. In particular)38(, in order for the method to work well, one would anticipate that a)]TJ
+ET
+
+endstream
+endobj
+88 0 obj
+<</Length 6368>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 247.294 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.004 Tc
+0 Tw
+[(Fieller\222s Theorem and LD Mapping)-2526(251)]TJ
+/F8 1 Tf
+10.5 0 0 10.5 72 637.001 Tm
+-0.016 Tc
+0.131 Tw
+[(suf)16(ficiently lar)22(ge number of loci scattered at roughly equal intervals over the location)]TJ
+0 -1.0475 TD
+-0.017 Tc
+0.108 Tw
+[(space would be required. )-50(Also, for fitting a quadratic curve, it would be reasonable to)]TJ
+T*
+-0.016 Tc
+0.126 Tw
+[(demand that the marker map extends suf)22(ficiently far from the true disease location to)]TJ
+T*
+-0.017 Tc
+0 Tw
+(where the magnitude of the observed disequilibrium approaches zero.)Tj
+1.9978 -1.0475 TD
+0.004 Tc
+0.006 Tw
+(Comparison of our method on real data with various previously proposed meth-)Tj
+-1.9978 -1.0475 TD
+0.049 Tw
+[(ods [T)69(erwilliger)42(, 1995; Devlin et al., 1996; Xiong and Guo, 1997; Lazzeroni, 1998])]TJ
+T*
+0.001 Tc
+0 Tw
+(leads to the somewhat unsatisfactory conclusion that no one method or class of meth-)Tj
+T*
+0.003 Tc
+0.089 Tw
+(ods performs best in all situations. It does appear that the measures )Tj
+/F11 1 Tf
+28.3735 0 TD
+0 Tc
+0 Tw
+(d)Tj
+/F8 1 Tf
+0.5021 0 TD
+-0.018 Tc
+0.09 Tw
+[( and )]TJ
+/F10 1 Tf
+2.1489 0 TD
+0 Tc
+0 Tw
+(D)Tj
+/F11 1 Tf
+0.7289 0 TD
+(\242)Tj
+/F8 1 Tf
+0.2484 0 TD
+0.004 Tc
+0.091 Tw
+(, pro-)Tj
+-32.0018 -1.0475 TD
+0.018 Tc
+0.189 Tw
+(posed by Devlin and Risch [1995] as being most generally useful for linkage)Tj
+T*
+0.004 Tc
+0.009 Tw
+(disequilibrium mapping, are indeed the most useful in many situations, although this)Tj
+T*
+0.028 Tw
+(is not invariably true, e.g., for the cystic fibrosis data the measures )Tj
+/F10 1 Tf
+27.461 0 TD
+0 Tc
+0 Tw
+(Q)Tj
+/F8 1 Tf
+0.7289 0 TD
+-0.021 Tc
+(, )Tj
+/F11 1 Tf
+0.5453 0 TD
+0 Tc
+(D)Tj
+/F8 1 Tf
+0.6101 0 TD
+0.001 Tc
+0.029 Tw
+[( and log )]TJ
+/F10 1 Tf
+3.6014 0 TD
+0.006 Tc
+(OR)Tj
+/F8 1 Tf
+-32.9467 -1.0475 TD
+0.004 Tc
+0 Tw
+[(performed better)58(. )14(W)84(e)0( speculate that the best measure of disequilibrium to use is most)]TJ
+T*
+0.007 Tw
+(often the one that is most highly correlated with distance in the region being studied,)Tj
+T*
+0.105 Tw
+(but this was not the case for EPM1. It would be interesting to study more disease)Tj
+T*
+0.014 Tw
+[(loci for which haplotype data are available, over a lar)26(ge enough region, to determine)]TJ
+T*
+0.003 Tc
+0 Tw
+[(whether this would indeed be more often than not the best strategy)68(.)]TJ
+1.9978 -1.0529 TD
+-0.016 Tc
+0.087 Tw
+(The number of data sets currently available where the true location of the disease)Tj
+-1.9978 -1.0475 TD
+0.053 Tw
+(mutation is known is quite small, and so clearly further theoretical work and simulation)Tj
+T*
+0.088 Tw
+[(studies will be required to investigate the properties and power of the various dif)16(ferent)]TJ
+T*
+0.047 Tw
+[(approaches. In this paper)38(, we have concentrated on fitting a quadratic curve, which pro-)]TJ
+T*
+-0.021 Tc
+0 Tw
+[(vides a convenient method for obtaining a confidence interval for the location via Fieller)-37(\222)53(s)]TJ
+T*
+-0.016 Tc
+0.153 Tw
+(theorem. Other curve-fitting approaches such as the piecewise polynomial curve pro-)Tj
+T*
+0.09 Tw
+(posed by Lazzeroni [1998], or fitting a unimodal curve using non-parametric methods,)Tj
+T*
+-0.017 Tc
+0 Tw
+(may prove to be equally useful and warrant further investigation.)Tj
+1.9978 -1.0475 TD
+0.004 Tc
+0.133 Tw
+(Proven successes with linkage disequilibrium methods have so far been con-)Tj
+-1.9978 -1.0475 TD
+0.003 Tc
+0.05 Tw
+[(fined to monogenic disorders. )-30(While there is some evidence that linkage disequilib-)]TJ
+T*
+0.004 Tc
+0.037 Tw
+(rium may exist for complex diseases such as type 1 diabetes [Copeman et al., 1995;)Tj
+T*
+0.079 Tw
+(Merriman et al., 1997], this is likely to be population dependent and may be much)Tj
+T*
+0.042 Tw
+[(diluted by the presence of allelic as well as locus heterogeneity)63(.)39( )-23(The introduction of)]TJ
+T*
+0.102 Tw
+[(disease mutations by more than one ancestor)36(, at dif)15(ferent loci and on dif)26(ferent ge-)]TJ
+T*
+0.051 Tw
+(netic backgrounds, makes the existence of associations between disease and marker)Tj
+T*
+0.165 Tw
+(loci far from guaranteed. Nevertheless when linkage disequilibrium does exist, it)Tj
+T*
+0.044 Tw
+(will provide a valuable tool for the localization and identification of genes involved)Tj
+0 -1.0961 TD
+0.003 Tc
+0 Tw
+(in both complex and monogenic disorders.)Tj
+/F7 1 Tf
+10 0 0 10 72 251.49 Tm
+0.004 Tc
+(ACKNOWLEDGMENTS)Tj
+/F8 1 Tf
+10.5 0 0 10.5 92.976 236.523 Tm
+0.012 Tw
+(This work was supported in part by U.S. Public Health Service grant GM28356)Tj
+-1.9978 -1.0475 TD
+0.009 Tc
+0.189 Tw
+[(from the National Institute of General Medical Sciences. )-164(W)73(e)23( )]TJ
+26.8364 0 TD
+-0.014 Tc
+(thank )Tj
+2.7357 0 TD
+0.012 Tc
+(Anna-Elina)Tj
+-29.5721 -1.0475 TD
+0.004 Tc
+0.142 Tw
+(Lehesjoki for sharing the EPM1 data. Some of the results of this paper were ob-)Tj
+T*
+0.001 Tw
+(tained by using SAGE, which is supported by a U.S. Public Health Service Resource)Tj
+T*
+0 Tw
+(Grant 1 P41 RR03655 from the National Center for Research Resources.)Tj
+/F7 1 Tf
+10 0 0 10 72 170.476 Tm
+0.005 Tc
+(REFERENCES)Tj
+/F8 1 Tf
+8.5 0 0 8.5 72 156.983 Tm
+-0.012 Tc
+0.005 Tw
+[(Box GEP)115(, Cox DR. 1964. )49(An analysis of transformations \(with Discussion\). J R Stat Soc B 26:21)35(1\226252.)]TJ
+0 -1.0538 TD
+0.008 Tc
+0.158 Tw
+[(Copeman JB, Cucca F)81(,)0( Hearne CM, Cornall RJ, Reed PW)95(, R\370nningen KS, Undlien DE, Nistic\362 L,)]TJ
+2.8213 -1.0605 TD
+0.007 Tc
+0.019 Tw
+[(Buzzetti R, T)64(osi R, Pociot F)74(,)-1( Nerup J, Corn\351lis F)80(,)2( Barnett )34(AH, Bain SC, T)71(odd JA. 1995. Linkage)]TJ
+T*
+0.008 Tc
+0.03 Tw
+(disequilibrium mapping of a type 1 diabetes susceptibility gene \(IDDM7\) to chromosome 2q31-)Tj
+T*
+0.01 Tw
+(q33. Nature Genet 9:80\22685.)Tj
+-2.8213 -1.0538 TD
+0.006 Tc
+0.14 Tw
+[(Devlin )6(B, )6(Risch )6(N. )6(1995. )-86(A)48( comparison of linkage disequilibrium measures for fine-scale mapping.)]TJ
+2.8213 -1.0605 TD
+0.008 Tc
+0.023 Tw
+[(Genomics 29:31)35(1\226322.)]TJ
+-2.8213 -1.1739 TD
+0.098 Tw
+[(Devlin B, Risch N, Roede)-5(r K. 1996. Disequilibrium mapping: composite likelihood for pairwise dis-)]TJ
+2.8213 -1.0605 TD
+0.029 Tw
+(equilibrium. Genomics 36:1\22616.)Tj
+ET
+
+endstream
+endobj
+91 0 obj
+<</Length 8906>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 63 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.003 Tc
+0 Tw
+[(252)-2527(Cordell and Elston)]TJ
+/F8 1 Tf
+8.5 0 0 8.5 63 638.986 Tm
+0.007 Tc
+0.006 Tw
+[(Edwards )48(A)75(W)0(F)74(.)0( 1963. )21(The measure of association in a 2 )]TJ
+/F11 1 Tf
+22.8439 0 TD
+0 Tc
+0 Tw
+(\264)Tj
+/F8 1 Tf
+0.5536 0 TD
+0.007 Tc
+0.005 Tw
+[( 2 )6(T)71(able. J R Stat Soc )46(A)49( 126:109\2261)34(14.)]TJ
+-23.3975 -1.0605 TD
+-0.012 Tc
+0.015 Tw
+(Fieller EC. 1932. The distribution of the index in a normal bivariate population. Biometrika 24:428\226440.)Tj
+0 -1.0538 TD
+0.008 Tc
+0.009 Tw
+[(Geor)15(g)6(e)6( )8(V)130(,)0( Elston RC. 1988. Generalized modulus power transforms. Commun Statist )48(A)50( 17:2933\2262952.)]TJ
+0 -1.0605 TD
+0.025 Tw
+[(Graham J, )-7(Thompson EA. 1998. Disequilibrium likelihoods for fine-scale mapping of a rare allele. )27(A)-6(m)]TJ
+2.8213 -1.0605 TD
+0.006 Tw
+(J Hum Genet 63:1517\2261530.)Tj
+-2.8213 -1.0605 TD
+-0.015 Tc
+0.136 Tw
+[(H\344stbacka J, de la Chapelle )-92(A, )-6(Kaitila )-6(I, )-6(Sistonen )-6(P)105(,)144( )-132(W)]TJ
+22.4371 0 TD
+-0.04 Tc
+0.253 Tw
+[(eaver A)-28(,)-28( )]TJ
+3.7528 0 TD
+-0.012 Tc
+0.139 Tw
+(Lander E. 1992. Linkage disequilibrium)Tj
+-23.3685 -1.0538 TD
+0.017 Tw
+[(mapping in isolated founder populations: diastrophic dysplasia in Finland. Nature Genet 2:204\22621)35(1.)]TJ
+-2.8213 -1.0605 TD
+0.005 Tc
+0 Tw
+[(H\344stbacka J, de la Chapelle )52(A, Mahtani MM, Clines G, Reeve-Daly MP)112(, Daly M, Hamilton BA, Kusumi)]TJ
+2.8213 -1.0605 TD
+-0.006 Tc
+0.248 Tw
+[(K)49(,)49( T)18(rivedi )126(B, )20(W)]TJ
+6.8565 0 TD
+-0.017 Tc
+0.213 Tw
+[(eaver A)-11(,)-11( )]TJ
+3.8539 0 TD
+0.001 Tc
+0.123 Tw
+[(Coloma )-85(A, Lovett M, Buckler )-78(A, Kaitila I, Lander E. 1994. )]TJ
+25.7332 0 TD
+0.008 Tc
+(The di-)Tj
+-36.4435 -1.0605 TD
+0.022 Tw
+(astrophic dysplasia gene encodes a novel sulfate transporter: positional cloning by fine-structure)Tj
+0 -1.0538 TD
+0.026 Tw
+(linkage disequilibrium mapping. Cell 78:1073\2261087.)Tj
+-2.8213 -1.0605 TD
+-0.014 Tc
+0.15 Tw
+[(Hill WG, W)]TJ
+5.0157 0 TD
+0.008 Tc
+0.069 Tw
+(eir BS. 1994. Maximum-likelihood estimation of gene location by linkage disequilibrium.)Tj
+-2.1943 -1.0605 TD
+0.005 Tw
+(Am J Hum Genet 54:705\226714.)Tj
+-2.8213 -1.0605 TD
+0.007 Tc
+0.082 Tw
+[(Huntingdon Disease Collaborative Research Group. 1993. )-33(A)55( novel gene containing a trinucleotide re-)]TJ
+2.8213 -1.0538 TD
+0.008 Tc
+0.015 Tw
+[(peat that is expanded and unstable on Huntingdon\222)48(s disease chromosomes. Cell 72:971\226983.)]TJ
+-2.8213 -1.0605 TD
+0.009 Tw
+[(John JA, Draper NR. 1980. )34(An alternative family of transformations. )41(Appl Stat 29:190\226197.)]TJ
+T*
+0.006 Tc
+0.068 Tw
+[(Kaplan )7(NL, )-60(W)83(eir BS. 1995. )-20(Are moment bounds on the recombination fraction between a marker and)]TJ
+2.8213 -1.0605 TD
+0.007 Tc
+0.073 Tw
+[(disease locus too good to be true? )-20(Allelic association mapping revisited for simple genetic dis-)]TJ
+0 -1.0538 TD
+0.01 Tw
+[(eases in the Finnish population. )35(Am J Hum Genet 57:1486\2261498.)]TJ
+-2.8213 -1.0605 TD
+0.008 Tc
+0.018 Tw
+[(Kaplan NL, Hill WG, )-7(W)92(eir BS. 1995. Likelihood methods for locating disease genes in nonequilibrium)]TJ
+2.8213 -1.0605 TD
+0.008 Tw
+[(populations. )34(Am J Hum Genet 56:18\22632.)]TJ
+-2.8213 -1.0605 TD
+0.006 Tc
+0.05 Tw
+[(Kerem B, Rommens JM, Buchanan JA, Markiewicz D, Cox )-48(T)77(,)2( Chakravarti A, Buchwald M, )-35(T)70(sui L-C.)]TJ
+2.8213 -1.0538 TD
+0.008 Tc
+0.017 Tw
+(1989. Identification of the Cystic Fybrosis gene: Genetic analysis. Science 245:1073\2261080.)Tj
+-2.8213 -1.0605 TD
+0.006 Tc
+0.052 Tw
+(Lange K, Kunkel L, Aldridge J, Latt SA. 1985. Accurate and superaccurate gene mapping. Am J Hum)Tj
+2.8213 -1.0605 TD
+0.008 Tc
+0.018 Tw
+(Genet 37:853\226867.)Tj
+-2.8213 -1.0605 TD
+0.007 Tc
+0.076 Tw
+[(Lazzeroni LC. 1998. Linkage disequilibrium and gene mapping: )-27(An empirical least squares approach.)]TJ
+2.8213 -1.0538 TD
+0.008 Tc
+0.005 Tw
+(Am J Hum Genet 62:159\226170.)Tj
+-2.8213 -1.0605 TD
+0.007 Tc
+0.035 Tw
+[(Lehesjoki )13(AE, Koskiniemi M, Norio R, )-20(T)31(irrito S, Sistonen P)114(,)1( Lander E, de la Chapelle )13(A. 1993. Local-)]TJ
+2.8213 -1.0605 TD
+0.008 Tc
+0.074 Tw
+(ization of the EPM1 gene for progressive myoclonus epilepsy on chromosome 21: linkage dis-)Tj
+T*
+0.015 Tw
+(equilibrium allows high resolution mapping. Hum Mol Genet 2:1229\2261234.)Tj
+-2.8213 -1.0538 TD
+-0.012 Tc
+0.013 Tw
+(MacLean CJ, Morton NE. 1985. Estimation of Myriad Haplotype Frequencies. Genet Epidemiol 2:263\226272.)Tj
+0 -1.0605 TD
+0.006 Tc
+0.035 Tw
+[(MacDonald ME, Lin C, Srinidhi L, Bates G, )19(Altherr M, )-21(Whaley )-21(WL, Lehrach H, )-27(W)90(ashmuth J, Gusella)]TJ
+2.8213 -1.0605 TD
+0.129 Tw
+[(J)-9(F)79(. 1991. Complex patterns of linkage disequilibrium in the Huntington disease region. )-74(Am J)]TJ
+0 -1.0538 TD
+0.008 Tc
+0.009 Tw
+(Hum Genet 49:723\226734.)Tj
+-2.8213 -1.0605 TD
+0.007 Tc
+0.023 Tw
+[(Merriman )-13(T)78(,)23( )-6(T)64(wells R, Merriman M, Eaves I, Cox R, Cucca F)80(,)-1( McKinney P)114(,)-1( Shield J, Baum D, Bosi E,)]TJ
+2.8213 -1.0605 TD
+0.025 Tw
+[(Pozzilli P)114(,)0( Nistico L, Buzzetti R, Joner G, R\370nningen K, )-6(Thorsby E, Undlien D, Pociot F)80(,)0( Nerup)]TJ
+T*
+0.006 Tc
+0.157 Tw
+[(J, )9(Bain )9(S, )9(Barnett )-106(A)78(,)78( )-139(T)70(odd J. 1997. Evidence by allelic association-dependent methods for a)]TJ
+0 -1.0538 TD
+0.008 Tc
+0.007 Tw
+(type 1 diabetes polygene \()Tj
+/F10 1 Tf
+10.7316 0 TD
+0.011 Tc
+(IDDM6)Tj
+/F8 1 Tf
+3.1681 0 TD
+0.008 Tc
+0.009 Tw
+(\) on chromosome 18q21. Hum Mol Genet 6:1003\2261010.)Tj
+-16.7211 -1.0605 TD
+0.001 Tc
+0.125 Tw
+[(Pennacchio LA, Lehesjoki )-73(A, Stone NE, )-113(W)]TJ
+18.3685 0 TD
+-0.012 Tc
+(illour )Tj
+2.5745 0 TD
+-0.033 Tc
+0.272 Tw
+[(VL, V)]TJ
+2.6546 0 TD
+0.007 Tc
+0.126 Tw
+(irtaneva K, Miao J, D\222Amato E, Ramirez L,)Tj
+-20.7763 -1.0605 TD
+0.003 Tc
+0.171 Tw
+[(Faham M, Koskiniemi M, )-164(W)80(arrington JA, Norio R, de la Chapelle )-124(A, Cox DR, Myers RM.)]TJ
+T*
+0.008 Tc
+0.031 Tw
+(1996. Mutation as in the gene encoding cystatin B in progressive myocolonus epilepsy \(EPM1\).)Tj
+0 -1.0538 TD
+0.03 Tw
+(Science 271:1731\2261734.)Tj
+-2.8213 -1.0605 TD
+0.024 Tw
+[(Rannala B, Slatkin M. 1998. Likelihood analysis of disequilibrium mapping, and related problems. )35(A)-6(m)]TJ
+2.8213 -1.0605 TD
+0.006 Tw
+(J Hum Genet 62:459\226473.)Tj
+-2.8213 -1.0605 TD
+0.066 Tw
+[(Risch N, de Leon D, Ozelius LJ, Kramer P)115(,)68( )-13(Almasy L, Singer B, Fahn S, Breakefield X, Bressman S.)]TJ
+2.8213 -1.0538 TD
+0.007 Tc
+0.027 Tw
+[(1995. Genetic analysis of idiopathic torsion dystonia in )20(Ashkenazi Jews and their recent descent)]TJ
+0 -1.0605 TD
+0.008 Tc
+0.014 Tw
+(from a small founder population. Nature Genet 9:152\226159.)Tj
+-2.8213 -1.0605 TD
+0.143 Tw
+[(SAGE. 1994. Statistical analysis for genetic epidemiology)61(, Release 2.2. Computer program package)]TJ
+2.8213 -1.0605 TD
+0.006 Tc
+0.117 Tw
+[(available from the Department of Epidemiology and Biostatistics, Case )-100(W)83(estern Reserve Uni-)]TJ
+0 -1.0538 TD
+0.007 Tc
+0.047 Tw
+[(versity)54(, Cleveland.)]TJ
+-2.8213 -1.0605 TD
+0.073 Tw
+[(Slatkin M, Excof)20(fier L. 1995. )-60(T)71(esting for linkage disequilibrium in genotypic data using the Expecta-)]TJ
+2.8213 -1.0605 TD
+0.008 Tc
+0.037 Tw
+(tion-Maximization algorithm. Heredity 76:377\226383.)Tj
+-2.8213 -1.0605 TD
+0.007 Tc
+0.039 Tw
+[(Spielman RS, McGinnis RE, Ewens )-27(WJ. 1993. )-20(T)31(ransmission tests for linkage disequilibrium: the insu-)]TJ
+2.8213 -1.0538 TD
+0.008 Tc
+0.012 Tw
+[(lin gene region and insulin-dependent diabetes mellitus \(IDDM\). )34(Am J Hum Genet 52:506\226516.)]TJ
+-2.8213 -1.0605 TD
+0.032 Tw
+[(T)65(erwilliger JD. 1995. )14(A)50( powerful likelihood method for the analysis of linkage disequilibrium between)]TJ
+2.8213 -1.0605 TD
+0.01 Tw
+[(trait loci and one or more polymorphic marker loci. )34(Am J Hum Genet 56:777\226787.)]TJ
+-2.8213 -1.0605 TD
+-0.012 Tc
+0.013 Tw
+[(Thomson. 1995. Mapping disease genes: family-based association studies. )34(Am J Hum Genet 57:487\226498.)]TJ
+0 -1.0538 TD
+-0.003 Tc
+0.141 Tw
+[(V)39(irtaneva K, Miao J, )-129(T)14(r\344skelin )-95(A-L, Stone N, )-135(W)81(arrington JA, )-142(W)]TJ
+27.5394 0 TD
+0.008 Tc
+0.14 Tw
+(eissenbach J, Myers RM, Cox DR,)Tj
+-24.7181 -1.0605 TD
+0.012 Tw
+[(Sistonen P)115(,)2( de la Chapelle )41(A, Lehesjoki )41(A-E. 1996. Progressive myoclunus epilepsy EPM1 locus)]TJ
+T*
+0.007 Tc
+0.009 Tw
+[(maps to a 175-kb interval in distal 21q. )41(Am J Hum Genet 58:1247\2261253.)]TJ
+-2.8213 -1.0605 TD
+0.124 Tw
+[(Xiong M, Guo S-W)94(. 1997. Fine-scale genetic mapping based on linkage disequilibrium: )-107(Theory and)]TJ
+2.8213 -1.0538 TD
+0.013 Tw
+[(applications. )35(Am J Hum Genet 57:487\226498.)]TJ
+ET
+
+endstream
+endobj
+96 0 obj
+<</Subtype/Type1C/Filter/FlateDecode/Length 199>>stream
+H‰bd`ad`ddT÷qòsõuÕĞó-Í)ÉÌK,ÉÌÏKÌqÔÊÏMÌ3044Ô342)Õú!ÃôC–ù‡8ËoIæù<,?äxÄ|~wü2ş¥Èú=@à{0ÿ÷0Áîï}B@³YÌÃÜÍÂœı­ÂâQS¿SUÛ˜eŒô,û¹æ‡ïß5|Ù-ıYöGüoÙqv¾ï¿'ı4}òÛâ·È‡ßÂzO¾°Ş`ã0 ­Xğ
+
+endstream
+endobj
+99 0 obj
+<</PageMode/UseOutlines/OpenAction 100 0 R/Type/Catalog/Outlines 101 0 R/Pages 97 0 R>>
+endobj
+102 0 obj
+<</Length 3659>>stream
+BT
+/F5 1 Tf
+9.5 0 0 9.5 265.039 655.994 Tm
+0 0 0 1 k
+/GS2 gs
+0.006 Tc
+0 Tw
+(Genetic Epidemiology 17:237\226252 \(1999\))Tj
+-20.3199 -62.3145 TD
+[(\251 1999 )18(W)15(iley-Liss, Inc.)]TJ
+/F7 1 Tf
+18 0 0 18 72 540.51 Tm
+-0.011 Tc
+0.019 Tw
+[(Fieller)-36(\222)34(s)0( Theorem and Linkage)]TJ
+0 -1.1118 TD
+0.036 Tw
+(Disequilibrium Mapping)Tj
+10 0 0 10 72 488.523 Tm
+0.005 Tc
+0.001 Tw
+(Heather J. Cordell* and Robert C. Elston)Tj
+/F3 1 Tf
+10 0 2.126 10 72 468.51 Tm
+[(Department of Epidemiology and Biostatistics, Case W)22(estern Reserve)]TJ
+0.2555 -1.2019 TD
+0.004 Tc
+0 Tw
+[(University)72(, Cleveland, Ohio)]TJ
+/F8 1 Tf
+9.5 0 0 9.5 95.981 432.51 Tm
+0.006 Tc
+0.099 Tw
+(Linkage disequilibrium mapping exploits the fact that at genetic markers close)Tj
+0 -1.1577 TD
+0.168 Tw
+(enough to a disease locus on a particular chromosome, we expect to find an)Tj
+T*
+0.052 Tw
+(association between the disease and marker alleles. Furthermore, the magnitude)Tj
+T*
+0.087 Tw
+(of the association is expected to follow a unimodal curve when plotted against)Tj
+T*
+0.189 Tw
+(location, with the peak at the disease location. In practice, for real data, we)Tj
+T*
+0.061 Tw
+(usually see deviations from such a curve due to other influences such as evolu-)Tj
+T*
+0.078 Tw
+[(tionary variability)54(, mutation, and selection. Here we propose fitting a quadratic)]TJ
+T*
+0.09 Tw
+(curve to data of this nature, estimating the location of the disease locus by the)Tj
+T*
+0.04 Tw
+[(point at which the curve is maximum. )11(A)54( key feature of our method is the use of)]TJ
+T*
+0.129 Tw
+(transformations of both location and disequilibrium, so that departures from a)Tj
+T*
+0.048 Tw
+(unimodal curve are incorporated by fitting the curve not to the original location)Tj
+T*
+0 Tw
+(and disequilibrium values but to the transformed values. In addition, we estimate)Tj
+T*
+0.102 Tw
+(the covariances between the disequilibrium values at linked loci using either a)Tj
+0 -1.1637 TD
+0.012 Tw
+[(multinomial approximation or a bootstrap procedure. )6(The location estimate from)]TJ
+0 -1.1577 TD
+0.007 Tc
+0.154 Tw
+[(our method is the ratio of two quantities that, in lar)19(ge samples, are normally)]TJ
+T*
+0.006 Tc
+0.089 Tw
+[(distributed, and so we use Fieller)-36(\222)53(s)0( theorem to obtain a confidence interval for)]TJ
+T*
+0.093 Tw
+[(the disease gene location. )-85(W)84(e)-1( successfully apply our method to data from sev-)]TJ
+T*
+0.07 Tw
+(eral published studies in which the true disease gene location is known.)Tj
+12 0 0 12 378.765 245.48 Tm
+0 Tc
+0 Tw
+( )Tj
+9.5 0 0 9.5 382.62 245.48 Tm
+0.006 Tc
+(Genet.)Tj
+-30.1726 -1.1577 TD
+0.007 Tc
+(Epidemiol. 17:237\226252, 1999.)Tj
+7.5 0 0 7.5 225.581 234.482 Tm
+0.011 Tc
+-0.001 Tw
+[(\251 1999 )18(W)40(iley-Liss, Inc.)]TJ
+/F5 1 Tf
+8.5 0 0 8.5 72 211.521 Tm
+0.009 Tc
+0.017 Tw
+[(Key )11(words:)-284(allelic association; mutation; confidence interval)]TJ
+/F8 1 Tf
+0 -6.7698 TD
+0 Tc
+0 Tw
+[(*Correspondence to: Dr)53(. Heather J. Cordell, Department of Epidemiology and Biostatistics, Case )13(W)84(estern)]TJ
+0 -1.1739 TD
+0.007 Tc
+0.14 Tw
+[(Reserve University)60(, Rammelkamp Center for Education and Research, MetroHealth Medical Center)34(,)]TJ
+T*
+0.008 Tc
+0.016 Tw
+(2500 MetroHealth Drive, Cleveland, OH 44109. E-mail: cordell@darwin.cwru.edu)Tj
+0 -2.3544 TD
+0.109 Tw
+(Contract grant sponsor: National Institute of General Medical Sciences; Contract grant number: U.S.)Tj
+0 -1.1739 TD
+0.013 Tw
+(Public Health Service grant GM28356.)Tj
+0 -2.3544 TD
+0.015 Tw
+(Received for publication 13 October 1998; revision accepted 18 March 1999)Tj
+ET
+
+endstream
+endobj
+135 0 obj
+<</ModDate(D:20210119164823-08'00')/Creator(PageMaker 6.0)/CreationDate(D:19990924112050)/Producer(şÿPDFlib PLOP 2.0.0p6 \(SunOS\)/Acrobat Distiller 3.01 for Windows; modified using iText 4.2.0 by 1T3XT)/Subject(Genetic Epidemiology 1999.17:237-252)/WPS-PROCLEVEL(2)/WPS-JOURNALDOI(10.1002/\(ISSN\)1098-2272)/Author(Celia)/Title(Fieller's theorem and linkage disequilibrium mapping)/WPS-ARTICLEDOI(10.1002/\(SICI\)1098-2272\(199911\)17:4<237::AID-GEPI1>3.0.CO;2-P)>>
+endobj
+2 0 obj
+<</Filter/FlateDecode/Type/ObjStm/Length 3375/First 859/N 102>>stream
+xœÍZ]oÛ8ı+ö¥EK$ER\,
+¸‰“ÓÆAâÎt¶Éƒb+vd+#ËİfıKÊ¶,[¶ÓfvD!EŞo’—´˜x¡1SÒcÜãaä1í	­<f¼PsO±V¡ÇµgÂÀã<\xŒÌ äŠ{²¤b—‘„pDÆiîUZ‰4^H¬%HC0‡¡')¶&H/$Öy]L ”òdè…Â¤˜e"òD+ØB0OŞDhI ñ®=Éx¡„"$•¢À¬¡B£M0Ÿ{tÚ@t¨(VJ@O$<"2QÑïÊS
+á‹ Z#ZpYEĞcO™ òTücˆb€N&=m#Nªá/(‚Ä<-0œL	‚ˆtµ–¢‘P&ƒaÓ_Uc‚¿ /Ä#¢†#¼,PAƒ	‚1A<1¸AˆŠ¦H“"D2$|gè”1bMØ€gFÃW;MDöÂA*ƒ'¢Q!¡„0à51c$˜ñŒÀ× zç¤c("	4pB -0Œ“I„	Fí>äsÒ!*ÆI‡ÄÈ0EEÚ¬ÚÑPÍ F–`Ã¢A,0m`H·ŞJ²Ù¶KCoV>Ù(’L®3ĞjâPIæ‡@™"DrLÁqk¤aŞ?şáçÓ2™–3O`š]ùƒ§ÇÄ¿ŒÇ‰•Ìòy1Lf˜|Ôs ÃØÑËÇd”Æïòo_¼¤´á·oß’ÀË"^'åÿòäÔ$ßÊ[¿÷­<».ã2A÷Ù5@F2Ş¾õO¡M§d I=$]ÃåhœÌ¥‘ë6+aÄ‹šÉî$d§Å4"aÃxFËËšh4‹¶ºµ»d~B—M{[ã´¸î`WµËÀ¶A¼ˆ'	‘ú×ó»’¼%—™š³òø!.°¦º(Eş»x–ØÊ‡w½Ço>:p¦ˆñN("Ku’Ì†EúXæ­ü¤´7æ£t:¦5‰Ş?Ä+á¿¥£òaöEˆ°
+±SdŸHºWş™P¯ıãøñ}’¨çºL&¿¢$u§i–«Õ€­áŸfñóÅ6¿sƒtÄ-´Tyk{l ÚÜ:/ã,v§ã,Öne`3¼3üçÆ&Ø„¦-ù0ø¨vøèøœÿÒsšLÎe§Ó@hŞÑ²‰ Á×$Ä:‚B¾@ÇÆ¿åÙ…*'Âcü³0ÀÃğğ}HááH;âŞÃŞl Ï(ëHk‹À.°UñÖíñæmñşĞ}sı4¹Ë³#§`#Ò¹É¥\†V"÷Bä5Ğ#‘H„6¢wä:!¶Tê£gÑGô‹’R%Û~ÀC´–¼‹'ÄöL¥¦dR)WÙ
+©†F¦aÛH¿Â<³ıÈ©¢ÈÕíCi¥|Èù¤q¼
+Û9ÙN}
+i 6Â¶“œˆÒP’‡m{aÉ^Ú„Šx%¥£ˆ	Ù ¸±åÒvòƒ«÷ª®lêêú)dkHºm	¹šæe`KËw`ìşêGÁ~^ùÂ”ZbA#¿®?H·ú!¿$G¥@ºgGL•`–ÑÚ€[itYh`‡!ª†•†‰¤ºL;²í‹:Il}ı&°ODçK˜êjÒ-.©4Æ:r1ßúX×jÅŠø¹v,CøÁÛXÆ°©ÕJûs?«¯[Jñjå¢ Ö¯}Û¤üÏ!¦¾’1Ø}Ä)§Ä6öÍÍõ¥¾1¶XÉ ¶±qŠöSüÜçj·< §ÛÓäğgL“kù-•UÕĞA»™*ìË¢gçıîùqswÛRÌPîN°¹/ì.î9()Ø—„ÏH9]"@‡yœ¾C¾6uÚ]= 0ÏNÜ¡®WÏpU'bb#ªúğÄÿPâF‡Gq•¸cÏ7Q3Š[Ü:(q—AëÄ”ì»'æ­ÿ¹÷¯dhçÜû¯OŒµ)|>Öwm“Sw%éœ$Éº$ÖäL‘?^Ä%)àR!B—ù,-Ó|ú%XŒ2ì`,ğU¯*Q½¢qo·~ÿkR<)¿³™K6·Ò”İŸƒ[1Ë«‹É«wY<üãõ­ÿkRÌ@æÁ6ÿ:ıOò¥f‘åp±F’ÙÌ¹O-_˜‚idn8ú—çşé«ó¿ßÜŒ“Çôææ×<ó˜ş[xsc"¥nnîÓqÀâN™Ş¿¶!8M¿%#2§âü"‘{wd$œæYêöq6Çı*§¡ñLğÂ-ÕÚ»6Ì§¤&æe üÀ0Ît0‚‰N i0ºút…ÒÒ«:P}yˆ8^"w[ ²‚‡Õº¶ÂCÉÿá~}ØmV>ÈdÕËÀ’ÌøØ›2.é²Ij^ÃV`{9Š#­gë!3Xjê|­îh^K•=ß‡%ö|,ñ&”( Rµ(l`I·ç~z-÷Óâç SÓ~Ùn¿zaû_h„Ö/3²;PdööF_àPXŸ„qfÂ& UıDI»Å®ª–àeÑâ°[ö®¤ß~±¹®y¿œˆ·"'9rù“À¦õí¸şzÜÿ°õíëÈüôÖ›ö5Ó¼ôšù£eu§±-°A:If‹+’åùÊTëNMÛ/Ëİ·¬q‰C-x—g£]Vô/«…ÈJXFË?ÀAï>gPßu$uø¡ú¯òI<­s6O²{bçXq•ışIzŸö$ı%ğÏÏøgô¯F£)PP®‡¾ı˜GT‰n×â'[ÏÓ[-²?õŞüvÙùˆˆ¤Ó˜ì8ëv¬{c¬ÃøÆ¦ñ³˜i¿z—]ÿıÿºç’×®øÑ®Ş·=Üèı¹VVX®éª	v’}e„U~ ‡Şiï*­=Ú´–$—ìxÉraï^:Œ»¤Ûï•õ¶¥¯-%Ñ‘¿ûbñ£¾í‹¥ÂúAşˆH¯Å–ôÛ~”HZßŸkaÁú8ØŸkåÂ–¶r›=ßc‡¡Ÿè·äš¿‡Ä¿©¯a÷í¾%î«Û÷İÍ™çÜp*áq¤µ†¾ó
+LóWõı‹ä®»ºg¯ó•ß¿¤#¬¡äE•%Ü®ò‰R9e¿Ê?|¼
+;¼¼®ñ»í{Ìı\asú–
+áŠĞõ…6% Ë¨P­ú‚Eâbôj¿µµ¤íş@_ŒÙ¢zsºLĞ"Vm“zíŸåƒÜ?©|ñ?ÿşOïHpú5¬*ØmóÓ— =c§ïšsñáó2K§+÷¥ÛTíwd‹mÏ~wµ´ºk?-£¾äjöó2kQZfÉ«ó‹ÁUÿäÓñà¼ñza	}œ¶é4[ùÁ*½t¶k¿Õª)05{ƒ÷ı“ë¦l$‘É×…ÑK1•˜Å‡PVÌUïúÓ‡A«½.†×Åˆš˜“óëãO××[œ]H2[<w˜iq½Êk+e²¦¬{üËEÿ·½“³½‹VÛÙ¶X;x¶i¬&ÓkQ:í]õ.{­ÊÄ³•ÕG–ÕGvßamamšä6;4ñúàs¶¡‰·iÚ6CÙ.Ÿx\lhmš¶CìÔT—šÂM|(ÜØ¦©
+®74É6MÛ¡wS¼ˆÓtÜi__’D}´Ûâİ¼bM§ódtóºMæú¼õqdSf€¸Y—"šŒmxÛFI·.ä’Äm{DÒß…Ûw
+	[‡ñ€ù"¹
+ûÉnûÿ€öû$ûš”é0Ş~²Ş•ËŒ‹økâÇÃ9NÚÃ´Î'÷YòÍ/Ól”ø“xXäSÿ#™ø£¼Œ‡”"ù£ü³tæ$oˆİ8Ëbÿa>ÇÅ|’ÅóÒÏÇù4ùÃÆÄÎ,™ÍRúiüÏy^‚×æ\F9õ6‰¼›gYR6Šõ|õï³*]ëèÎµ%Y–>’1£x<NŠª@oİÇ¤(òù,ükgÔxfVr–Ü—~¿·İ€º–ĞÖ
+J`—f¬Úñâº*¶d:Šg~2±…‹iYÄ£dø³†!5Oº_†{ö,úÃyA#øDFaxò?’éİ¨h58Ãüñ©YŒî“I:EN„t’ûY>V²i^úOÉÔ/’q:ƒ_Éh1æ£d\$‰ÿ˜ÍgàœÏüòßùl8¦ÈÅËô-ßx&sEÂ·m#‚‰•¶ Ğ°¤‡9“x6œgÖ(¢Î?çqª>ÄÙ½ÓP5ÒĞÜï:¤v¶nmp».°İ¥ç]‹ËnÏ?^¨ï9æcîÕ˜{K®sGsîhÎk4çKš^ùà_8u}GŞwäıy¿"XrMèò˜=ùıYF@øäX?9ÖO5ÖOKß]çà!/ ‘¤À¹èšùq5a]w\ãÚx)"¶aˆ1¯aHsâ˜“s²äJMêhÒMº¤I†©S—;òÜ‘ç5ò¼"XrÒ¯)5¸ ÌãÜ1ÎkŒó%Ç“ë,mÍk÷gÍë³×»®?›_¸îZf÷
+k~~´ûR²õ>´,æ^‡şïVy
+endstream
+endobj
+136 0 obj
+<</Info 135 0 R/Filter/FlateDecode/Type/XRef/W[1 3 2]/Index[0 137]/ID [<52fe3428fa632430110d17a12f72389e><11e60716158af2a389cb15adab4fa2e6>]/Root 99 0 R/Length 363/Size 137>>stream
+xœ5ÓÉNUA…á½
+¤ïAZ½´*ˆÒ‰t*=—VQA@Á†`âpÎ@™;æ	à!&:4@x$^6IåË:«vê$ef–H³h)ìü4Ëå3DÅ•Oq?ágüˆAV|>	a¶b&Ëzê|ò>ÆvLÁNLÅYw­Ï§É6<§cfa&öÈ¾eûL¶lãÈsìğ«ç\Ì“şò&°eÏ}÷¦ìäØs±/ğ\"¥]x.Å2)ıÔ›rií·çŠèÔ¶ç[x[]÷&&íœy®”ÖÛ=WaµôåúÕH{‹kñÖIÿö½¿#üô|ïI‡»ŞÔK‰%Ïx_!öÇ›F| 0”åÍClRXyÓŒ°»¶Ê}÷	ö)|¿¾E/öGÍ7+8€8ˆCø‡ñ`GqÇq'q
+ŸãœÆ—ø
+_ãÎâ.ã\Ây\Ä·¸ªğ#º©ñ^.Ë9
+endstream
+endobj
+startxref
+171661
+%%EOF
