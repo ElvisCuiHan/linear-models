@@ -19,7 +19,7 @@
   4. Violation of assumptions in linear models and remedies.
   5. Hypothesis testing such as omnibus test, Fieller's theorem, Cook-Weiesberg's test, etc.
   6. Simultaneous inference such as Tukey's q, Scheffe's method, etc.
-  7. Shrinkage and Bayes estimation (an unusual version of James-Stein estimator and its statisticla properties).
+  7. Shrinkage and Bayes estimation (an unusual version of James-Stein estimator and its statistical properties are given).
   8. ANOVA mixed models.
   9. Linear mixed models with REML.
   
