@@ -2,6 +2,8 @@
 
 ## This repo is based on 250 series at the Biostat Department in UCLA.
 
+- Lecture notes are written by me (Elvis Cui) and some materials are from scientific papers.
+
 - Bayesian topics include:
   1. Bayesian conjugate linear models (models with conjugate prior).
   2. Connection between Bayesian and frequentist linear models.
