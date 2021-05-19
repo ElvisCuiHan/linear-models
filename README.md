@@ -2,6 +2,8 @@
 
 ## This repo is based on 250 series at the Biostat Department in UCLA.
 
+- Lecture notes are written by **Elvis Cui** and some materials are from scientific papers.
+
 - Bayesian topics include:
   1. Bayesian conjugate linear models (models with conjugate prior).
   2. Connection between Bayesian and frequentist linear models.
@@ -19,7 +21,7 @@
   4. Violation of assumptions in linear models and remedies.
   5. Hypothesis testing such as omnibus test, Fieller's theorem, Cook-Weiesberg's test, etc.
   6. Simultaneous inference such as Tukey's q, Scheffe's method, etc.
-  7. Shrinkage and Bayes estimation (an unusual version of James-Stein estimator and its statisticla properties).
+  7. Shrinkage and Bayes estimation (an unusual version of James-Stein estimator and its statistical properties are given).
   8. ANOVA mixed models.
   9. Linear mixed models with REML.
   
