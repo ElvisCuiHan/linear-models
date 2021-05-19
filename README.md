@@ -9,6 +9,8 @@
   4. Brook's lemma (aka Hammersley-Clifford theorem).
   5. Sherman-Woodbury-Morrison formula using multivariate statistics theory.
   6. Sequential Bayesian learning.
+  7. DAGs.
+  8. Alternative ways to look at normal densities.
 
 - Classical topics include: 
   1. Matrix theory with an emphasis on projection operators.

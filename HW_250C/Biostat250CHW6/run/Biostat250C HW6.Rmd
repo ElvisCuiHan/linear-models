@@ -1,0 +1,129 @@
+---
+title: "Biostat250C HW6"
+author: | 
+  | Elvis Cui
+  | Biostatistics Department, UCLA
+date: "May, $15^{th}$, 2021"
+insititution: "hi"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+setwd("~/Desktop/ElvisCui/UCLA_Study/Bio250C/HW/Biostat250CHW6/run/")
+rm(list=ls())
+source("../src/BayesianLM.R")
+library(MCMCpack)
+library(MASS)
+library(tidyverse)
+```
+
+## Question 1
+
+- Split the whole dataset into $K$ subsets such that each subset contains $m_k$ points and $\max_{1\le k\le K}m_k\le 200$.
+
+## Sol Q1
+
+- First, use the `random_split_datasets` function that I have written in advance to generate $K$ datasets and store them as `.txt` files.
+
+```{r}
+# Load data
+K = 10
+# The following step has already been done.
+
+#data = read.table("../data/LinearModelExample.txt", header = T)
+#random_split_datasets(data=data, K=K, path = "../data")
+```
+
+## Question 2
+
+- Write an R program that will \textbf{compute} or \textbf{sample from} the 
+    $$\text{NIG}(\beta,\sigma^2|Mm,M,a_*,b_*)$$
+    distribution WITHOUT storing $\{y,X\}$ but only using $\{y_k,X_k\}$'s at a time.
+    
+## Sol Q2
+
+- Re-calculating posterior parameters directly.
+
+```{r}
+for (k in 1:K) {
+   # I: Read datasets
+   data_k = read.table(paste0("../data/subset", k, ".txt"), header = T)
+  
+   # II: set hyper-parameters
+   # number of covariates including intercept.
+   p = dim(data_k)[2]
+   # number of obs
+   n = dim(data_k)[1]
+   # design matrix and response vector.
+   X0 = as.matrix(data_k[, -1])
+   X = cbind(1, X0)
+   y = data_k$Y
+  
+   if (k==1) {
+     # prior for beta.
+     mu_beta = rep(1, p)
+     inv_V_beta = 0
+     # prior for sigma^2.
+     a = - p / 2; b = 0 
+   }
+   
+   # III: Let's calculate posterior parameters !!!!!!
+   out = NIG_pos_para(y=y, X=X, mu_beta=mu_beta, inv_V_y = diag(length(y)),  inv_V_beta=inv_V_beta, a=a,b=b)
+   
+   # IV: Let's update hyper-parameters !!!!!
+   # KEY STEP in Bayesian statistics.
+   mu_beta = out[[1]]
+   inv_V_beta = out[[2]]
+   a = out[[3]]
+   b = out[[4]]
+}
+print("Mu_Beta is:")
+print(round(mu_beta, 3))
+print("Inverse of V_beta is:")
+print(round(inv_V_beta, 1))
+print("a and b are:")
+print(a)
+print(b)
+sequential_method = mu_beta
+```
+
+## Question 3
+
+- Verify your results exactly match with previous HW.
+
+## Sol Q3
+
+- Recover the results from composition sampling.
+
+```{r, include=FALSE}
+data = read.table("../data/LinearModelExample.txt", header = T)
+# number of covariates including intercept.
+p = dim(data)[2]
+# number of obs
+n = dim(data)[1]
+# design matrix and response vector.
+X0 = as.matrix(data[, -1])
+X = cbind(1, X0)
+y = data$Y
+# prior for beta.
+mu_beta = rep(1, p)
+inv_V_beta = 0
+# prior for sigma^2.
+a = - p / 2; b = 0
+```
+```{r}
+cs = rposNIG_comp(n=100, y=y, X=X, mu_beta=mu_beta, inv_V_y = diag(length(y)), inv_V_beta=inv_V_beta, a=a,b=b)
+```
+
+- I will compare the (posterior) mean of $p$-dimensional vector $\beta$ from composition sampling and the sequential methods.
+
+```{r}
+
+comp_sampling = apply(cs[, -(p+1)], 2, mean)
+tibble(comp_sampling, sequential_method)
+```
+- The slight differences are due to
+ 1. Floating points error by the sequential method.
+ 2. Randomness from the composition sampling method.
