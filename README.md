@@ -19,13 +19,14 @@
 - Classical topics include: 
   1. Matrix theory with an emphasis on projection operators.
   2. Distribution theory, especially Fisher-Cochran's theorem.
-  3. Multiple and partial correlation coefficients.
-  4. Violation of assumptions in linear models and remedies.
-  5. Hypothesis testing such as omnibus test, Fieller's theorem, Cook-Weiesberg's test, etc.
-  6. Simultaneous inference such as Tukey's q, Scheffe's method, etc.
-  7. Shrinkage and Bayes estimation (an unusual version of James-Stein estimator and its statistical properties are given).
-  8. ANOVA mixed models.
-  9. Linear mixed models with REML.
+  3. Least square theory: constrained estimation, conditions for a parameter to be estimable, etc.
+  4. Multiple and partial correlation coefficients.
+  5. Violation of assumptions in linear models and remedies.
+  6. Hypothesis testing such as omnibus test, Fieller's theorem, Cook-Weiesberg's test, etc.
+  7. Simultaneous inference such as Tukey's q, Scheffe's method, etc.
+  8. Shrinkage and Bayes estimation (an unusual version of James-Stein estimator and its statistical properties are given).
+  9. ANOVA mixed models.
+  10. Linear mixed models with REML.
   
 - Course materials are included.
 
