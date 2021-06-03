@@ -11,8 +11,10 @@
   4. Brook's lemma (aka Hammersley-Clifford theorem).
   5. Sherman-Woodbury-Morrison formula using multivariate statistics theory.
   6. Sequential Bayesian learning.
-  7. DAGs.
+  7. Directed acyclic graph (DAG).
   8. Alternative ways to look at normal densities.
+  9. Spatial models (CAR).
+  10. Tensor product models, aka matrix-regression models.
 
 - Classical topics include: 
   1. Matrix theory with an emphasis on projection operators.
