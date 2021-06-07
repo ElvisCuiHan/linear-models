@@ -1,0 +1,247 @@
+---
+title: "Biostat250C HW5"
+author: "Elvis Cui"
+date: "May, $4^{th}$, 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+setwd("~/Desktop/ElvisCui/UCLA_Study/Bio250C/HW/Biostat250C HW5")
+rm(list=ls())
+library(MCMCpack)
+library(MASS)
+```
+
+## Question 1
+
+- Write an R function that will generate from an NIG(mu.beta, V.beta, a,b) 
+distribution but such that the function will require the input of the 
+precision — inverse of V.beta.
+
+### Sol Q1
+
+*I implemented the normal-inverse-gamma distribution taught in class.*
+
+```{r}
+rNIG = function(n=1, mu_beta=NULL, inv_V_beta=NULL, a=NULL, b=NULL){
+  "
+  Input {
+  n:          number of samples
+  mu_beta:    mean of beta
+  inv_V_beta: precision matrix of beta divided by sigma^2
+  a:          first parameter of inv gamma
+  b:          second parameter of inv gamma
+  }
+  
+  Return {
+  output:     a nx(p+1) matrix containing generated samples
+  }
+  "
+  p = length(mu_beta)
+  output_beta = matrix(NA, nrow = n, ncol = p)
+  output_sigma2 = rinvgamma(n, shape=a, scale=b)
+  
+  for (i in 1:n) {
+    output_beta[i, ] = mvrnorm(1, mu=mu_beta, Sigma=output_sigma2[i]*solve(inv_V_beta))
+  }
+  
+  data.frame(beta=output_beta, sigma2=output_sigma2)
+}
+```
+
+## Question 2
+
+- Using the function you have written in the above problem, write an R function that will:
+- generate samples from the posterior distribution of $\{β,σ^2\}$.
+
+### Sol Q2
+
+*I applied the composition sampling (method of mixtures) to derive posterior samples of $\{\beta, \sigma^2\}|y$. Note that Mm-formula is used.*
+
+```{r}
+
+rposNIG_comp = function(n=1, y=NULL, X=NULL, inv_V_y=NULL, mu_beta=NULL, 
+                    inv_V_beta=NULL, a=0, b=0){
+  "
+  Input {
+  n:          number of samples
+  y:          a Nx1 vector of observation
+  X:          a Nxp design matrix with intercept (a column with ones)
+  mu_beta:    mean of beta
+  inv_V_beta: precision matrix of beta divided by sigma^2
+  a:          first parameter of inv gamma
+  b:          second parameter of inv gamma
+  }
+  
+  Return {
+  output:     a nx2 matrix containing generated samples
+  }
+  "
+  if(is.null(inv_V_y)) inv_V_y = diag(length(y))
+  if(inv_V_beta==0) inv_V_beta = diag(dim(X)[2]) * 0
+  
+  inv_M = inv_V_beta + t(X) %*% inv_V_y %*% X
+  M = solve(inv_M)
+  m = inv_V_beta %*% mu_beta + t(X) %*% inv_V_y %*% y
+  
+  a_star = a + length(y) / 2
+  b_star = b + 0.5 * (t(y) %*% inv_V_y %*% y + 
+                        mu_beta %*% inv_V_beta %*% mu_beta - 
+                        t(m) %*% M %*% m)
+  mu_beta_star = M %*% m
+  # inv_V_beta_star is indeed inv_M so no need to allocate memory
+  
+  output = rNIG(n=n, mu_beta = mu_beta_star, inv_V_beta = inv_M, 
+                a = a_star, b = b_star)
+  
+  output
+}
+```
+
+## Question 3
+
+Next write the function to generate samples from the posterior distribution of $\{β,σ^2\}$ such that the function will only take in the following arguments:
+
+- an object that is the output of the lm() function for fitting linear models
+- prior mean of β
+- prior precision of β
+- prior shape and rate of $σ^2$
+- the number of samples to be drawn
+
+### Sol Q3
+
+According to Dr. Banerjee's hints, I applied "model.frame" and "model.matrix" to access the design matrix and response vector from an "lm" object.
+
+```{r}
+rposNIG_lm = function(n=1, mod=NULL, mu_beta=NULL, 
+                    inv_V_beta=NULL, a=0, b=0){
+  "
+  Input {
+  n:          number of samples
+  mod:        a lm() object from the classical analysis
+  mu_beta:    mean of beta
+  inv_V_beta: precision matrix of beta divided by sigma^2
+  a:          first parameter of inv gamma
+  b:          second parameter of inv gamma
+  }
+  
+  Return {
+  output:     a nx2 matrix containing generated samples
+  }
+  "
+  if(inv_V_beta==0) inv_V_beta = diag(length(mu_beta)) * 0
+  
+  X = model.matrix(mod)
+  y = model.frame(mod)[, 1]
+  XtX = t(X) %*% X
+  Xty = t(X) %*% y
+  
+  inv_M = inv_V_beta + XtX
+  M = solve(inv_M)
+  m = inv_V_beta %*% mu_beta + Xty
+  
+  a_star = a + length(y) / 2
+  b_star = b + 0.5 * (t(y) %*% y + mu_beta %*% inv_V_beta %*% mu_beta - 
+                        t(m) %*% M %*% m)
+  mu_beta_star = M %*% m
+  # inv_V_beta_star is indeed inv_M so no need to allocate memory
+  
+  output = rNIG(n=n, mu_beta = mu_beta_star, inv_V_beta = inv_M, 
+                a = a_star, b = b_star)
+  
+  output
+}
+
+```
+
+## Question 4
+
+- Apply your program in 2 and 3 to the data obtained from the file LinearModelExample.txt uploaded in Week 5.
+
+### Sol Q4
+
+- **Step one**: load data.
+```{r}
+# Load data
+data = read.table("LinearModelExample.txt", header = T)
+```
+
+- **Step two**: set hyper-parameters to reproduce results from classical analysis.
+
+```{r}
+# number of covariates including intercept.
+p = dim(data)[2]
+# number of obs
+n = dim(data)[1]
+# design matrix and response vector.
+X0 = as.matrix(data[, -1])
+X = cbind(1, X0)
+y = data$Y
+# prior for beta.
+mu_beta = rep(1, p)
+inv_V_beta = 0
+# prior for sigma^2.
+a = - p / 2; b = 0
+```
+
+- **Step three**: calculate the ordinary least square estimation.
+```{r}
+classical_mod = lm(y~X0)
+summary(classical_mod)
+
+beta_ols = classical_mod$coefficients
+sigma_ols = sqrt(sum(classical_mod$residuals **2) / (n - p))
+```
+
+- **Step four**: let's go.
+  1. Composition sampling (method of mixtures).
+
+```{r}
+cs = rposNIG_comp(n=100, y=y, X=X, mu_beta=mu_beta, inv_V_beta=inv_V_beta, a=a,b=b)
+```
+  2. Sampling from classical analysis. 
+  
+```{r}
+ca = rposNIG_lm(n=100, mod=classical_mod, mu_beta=mu_beta, inv_V_beta=inv_V_beta, a=a,b=b)
+```
+
+  3. Comparison with classical analysis.
+```{r}
+comparison = data.frame("ols"=c(beta_ols, sigma_ols^2),
+                            "composition"=c(apply(cs[, -(p+1)], 2, mean),
+                                            (1-2/(n-p)) * (mean(cs$sigma2))),
+                            "from_lm_obj"=c(apply(ca[, -(p+1)], 2, mean),
+                                            (1-2/(n-p)) * (mean(ca$sigma2))))
+row.names(comparison) = c("intercept", "beta.1", "beta.2", "beta.3", "beta.4",
+                         "beta.5", "beta.6", "beta.7", "beta.8", "sigma^2")
+round(comparison, 3)
+```
+  
+### Some comments on part (3):
+
+  Note that with classical analysis, we have
+  $$\widehat{\beta}_{\text{ols}}=(X^TX)^{-1}X^Ty$$
+  and under independent assumption, we have
+  $$\widehat{\sigma}^2=\frac{1}{n-p}\lVert y-X\widehat{\beta}_{\text{ols}}\lVert_2^2$$
+  
+  For Bayesian heirarchical linear models, we have
+  $$(\beta, \sigma^2)|y\sim NIG(Mm,\ M,\ a_*,\ b_*)$$
+  where (in this hw, I assume $V_y^{-1}=I$)
+  $$\begin{cases}
+  M^{-1} &= V_y^{-1}+XV_\beta^{-1}X^T\\
+  m &= V_y^{-1}\mu_\beta + X^TV_y^{-1}y\\
+  a_* &= a + \frac{n}{2}\\
+  b_* &= b + \frac{1}{2}\left(y^TV_y^{-1}y+\mu_\beta^TV_\beta^{-1}\mu_\beta-m^TMm\right)
+  \end{cases}$$
+  In short,
+  $$b_*=b+\frac{1}{2}RSS(y_*,X_*,V_*)$$
+  and in the special case when $V_y^{-1}=I,\ V_\beta^{-1}=0, a=-\frac{p}{2}$ and $b=0$, $$(\beta,\sigma^2)|y\sim NIG((X^TX)^{-1},\ X^Ty,\ \frac{n-p}{2},\ \frac{n-p}{2}\widehat{\sigma}^2)$$
+  so that
+  $$\mathbb{E}(\beta|\sigma^2,y)=\widehat{\beta}_{\text{ols}}$$
+  $$\mathbb{E}(\sigma^2|y)=\frac{\widehat{\sigma}^2}{1-\frac{2}{n-p}}$$
+  and that's how the comparison formula in part (3) comes from (using method of moments estimation).
+
+
+

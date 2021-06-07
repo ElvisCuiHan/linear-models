@@ -1,0 +1,70 @@
+---
+title: "Biostat250C HW9 Coding"
+author: "Elvis Cui"
+date: "6/7/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Coding problem
+
+Devise an algorithm to generate
+$$\mathbf{Y}\sim\mathcal{MN}(\mathbf{M},\mathbf{U},\mathbf{V})$$
+**WITHOUT** using Kronecker product. Note that $M\in\mathbb{S}_+^{n\times m}, U\in\mathbb{S}_+^{n\times n}, V\in\mathbb{S}_+^{m\times m}$.
+
+## Solution
+
+I build the distribution step-by-step.
+
+**First:** suppose
+
+$$\mathbf{X}\sim\mathcal{MN}(\mathbf{O},\mathbf{I}_n,\mathbf{I}_m)$$
+**Second:** Left-multiple $\mathbf{X}$ by the matrix $\mathbf{U}$, I claim that 
+$$\mathbf{UX}\sim\mathcal{MN}(\mathbf{O}, \mathbf{U}, \mathbf{I}_m)$$
+The reasons are the following:
+
+- The operator $\mathbf{U}$ operates on each column of $\mathbf{X}$.
+- Hence each column of $\mathbf{X}$ (denoted as $x_{*j}$) shall have distribution
+$$x_{*j}\sim\mathcal{N}(\mathbf{0},\mathbf{U})$$
+- However, $x_{*j}$'s are independent of each other.
+- In other words, the $\mathbf{U}$ operator can be re-written as
+$$\left(\mathbf{I}_m\otimes\mathbf{U}\right)\text{Vec}(\mathbf{X})$$
+- Hence, we have
+$$\mathbf{UX}\sim\mathcal{MN}(\mathbf{O},\mathbf{U},\mathbf{I}_m)$$
+
+**Third:** Similarly, right-multiple $\mathbf{UX}$ by the matrix $\mathbf{V}$, we have
+$$\mathbf{UXV}\sim\mathcal{MN}(\mathbf{O},\mathbf{U},\mathbf{V})$$
+The reason is that $\mathbf{V}$ only operates on rows of $\mathbf{X}$ and it does not change the covariance structure among columns.
+
+**Fourth:** Adding a constant matrix $\mathbf{M}$ to $\mathbf{UXV}$ results in the desired $\mathbf{Y}$:
+$$\mathbf{Y}=\mathbf{M}+\mathbf{UXV}$$
+**Final step**: The only problem boils down to generating $\mathbf{X}$, but this is just *Gaussian ensemble matrix* (matrix with iid $\mathcal{N}(0,1)$ entries)!
+
+```{r}
+rMatrixNormal = function(size=1, M=matrix(0, 3, 2), U=diag(3), V=diag(2)) {
+  "
+  This function generates iid sample from matrix normal distribution with mean M, row covariance U and column covariance V.
+  "
+  n = dim(M)[1]; m = dim(M)[2]
+  Y <- array(0, dim=c(size, n, m))
+  
+  for (i in c(1:size)) {
+      X <- array(rnorm(n=n*m), dim=c(n, m))
+      Y[i,,] <- M + U %*% X %*% V
+  }
+  Y
+}
+n = 10; M = matrix(rnorm(15 * 12), nrow = 15); U = diag(15); V = diag(12)
+Y = rMatrixNormal(size=n, M=M, U=U, V=V)
+```
+
+### Some tests
+```{r}
+
+hist(as.vector(Y[1,,]), breaks = 10)
+shapiro.test(Y[1,,])
+qqplot(x=rnorm(15*12), y=as.vector(Y[1,,]))
+```
