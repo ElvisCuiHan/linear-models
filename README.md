@@ -1,9 +1,9 @@
 # LinearModels
 
 ## This repo is based on 250 series at the Biostat Department in UCLA. 
-## Instructors: Dr. Weng Kee Wong and Dr. Sudipto Banerjee.
+#### Instructors: Dr. Weng Kee Wong and Dr. Sudipto Banerjee.
 
-- Lecture notes are written by *Elvis Cui* and some materials are from scientific papers.
+- Lecture notes are written by **Elvis Cui** and some materials are from scientific papers.
 
 - Bayesian topics include:
   1. Bayesian conjugate linear models (models with conjugate prior).
