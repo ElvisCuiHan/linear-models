@@ -31,4 +31,4 @@
   
 - Course materials are included.
 
-- Homework are included with my own solutions.
+- Homework are included (my own solutions).
