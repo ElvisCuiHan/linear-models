@@ -1,0 +1,115 @@
+---
+title: "250b_final_draft"
+author: "Mingfei Dong"
+date: "3/16/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1.a
+
+```{r}
+dat1 <- data.frame(x = c(1,2,4,6,7,8,10,15), 
+                   y = c(.045, .114, .215, .346, .41, .52, .67, .942))
+
+a <- mean(dat1$y)
+b <- sum(dat1$y * (dat1$x - mean(dat1$x)))/sum((dat1$x - mean(dat1$x))^2)
+```
+
+```{r}
+summary(lm(y ~ x, data = dat1))
+```
+
+```{r}
+pred.y <- as.matrix(lm(y ~ x, data = dat1)[["fitted.values"]])
+```
+
+```{r}
+(0.577 - a)/b + mean(dat1$x)
+```
+
+```{r}
+u <- 0.577 - a
+v <- b
+a1 <- 1 + 1/8
+a2 <- 1/sum((dat1$x - mean(dat1$x))^2)
+s2 <- sum((dat1$y - pred.y)^2)/6
+t <- qt(0.025, 6)
+g <- t^2 * s2 * a2^2/v^2
+
+(u/v + t*sqrt(s2)/v * sqrt((1-g)*a1^2 + u^2 * a2^2 /v^2))/(1-g) + mean(dat1$x)
+
+(u/v - t*sqrt(s2)/v * sqrt((1-g)*a1^2 + u^2 * a2^2 /v^2))/(1-g) + mean(dat1$x)
+```
+
+## 3.
+
+```{r}
+x <- seq(0,10,0.001)
+y1 <- df(x, 3-1, 120-3)
+y2 <- df(x, 5-1, 120-5)
+y3 <- df(x, 20-1, 120-20)
+y4 <- df(x, 60-1, 120-60)
+
+plot(x, y1, col = 1, type = "l", ylim = c(0,1.5))
+lines(x, y2, col = 2)
+lines(x, y3, col = 3)
+lines(x, y4, col = 4)
+legend("topright", legend = c(1:4), col = c(1:4), pch = 19)
+```
+
+```{r}
+# candidates for b and n
+b <- c(2,3,4,5,6,8,10,12,15,20,24,30,40,60)
+n <- 120/b
+# c = sigma_a / sigma
+c <- c(1/0.5, 1/1, 1/1.5)
+# power results for each combination
+power <- matrix(0, 14, 3)
+for (i in 1:3){
+  c.temp <- c[i]
+  for (j in 1:14){
+    b.temp <- b[j]
+    n.temp <- n[j]
+    q <- qf(0.99, b.temp - 1, 120 - b.temp) / (n.temp * c.temp + 1)
+    power[j,i] <- 1 - pf(q, b.temp - 1, 120 - b.temp)
+  }
+}
+```
+
+```{r}
+# grid for p(sigma = 0.5) = p(sigma = 1.5) = p
+p.seq <- seq(0, 0.5, 0.01)
+best.power <- matrix(rep(p.seq, 3), ncol = 3, byrow = FALSE)
+for (i in 1:length(seq(0, 0.5, 0.01))){
+  p <- p.seq[i]
+  q <- 1- 2 * p
+  # given a set of (b,n), sigma follows discrete distribution
+  # E(power) = sum (power_i * p(sigma = sigma_i))
+  temp <- (power[,1] + power[,3]) * p + power[,2] * q
+  # for a given p, select the best power and the best (b,n)
+  best.power[i, 2] <- max(temp)
+  best.power[i, 3] <- which.max(temp)
+}
+best.power <- data.frame(best.power)
+colnames(best.power) <- c("p", "power", "index")
+best.power$b <- b[best.power$index]
+best.power$n <- n[best.power$index]
+```
+
+```{r}
+plot(best.power$p, best.power$b, type = "l")
+abline(v = 0.025)
+abline(v = 0.485)
+```
+When p < 0.03, (b,n) = (24,5) will maximize the power. When 0.03 <= p < 0.49, (b,n) = (20, 6) will maximiaze the power. When p >= 0.49, (b,n) = (15, 8) will maximaize the power.
+
+
+
+
+
+
+
